@@ -33,8 +33,9 @@ This directory contains the codes, reproducible scripts, and experimental data.
 1) Train Resnet50V2 model with ADE20K Dataset
 2) Test the model with ADE20K Dataset and get activations from the Dense Layer.
 3) For each neuron, classify images into positive and negative sets based on threshold values.
-4) Run ECII for each neuron with positive, negative set and knowledge base.
-5) ECII returns a hypothesis concept associated with each neuron.
-6) Collect the Google Image dataset for hypothesis concept by running the script or third-party app.
-7) Retrieve activations from the Dense Layer for the Google Image dataset to confirm the hypothesis.
-8) Collect a new set for Google Image dataset; to validate the above step.
+4) Set up ECII and change the user parameters in the config file.
+5) Run ECII for each neuron with positive, negative set and knowledge base.
+6) ECII returns a hypothesis concept associated with each neuron.
+7) Collect the Google Image dataset for hypothesis concept by running the script or third-party app.
+8) Retrieve activations from the Dense Layer for the Google Image dataset to confirm the hypothesis.
+9) Collect a new set for Google Image dataset; to validate the above step.
