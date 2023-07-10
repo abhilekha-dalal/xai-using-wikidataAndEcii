@@ -1,0 +1,3127 @@
+Program started.............
+Program starts at: 06.14.2023  16.15.28 PM
+Working with confFile: set6-initial_score_hybrid.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 1
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 20
+K7/removeCommonTypes: true
+removeCommonTypesFromOneSideOnly: true
+limitPosTypes: false
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: false
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: COVERAGE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00016944
+	ADE_train_00017151
+	ADE_train_00017031
+	ADE_train_00017067
+	ADE_train_00017111
+	ADE_train_00017210
+	ADE_train_00016919
+	ADE_train_00016907
+	ADE_train_00017118
+	ADE_train_00017228
+	ADE_train_00017070
+	ADE_train_00017160
+negIndivs from conf:
+	ADE_train_00017032
+	ADE_train_00017033
+	ADE_train_00017038
+	ADE_train_00017048
+	ADE_train_00016399
+	ADE_train_00016398
+	ADE_train_00016397
+	ADE_train_00016396
+	ADE_train_00016395
+	ADE_train_00016394
+	ADE_train_00016393
+	ADE_train_00016392
+	ADE_train_00016391
+	ADE_train_00016390
+	ADE_train_00017057
+	ADE_train_00016389
+	ADE_train_00016388
+	ADE_train_00016387
+	ADE_train_00016386
+	ADE_train_00016385
+	ADE_train_00016384
+	ADE_train_00016383
+	ADE_train_00016382
+	ADE_train_00016381
+	ADE_train_00016380
+	ADE_train_00017064
+	ADE_train_00017066
+	ADE_train_00017068
+	ADE_train_00008991
+	ADE_train_00016379
+	ADE_train_00016378
+	ADE_train_00016377
+	ADE_train_00016376
+	ADE_train_00016375
+	ADE_train_00008999
+	ADE_train_00016374
+	ADE_train_00016373
+	ADE_train_00016372
+	ADE_train_00016371
+	ADE_train_00016370
+	ADE_train_00017074
+	ADE_train_00017075
+	ADE_train_00016369
+	ADE_train_00016368
+	ADE_train_00016367
+	ADE_train_00016366
+	ADE_train_00016365
+	ADE_train_00016364
+	ADE_train_00008988
+	ADE_train_00016363
+	ADE_train_00016362
+	ADE_train_00016361
+	ADE_train_00016360
+	ADE_train_00016359
+	ADE_train_00016358
+	ADE_train_00016357
+	ADE_train_00016356
+	ADE_train_00017092
+	ADE_train_00004593
+	ADE_train_00004594
+	ADE_train_00004595
+	ADE_train_00004596
+	ADE_train_00004597
+	ADE_train_00004599
+	ADE_train_00000198
+	ADE_train_00000199
+	ADE_train_00000196
+	ADE_train_00000197
+	ADE_train_00000194
+	ADE_train_00000195
+	ADE_train_00000192
+	ADE_train_00000193
+	ADE_train_00016996
+	ADE_train_00016994
+	ADE_train_00016988
+	ADE_train_00016984
+	ADE_train_00016977
+	ADE_train_00010199
+	ADE_train_00010196
+	ADE_train_00010195
+	ADE_train_00016973
+	ADE_train_00010198
+	ADE_train_00010197
+	ADE_train_00016970
+	ADE_train_00010192
+	ADE_train_00010191
+	ADE_train_00010194
+	ADE_train_00010193
+	ADE_train_00010190
+	ADE_train_00006926
+	ADE_train_00006925
+	ADE_train_00000399
+	ADE_train_00000398
+	ADE_train_00000397
+	ADE_train_00000396
+	ADE_train_00000395
+	ADE_train_00000394
+	ADE_train_00000393
+	ADE_train_00000392
+	ADE_train_00000391
+	ADE_train_00000390
+	ADE_train_00010189
+	ADE_train_00010188
+	ADE_train_00016964
+	ADE_train_00010185
+	ADE_train_00016962
+	ADE_train_00010184
+	ADE_train_00010187
+	ADE_train_00010186
+	ADE_train_00010181
+	ADE_train_00010180
+	ADE_train_00006920
+	ADE_train_00010183
+	ADE_train_00010182
+	ADE_train_00006922
+	ADE_train_00006921
+	ADE_train_00000138
+	ADE_train_00006924
+	ADE_train_00000139
+	ADE_train_00006923
+	ADE_train_00006915
+	ADE_train_00006914
+	ADE_train_00000389
+	ADE_train_00006917
+	ADE_train_00000388
+	ADE_train_00006916
+	ADE_train_00000387
+	ADE_train_00006919
+	ADE_train_00000386
+	ADE_train_00006918
+	ADE_train_00000385
+	ADE_train_00000384
+	ADE_train_00000383
+	ADE_train_00000382
+	ADE_train_00000381
+	ADE_train_00000380
+	ADE_train_00016956
+	ADE_train_00010178
+	ADE_train_00010177
+	ADE_train_00010179
+	ADE_train_00010174
+	ADE_train_00010173
+	ADE_train_00010176
+	ADE_train_00010175
+	ADE_train_00010170
+	ADE_train_00010172
+	ADE_train_00010171
+	ADE_train_00006911
+	ADE_train_00000129
+	ADE_train_00006910
+	ADE_train_00006913
+	ADE_train_00000127
+	ADE_train_00006912
+	ADE_train_00000369
+	ADE_train_00000128
+	ADE_train_00000136
+	ADE_train_00000379
+	ADE_train_00006904
+	ADE_train_00000378
+	ADE_train_00000137
+	ADE_train_00006903
+	ADE_train_00000377
+	ADE_train_00000134
+	ADE_train_00006906
+	ADE_train_00000135
+	ADE_train_00000376
+	ADE_train_00006905
+	ADE_train_00000132
+	ADE_train_00000375
+	ADE_train_00006908
+	ADE_train_00000374
+	ADE_train_00000133
+	ADE_train_00006907
+	ADE_train_00000373
+	ADE_train_00000130
+	ADE_train_00000131
+	ADE_train_00000372
+	ADE_train_00006909
+	ADE_train_00000371
+	ADE_train_00000370
+	ADE_train_00016947
+	ADE_train_00010167
+	ADE_train_00010166
+	ADE_train_00010169
+	ADE_train_00010168
+	ADE_train_00010163
+	ADE_train_00010162
+	ADE_train_00010165
+	ADE_train_00010164
+	ADE_train_00010161
+	ADE_train_00010160
+	ADE_train_00000118
+	ADE_train_00006900
+	ADE_train_00000119
+	ADE_train_00000116
+	ADE_train_00000359
+	ADE_train_00006902
+	ADE_train_00000358
+	ADE_train_00000117
+	ADE_train_00006901
+	ADE_train_00000125
+	ADE_train_00000368
+	ADE_train_00000367
+	ADE_train_00000126
+	ADE_train_00000366
+	ADE_train_00000123
+	ADE_train_00000124
+	ADE_train_00000365
+	ADE_train_00000121
+	ADE_train_00000364
+	ADE_train_00000363
+	ADE_train_00000122
+	ADE_train_00000362
+	ADE_train_00000361
+	ADE_train_00000120
+	ADE_train_00000360
+	ADE_train_00010159
+	ADE_train_00016934
+	ADE_train_00010156
+	ADE_train_00016933
+	ADE_train_00010155
+	ADE_train_00010158
+	ADE_train_00010157
+	ADE_train_00010152
+	ADE_train_00010151
+	ADE_train_00010154
+	ADE_train_00010153
+	ADE_train_00010150
+	ADE_train_00000109
+	ADE_train_00000107
+	ADE_train_00000349
+	ADE_train_00000108
+	ADE_train_00000105
+	ADE_train_00000348
+	ADE_train_00000347
+	ADE_train_00000106
+	ADE_train_00000114
+	ADE_train_00000357
+	ADE_train_00000599
+	ADE_train_00000356
+	ADE_train_00000598
+	ADE_train_00000115
+	ADE_train_00000355
+	ADE_train_00000597
+	ADE_train_00000112
+	ADE_train_00000113
+	ADE_train_00000354
+	ADE_train_00000596
+	ADE_train_00000110
+	ADE_train_00000353
+	ADE_train_00000595
+	ADE_train_00000352
+	ADE_train_00000594
+	ADE_train_00000111
+	ADE_train_00000351
+	ADE_train_00000350
+	ADE_train_00010149
+	ADE_train_00016925
+	ADE_train_00016924
+	ADE_train_00016920
+	ADE_train_00000339
+	ADE_train_00000338
+	ADE_train_00000337
+	ADE_train_00000336
+	ADE_train_00000103
+	ADE_train_00000346
+	ADE_train_00000345
+	ADE_train_00000104
+	ADE_train_00000344
+	ADE_train_00000101
+	ADE_train_00000102
+	ADE_train_00000343
+	ADE_train_00000342
+	ADE_train_00000341
+	ADE_train_00000100
+	ADE_train_00000340
+	ADE_train_00016913
+	ADE_train_00000329
+	ADE_train_00000328
+	ADE_train_00000327
+	ADE_train_00000326
+	ADE_train_00000325
+	ADE_train_00000335
+	ADE_train_00000334
+	ADE_train_00000333
+	ADE_train_00000332
+	ADE_train_00000331
+	ADE_train_00000330
+	ADE_train_00000570
+	ADE_train_00016909
+	ADE_train_00016906
+	ADE_train_00016903
+	ADE_train_00016901
+	ADE_train_00000319
+	ADE_train_00000318
+	ADE_train_00000317
+	ADE_train_00000316
+	ADE_train_00000315
+	ADE_train_00000314
+	ADE_train_00000324
+	ADE_train_00000323
+	ADE_train_00000322
+	ADE_train_00000321
+	ADE_train_00000320
+	ADE_train_00000309
+	ADE_train_00000308
+	ADE_train_00000307
+	ADE_train_00000306
+	ADE_train_00000305
+	ADE_train_00000789
+	ADE_train_00000304
+	ADE_train_00000788
+	ADE_train_00000303
+	ADE_train_00000787
+	ADE_train_00000313
+	ADE_train_00000312
+	ADE_train_00000311
+	ADE_train_00000310
+	ADE_train_00000779
+	ADE_train_00000778
+	ADE_train_00000777
+	ADE_train_00000776
+	ADE_train_00000302
+	ADE_train_00000786
+	ADE_train_00000301
+	ADE_train_00000785
+	ADE_train_00000300
+	ADE_train_00000784
+	ADE_train_00000783
+	ADE_train_00000782
+	ADE_train_00000781
+	ADE_train_00000780
+	ADE_train_00000769
+	ADE_train_00000768
+	ADE_train_00000767
+	ADE_train_00000766
+	ADE_train_00000765
+	ADE_train_00000775
+	ADE_train_00000774
+	ADE_train_00000773
+	ADE_train_00000772
+	ADE_train_00000771
+	ADE_train_00000770
+	ADE_train_00000759
+	ADE_train_00000758
+	ADE_train_00000757
+	ADE_train_00000756
+	ADE_train_00000755
+	ADE_train_00000754
+	ADE_train_00000764
+	ADE_train_00000763
+	ADE_train_00000762
+	ADE_train_00000761
+	ADE_train_00000760
+	ADE_train_00017103
+	ADE_train_00017104
+	ADE_train_00017108
+	ADE_train_00000749
+	ADE_train_00000748
+	ADE_train_00000747
+	ADE_train_00000746
+	ADE_train_00000745
+	ADE_train_00000744
+	ADE_train_00000743
+	ADE_train_00000753
+	ADE_train_00000752
+	ADE_train_00000751
+	ADE_train_00000750
+	ADE_train_00017113
+	ADE_train_00000739
+	ADE_train_00000738
+	ADE_train_00000737
+	ADE_train_00000736
+	ADE_train_00000735
+	ADE_train_00000734
+	ADE_train_00000733
+	ADE_train_00000732
+	ADE_train_00000742
+	ADE_train_00000741
+	ADE_train_00000740
+	ADE_train_00017122
+	ADE_train_00017126
+	ADE_train_00000729
+	ADE_train_00000728
+	ADE_train_00000727
+	ADE_train_00000726
+	ADE_train_00000725
+	ADE_train_00000724
+	ADE_train_00000723
+	ADE_train_00000722
+	ADE_train_00000721
+	ADE_train_00000731
+	ADE_train_00000730
+	ADE_train_00017130
+	ADE_train_00000719
+	ADE_train_00000718
+	ADE_train_00000717
+	ADE_train_00000716
+	ADE_train_00000715
+	ADE_train_00000714
+	ADE_train_00000713
+	ADE_train_00000712
+	ADE_train_00000954
+	ADE_train_00000711
+	ADE_train_00000710
+	ADE_train_00000720
+	ADE_train_00017140
+	ADE_train_00017145
+	ADE_train_00006010
+	ADE_train_00000709
+	ADE_train_00000708
+	ADE_train_00000707
+	ADE_train_00000706
+	ADE_train_00000705
+	ADE_train_00000704
+	ADE_train_00000703
+	ADE_train_00000702
+	ADE_train_00000701
+	ADE_train_00000700
+	ADE_train_00017150
+	ADE_train_00006001
+	ADE_train_00006000
+	ADE_train_00006003
+	ADE_train_00006002
+	ADE_train_00006005
+	ADE_train_00006004
+	ADE_train_00006007
+	ADE_train_00006006
+	ADE_train_00006009
+	ADE_train_00006008
+	ADE_train_00017170
+	ADE_train_00017175
+	ADE_train_00017182
+	ADE_train_00017195
+	ADE_train_00017196
+	ADE_train_00017197
+	ADE_train_00006890
+	ADE_train_00006892
+	ADE_train_00006891
+	ADE_train_00006894
+	ADE_train_00006893
+	ADE_train_00006896
+	ADE_train_00006895
+	ADE_train_00006898
+	ADE_train_00006897
+	ADE_train_00006899
+	ADE_train_00006881
+	ADE_train_00006880
+	ADE_train_00006883
+	ADE_train_00006882
+	ADE_train_00006885
+	ADE_train_00006884
+	ADE_train_00006887
+	ADE_train_00006886
+	ADE_train_00006889
+	ADE_train_00006888
+	ADE_train_00006870
+	ADE_train_00006872
+	ADE_train_00006871
+	ADE_train_00006874
+	ADE_train_00006873
+	ADE_train_00006876
+	ADE_train_00006875
+	ADE_train_00006878
+	ADE_train_00006877
+	ADE_train_00006879
+	ADE_train_00000099
+	ADE_train_00000097
+	ADE_train_00000098
+	ADE_train_00000095
+	ADE_train_00000096
+	ADE_train_00000093
+	ADE_train_00000094
+	ADE_train_00000091
+	ADE_train_00000092
+	ADE_train_00000090
+	ADE_train_00006861
+	ADE_train_00006860
+	ADE_train_00006863
+	ADE_train_00006862
+	ADE_train_00006865
+	ADE_train_00006864
+	ADE_train_00006867
+	ADE_train_00006866
+	ADE_train_00006869
+	ADE_train_00006868
+	ADE_train_00006859
+	ADE_train_00000088
+	ADE_train_00000089
+	ADE_train_00000086
+	ADE_train_00000087
+	ADE_train_00000084
+	ADE_train_00000085
+	ADE_train_00000082
+	ADE_train_00000083
+	ADE_train_00000080
+	ADE_train_00000081
+	ADE_train_00016418
+	ADE_train_00016417
+	ADE_train_00016416
+	ADE_train_00016415
+	ADE_train_00016414
+	ADE_train_00016413
+	ADE_train_00016412
+	ADE_train_00006850
+	ADE_train_00016411
+	ADE_train_00016410
+	ADE_train_00016893
+	ADE_train_00006852
+	ADE_train_00006851
+	ADE_train_00006854
+	ADE_train_00006853
+	ADE_train_00006856
+	ADE_train_00006855
+	ADE_train_00006858
+	ADE_train_00006857
+	ADE_train_00006849
+	ADE_train_00006848
+	ADE_train_00000079
+	ADE_train_00000077
+	ADE_train_00000078
+	ADE_train_00000075
+	ADE_train_00000076
+	ADE_train_00000073
+	ADE_train_00000074
+	ADE_train_00000071
+	ADE_train_00000072
+	ADE_train_00016409
+	ADE_train_00000070
+	ADE_train_00016408
+	ADE_train_00016407
+	ADE_train_00016406
+	ADE_train_00016405
+	ADE_train_00016404
+	ADE_train_00016403
+	ADE_train_00016402
+	ADE_train_00005990
+	ADE_train_00016401
+	ADE_train_00016885
+	ADE_train_00016400
+	ADE_train_00005992
+	ADE_train_00005991
+	ADE_train_00005994
+	ADE_train_00005993
+	ADE_train_00005996
+	ADE_train_00005995
+	ADE_train_00005998
+	ADE_train_00006845
+	ADE_train_00005997
+	ADE_train_00006847
+	ADE_train_00005999
+	ADE_train_00006846
+	ADE_train_00000068
+	ADE_train_00000069
+	ADE_train_00000066
+	ADE_train_00000067
+	ADE_train_00000064
+	ADE_train_00000065
+	ADE_train_00000062
+	ADE_train_00000063
+	ADE_train_00000060
+	ADE_train_00000061
+	ADE_train_00016879
+	ADE_train_00016877
+	ADE_train_00005981
+	ADE_train_00005980
+	ADE_train_00005983
+	ADE_train_00016871
+	ADE_train_00005982
+	ADE_train_00005985
+	ADE_train_00005984
+	ADE_train_00005987
+	ADE_train_00005986
+	ADE_train_00005989
+	ADE_train_00005988
+	ADE_train_00000059
+	ADE_train_00005979
+	ADE_train_00000057
+	ADE_train_00000299
+	ADE_train_00000058
+	ADE_train_00000055
+	ADE_train_00000297
+	ADE_train_00000056
+	ADE_train_00000298
+	ADE_train_00000053
+	ADE_train_00000295
+	ADE_train_00000054
+	ADE_train_00000296
+	ADE_train_00000051
+	ADE_train_00000293
+	ADE_train_00000052
+	ADE_train_00000294
+	ADE_train_00000291
+	ADE_train_00000050
+	ADE_train_00000292
+	ADE_train_00000290
+	ADE_train_00016864
+	ADE_train_00016863
+	ADE_train_00000039
+	ADE_train_00004637
+	ADE_train_00000048
+	ADE_train_00000049
+	ADE_train_00000046
+	ADE_train_00000288
+	ADE_train_00000047
+	ADE_train_00000289
+	ADE_train_00000044
+	ADE_train_00000286
+	ADE_train_00000045
+	ADE_train_00000287
+	ADE_train_00000042
+	ADE_train_00000284
+	ADE_train_00000043
+	ADE_train_00000285
+	ADE_train_00000040
+	ADE_train_00000282
+	ADE_train_00000041
+	ADE_train_00000283
+	ADE_train_00000280
+	ADE_train_00000281
+	ADE_train_00016859
+	ADE_train_00004630
+	ADE_train_00004632
+	ADE_train_00004633
+	ADE_train_00000028
+	ADE_train_00004635
+	ADE_train_00000029
+	ADE_train_00004636
+	ADE_train_00004626
+	ADE_train_00000037
+	ADE_train_00000279
+	ADE_train_00000038
+	ADE_train_00000035
+	ADE_train_00000277
+	ADE_train_00004629
+	ADE_train_00000036
+	ADE_train_00000278
+	ADE_train_00000033
+	ADE_train_00000275
+	ADE_train_00000034
+	ADE_train_00000276
+	ADE_train_00000031
+	ADE_train_00000273
+	ADE_train_00000032
+	ADE_train_00000274
+	ADE_train_00000271
+	ADE_train_00000030
+	ADE_train_00000272
+	ADE_train_00000270
+	ADE_train_00004620
+	ADE_train_00004621
+	ADE_train_00000019
+	ADE_train_00004622
+	ADE_train_00004623
+	ADE_train_00000017
+	ADE_train_00000259
+	ADE_train_00004624
+	ADE_train_00000018
+	ADE_train_00004625
+	ADE_train_00004615
+	ADE_train_00000026
+	ADE_train_00000268
+	ADE_train_00000027
+	ADE_train_00000269
+	ADE_train_00000024
+	ADE_train_00000266
+	ADE_train_00004618
+	ADE_train_00000025
+	ADE_train_00000267
+	ADE_train_00004619
+	ADE_train_00000022
+	ADE_train_00000264
+	ADE_train_00000023
+	ADE_train_00000265
+	ADE_train_00000020
+	ADE_train_00000262
+	ADE_train_00000021
+	ADE_train_00000263
+	ADE_train_00000260
+	ADE_train_00000261
+	ADE_train_00004610
+	ADE_train_00004611
+	ADE_train_00000008
+	ADE_train_00004612
+	ADE_train_00000009
+	ADE_train_00004613
+	ADE_train_00000006
+	ADE_train_00000248
+	ADE_train_00000007
+	ADE_train_00000249
+	ADE_train_00000015
+	ADE_train_00000257
+	ADE_train_00004604
+	ADE_train_00000016
+	ADE_train_00000258
+	ADE_train_00004605
+	ADE_train_00000013
+	ADE_train_00000255
+	ADE_train_00000014
+	ADE_train_00000256
+	ADE_train_00004607
+	ADE_train_00000011
+	ADE_train_00000253
+	ADE_train_00000012
+	ADE_train_00000254
+	ADE_train_00004609
+	ADE_train_00000251
+	ADE_train_00000010
+	ADE_train_00000252
+	ADE_train_00000250
+	ADE_train_00000239
+	ADE_train_00004600
+	ADE_train_00004601
+	ADE_train_00000237
+	ADE_train_00004602
+	ADE_train_00000238
+	ADE_train_00004603
+	ADE_train_00000246
+	ADE_train_00000247
+	ADE_train_00000244
+	ADE_train_00000245
+	ADE_train_00000242
+	ADE_train_00000243
+	ADE_train_00000240
+	ADE_train_00000241
+	ADE_train_00000228
+	ADE_train_00000229
+	ADE_train_00000226
+	ADE_train_00000468
+	ADE_train_00000227
+	ADE_train_00000235
+	ADE_train_00000236
+	ADE_train_00000233
+	ADE_train_00000234
+	ADE_train_00000231
+	ADE_train_00000232
+	ADE_train_00000230
+	ADE_train_00009035
+	ADE_train_00000219
+	ADE_train_00000217
+	ADE_train_00000459
+	ADE_train_00000218
+	ADE_train_00000215
+	ADE_train_00000458
+	ADE_train_00000457
+	ADE_train_00000699
+	ADE_train_00000216
+	ADE_train_00000224
+	ADE_train_00000467
+	ADE_train_00000466
+	ADE_train_00000225
+	ADE_train_00000465
+	ADE_train_00000222
+	ADE_train_00000223
+	ADE_train_00000464
+	ADE_train_00000220
+	ADE_train_00000463
+	ADE_train_00000462
+	ADE_train_00000221
+	ADE_train_00000461
+	ADE_train_00000460
+	ADE_train_00009025
+	ADE_train_00000208
+	ADE_train_00009029
+	ADE_train_00000209
+	ADE_train_00000206
+	ADE_train_00000449
+	ADE_train_00000448
+	ADE_train_00000207
+	ADE_train_00000204
+	ADE_train_00000447
+	ADE_train_00000689
+	ADE_train_00000446
+	ADE_train_00000688
+	ADE_train_00000205
+	ADE_train_00000213
+	ADE_train_00000456
+	ADE_train_00000698
+	ADE_train_00000455
+	ADE_train_00000697
+	ADE_train_00000214
+	ADE_train_00000454
+	ADE_train_00000696
+	ADE_train_00000211
+	ADE_train_00000212
+	ADE_train_00000453
+	ADE_train_00000695
+	ADE_train_00000452
+	ADE_train_00000694
+	ADE_train_00000451
+	ADE_train_00000693
+	ADE_train_00000210
+	ADE_train_00000450
+	ADE_train_00000692
+	ADE_train_00000691
+	ADE_train_00000690
+	ADE_train_00009012
+	ADE_train_00009015
+	ADE_train_00000439
+	ADE_train_00000438
+	ADE_train_00000437
+	ADE_train_00000679
+	ADE_train_00000436
+	ADE_train_00000678
+	ADE_train_00000435
+	ADE_train_00000677
+	ADE_train_00000202
+	ADE_train_00000445
+	ADE_train_00000687
+	ADE_train_00000444
+	ADE_train_00000686
+	ADE_train_00000203
+	ADE_train_00000443
+	ADE_train_00000685
+	ADE_train_00000200
+	ADE_train_00000201
+	ADE_train_00000442
+	ADE_train_00000684
+	ADE_train_00000441
+	ADE_train_00000683
+	ADE_train_00000440
+	ADE_train_00000682
+	ADE_train_00000681
+	ADE_train_00000680
+	ADE_train_00009001
+	ADE_train_00009003
+	ADE_train_00000429
+	ADE_train_00009008
+	ADE_train_00000428
+	ADE_train_00000427
+	ADE_train_00000669
+	ADE_train_00000426
+	ADE_train_00000668
+	ADE_train_00000425
+	ADE_train_00000667
+	ADE_train_00000424
+	ADE_train_00000666
+	ADE_train_00000434
+	ADE_train_00000676
+	ADE_train_00000433
+	ADE_train_00000675
+	ADE_train_00000432
+	ADE_train_00000674
+	ADE_train_00000431
+	ADE_train_00000673
+	ADE_train_00000430
+	ADE_train_00000672
+	ADE_train_00000671
+	ADE_train_00000670
+	ADE_train_00010222
+	ADE_train_00010221
+	ADE_train_00010224
+	ADE_train_00010223
+	ADE_train_00010220
+	ADE_train_00000419
+	ADE_train_00000418
+	ADE_train_00000417
+	ADE_train_00000659
+	ADE_train_00000416
+	ADE_train_00000658
+	ADE_train_00000415
+	ADE_train_00000657
+	ADE_train_00000414
+	ADE_train_00000656
+	ADE_train_00000413
+	ADE_train_00000655
+	ADE_train_00000423
+	ADE_train_00000665
+	ADE_train_00000422
+	ADE_train_00000664
+	ADE_train_00000421
+	ADE_train_00000663
+	ADE_train_00000420
+	ADE_train_00000662
+	ADE_train_00000661
+	ADE_train_00000660
+	ADE_train_00017201
+	ADE_train_00010219
+	ADE_train_00010218
+	ADE_train_00010215
+	ADE_train_00017206
+	ADE_train_00010214
+	ADE_train_00017207
+	ADE_train_00010217
+	ADE_train_00010216
+	ADE_train_00010211
+	ADE_train_00010210
+	ADE_train_00010213
+	ADE_train_00010212
+	ADE_train_00000409
+	ADE_train_00000408
+	ADE_train_00000407
+	ADE_train_00000406
+	ADE_train_00000405
+	ADE_train_00000647
+	ADE_train_00000404
+	ADE_train_00000646
+	ADE_train_00000403
+	ADE_train_00000645
+	ADE_train_00000402
+	ADE_train_00000644
+	ADE_train_00000412
+	ADE_train_00000654
+	ADE_train_00000411
+	ADE_train_00000653
+	ADE_train_00000410
+	ADE_train_00000652
+	ADE_train_00000651
+	ADE_train_00010208
+	ADE_train_00010207
+	ADE_train_00010209
+	ADE_train_00017216
+	ADE_train_00010204
+	ADE_train_00017217
+	ADE_train_00010203
+	ADE_train_00010206
+	ADE_train_00010205
+	ADE_train_00010200
+	ADE_train_00010202
+	ADE_train_00010201
+	ADE_train_00000639
+	ADE_train_00000638
+	ADE_train_00000637
+	ADE_train_00000636
+	ADE_train_00000635
+	ADE_train_00000634
+	ADE_train_00000633
+	ADE_train_00000401
+	ADE_train_00000643
+	ADE_train_00000400
+	ADE_train_00000642
+	ADE_train_00000641
+	ADE_train_00000640
+	ADE_train_00017221
+	ADE_train_00017229
+	ADE_train_00000629
+	ADE_train_00000628
+	ADE_train_00000627
+	ADE_train_00000626
+	ADE_train_00000625
+	ADE_train_00000624
+	ADE_train_00000623
+	ADE_train_00000622
+	ADE_train_00000632
+	ADE_train_00000631
+	ADE_train_00000630
+	ADE_train_00017233
+	ADE_train_00017239
+	ADE_train_00000619
+	ADE_train_00000618
+	ADE_train_00000617
+	ADE_train_00000616
+	ADE_train_00000615
+	ADE_train_00000614
+	ADE_train_00000613
+	ADE_train_00000612
+	ADE_train_00000611
+	ADE_train_00000621
+	ADE_train_00000620
+	ADE_train_00017240
+	ADE_train_00017000
+	ADE_train_00017243
+	ADE_train_00017004
+	ADE_train_00017008
+	ADE_train_00000609
+	ADE_train_00000608
+	ADE_train_00000607
+	ADE_train_00000606
+	ADE_train_00000605
+	ADE_train_00000604
+	ADE_train_00000603
+	ADE_train_00000602
+	ADE_train_00000601
+	ADE_train_00000600
+	ADE_train_00000610
+	ADE_train_00017251
+	ADE_train_00017252
+	ADE_train_00017258
+	ADE_train_00017261
+	ADE_train_00017021
+	ADE_train_00017264
+	ADE_train_00017024
+	ADE_train_00017025
+	ADE_train_00017029
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 06.14.2023  16.15.28 PM
+Total positive types (direct+indirect) found using all objectProperty: 215
+Total negative types (direct+indirect) found using all objectProperty: 1553
+Total positive types (direct+indirect) after removing common types using all objectProperty: 205
+Total negative types (direct+indirect) after removing common types using all objectProperty: 1377
+
+Algorithm ends at: 06.14.2023  16.36.46 PM
+
+Algorithm duration: 1278.213 sec
+
+####################Solutions (sorted by COVERAGE)####################:
+solution 1: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Fire_hydrant)
+	 coverage_score: 0.9899598393574297
+	 precision: 0.75
+	 recall: 0.25
+	 f_measure: 0.375
+solution 2: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Roof)
+	 coverage_score: 0.9899598393574297
+	 precision: 1.0
+	 recall: 0.16666666666666666
+	 f_measure: 0.2857142857142857
+solution 3: ∃ hcbdwsu:imageContains.(hcbdwsu:Fire_hydrant)
+	 coverage_score: 0.9899598393574297
+	 precision: 0.75
+	 recall: 0.25
+	 f_measure: 0.375
+solution 4: ∃ hcbdwsu:imageContains.(hcbdwsu:Roof)
+	 coverage_score: 0.9899598393574297
+	 precision: 1.0
+	 recall: 0.16666666666666666
+	 f_measure: 0.2857142857142857
+solution 5: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Fireplug)
+	 coverage_score: 0.9899598393574297
+	 precision: 0.75
+	 recall: 0.25
+	 f_measure: 0.375
+solution 6: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 7: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_hydrant) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 8: ∃ hcbdwsu:imageContains.((hcbdwsu:Telephone_booth) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 9: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 10: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 11: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Domestic_dog)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 12: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Telephone_box)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 13: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Mailbox)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 14: ∃ hcbdwsu:imageContains.(hcbdwsu:Trailer)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 15: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Phone_booth)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 16: ∃ hcbdwsu:imageContains.(hcbdwsu:Bus_stop)
+	 coverage_score: 0.9889558232931727
+	 precision: 0.6666666666666666
+	 recall: 0.16666666666666666
+	 f_measure: 0.26666666666666666
+solution 17: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Postbox)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 18: ∃ hcbdwsu:imageContains.(hcbdwsu:Puddle)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 19: ∃ hcbdwsu:imageContains.(hcbdwsu:Highway_bridge)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 20: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Barrier)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 21: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Dog)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 22: ∃ hcbdwsu:imageContains.(hcbdwsu:Mailbox)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 23: ∃ hcbdwsu:imageContains.(hcbdwsu:Traffic_cone)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 24: ∃ hcbdwsu:imageContains.(hcbdwsu:Telephone_booth)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 25: ∃ hcbdwsu:imageContains.(hcbdwsu:Construction_equipment)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 26: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bus_stop)
+	 coverage_score: 0.9889558232931727
+	 precision: 0.6666666666666666
+	 recall: 0.16666666666666666
+	 f_measure: 0.26666666666666666
+solution 27: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Call_box)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 28: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Puddle)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 29: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Letter_box)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 30: ∃ hcbdwsu:imageContains.(hcbdwsu:Sidewalk_cafe)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 31: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Crosswalk)
+	 coverage_score: 0.9889558232931727
+	 precision: 0.6
+	 recall: 0.25
+	 f_measure: 0.35294117647058826
+solution 32: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Trailer)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 33: ∃ hcbdwsu:imageContains.(hcbdwsu:Barrier)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 34: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Traffic_cone)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 35: ∃ hcbdwsu:imageContains.(hcbdwsu:People)
+	 coverage_score: 0.9889558232931727
+	 precision: 0.6
+	 recall: 0.25
+	 f_measure: 0.35294117647058826
+solution 36: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Construction_equipment)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 37: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Telephone_kiosk)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 38: ∃ hcbdwsu:imageContains.(hcbdwsu:Crosswalk)
+	 coverage_score: 0.9889558232931727
+	 precision: 0.6
+	 recall: 0.25
+	 f_measure: 0.35294117647058826
+solution 39: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Telephone_booth)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 40: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Highway_bridge)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 41: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Canis_familiaris)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 42: ∃ hcbdwsu:imageContains.(hcbdwsu:Dog)
+	 coverage_score: 0.9889558232931727
+	 precision: 1.0
+	 recall: 0.08333333333333333
+	 f_measure: 0.15384615384615385
+solution 43: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:WN_Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 44: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:Trailer))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 45: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 46: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 47: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 48: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:Trailer))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 49: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 50: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:Construction_equipment))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 51: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 52: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 53: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 54: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:WN_Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 55: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 56: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_hydrant) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 57: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:WN_Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 58: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 59: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Call_box) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 60: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 61: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 62: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 63: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Call_box) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 64: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:WN_Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 65: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 66: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 67: ∃ hcbdwsu:imageContains.((hcbdwsu:People) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 68: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 69: ∃ hcbdwsu:imageContains.((hcbdwsu:Sidewalk_cafe) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 70: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 71: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 72: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 73: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 74: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 75: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 76: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:WN_Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 77: ∃ hcbdwsu:imageContains.((hcbdwsu:People) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 78: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 79: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 80: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 81: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 82: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 83: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:WN_Barrier))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 84: ∃ hcbdwsu:imageContains.((hcbdwsu:Crosswalk) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 85: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 86: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 87: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 88: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 89: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 90: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 91: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 92: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 93: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 94: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:WN_Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 95: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 96: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:WN_Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 97: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 98: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 99: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 100: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 101: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:WN_Barrier))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 102: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Barrier))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 103: ∃ hcbdwsu:imageContains.((hcbdwsu:People) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 104: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mailbox) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 105: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:WN_Barrier))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 106: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 107: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Postbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 108: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:WN_Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 109: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 110: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 111: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:Construction_equipment))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 112: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Trailer))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 113: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mailbox) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 114: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_hydrant) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 115: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 116: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 117: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 118: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 119: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 120: ∃ hcbdwsu:imageContains.((hcbdwsu:Crosswalk) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 121: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 122: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 123: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 124: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mailbox) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 125: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 126: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 127: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 128: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 129: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 130: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:Trailer))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 131: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 132: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 133: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 134: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 135: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 136: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_hydrant) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 137: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 138: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:Trailer))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 139: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 140: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Call_box) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 141: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 142: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:WN_Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 143: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Call_box) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 144: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 145: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Barrier))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 146: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:WN_Postbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 147: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:Trailer))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 148: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Barrier))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 149: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:WN_Barrier))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 150: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 151: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 152: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 153: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 154: ∃ hcbdwsu:imageContains.((hcbdwsu:People) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 155: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 156: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_hydrant) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 157: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 158: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Postbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 159: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 160: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 161: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 162: ∃ hcbdwsu:imageContains.((hcbdwsu:Crosswalk) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 163: ∃ hcbdwsu:imageContains.((hcbdwsu:People) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 164: ∃ hcbdwsu:imageContains.((hcbdwsu:Roof) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 165: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Call_box) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 166: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 167: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 168: ∃ hcbdwsu:imageContains.((hcbdwsu:Roof) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 169: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 170: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 171: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 172: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 173: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 174: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 175: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 176: ∃ hcbdwsu:imageContains.((hcbdwsu:Crosswalk) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 177: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 178: ∃ hcbdwsu:imageContains.((hcbdwsu:Telephone_booth) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 179: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_box) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 180: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_hydrant) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 181: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 182: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 183: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 184: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 185: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:Construction_equipment))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 186: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 187: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 188: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:Construction_equipment))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 189: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:Trailer))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 190: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Postbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 191: ∃ hcbdwsu:imageContains.((hcbdwsu:People) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 192: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Postbox) ⊓ (hcbdwsu:WN_Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 193: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Trailer) ⊓ (hcbdwsu:WN_Bus_stop))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 194: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Call_box) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 195: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_box) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 196: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 197: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 198: ∃ hcbdwsu:imageContains.((hcbdwsu:Crosswalk) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 199: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:Construction_equipment))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 200: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Call_box) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 201: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 202: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 203: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 204: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 205: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 206: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Call_box) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 207: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Call_box) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 208: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 209: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 210: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 211: ∃ hcbdwsu:imageContains.((hcbdwsu:Telephone_booth) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 212: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 213: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 214: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:WN_Barrier))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 215: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 216: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 217: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_hydrant) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 218: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 219: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 220: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 221: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Call_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 222: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 223: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_box) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 224: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Roof) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 225: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Barrier) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 226: ∃ hcbdwsu:imageContains.((hcbdwsu:Construction_equipment) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 227: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 228: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 229: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:Crosswalk))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 230: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Canis_familiaris) ⊓ (hcbdwsu:WN_Telephone_box))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 231: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 232: ∃ hcbdwsu:imageContains.((hcbdwsu:People) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 233: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Bus_stop) ⊓ (hcbdwsu:WN_Mailbox))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 234: ∃ hcbdwsu:imageContains.((hcbdwsu:Telephone_booth) ⊓ (hcbdwsu:Sidewalk_cafe))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 235: ∃ hcbdwsu:imageContains.((hcbdwsu:Telephone_booth) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 236: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_box) ⊓ (hcbdwsu:Roof))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 237: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 238: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:WN_Fireplug))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 239: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 240: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 241: ∃ hcbdwsu:imageContains.((hcbdwsu:Bus_stop) ⊓ (hcbdwsu:People))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 242: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_hydrant) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 243: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:WN_Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 244: ∃ hcbdwsu:imageContains.((hcbdwsu:Trailer) ⊓ (hcbdwsu:Fire_hydrant))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 245: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_hydrant) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 246: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Telephone_booth) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 247: ∃ hcbdwsu:imageContains.((hcbdwsu:Crosswalk) ⊓ (hcbdwsu:Telephone_booth))
+	 coverage_score: 0.9879518072289156
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 248: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Purse)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.08333333333333333
+	 f_measure: 0.14285714285714285
+solution 249: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Double-decker)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 250: ∃ hcbdwsu:imageContains.(hcbdwsu:Bus)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 251: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Stand)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 252: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Housing)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.16666666666666666
+	 f_measure: 0.25
+solution 253: ∃ hcbdwsu:imageContains.(hcbdwsu:Fire_escape)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.08333333333333333
+	 f_measure: 0.14285714285714285
+solution 254: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Motorbus)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 255: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Coach)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 256: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Autobus)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 257: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Omnibus)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 258: ∃ hcbdwsu:imageContains.(hcbdwsu:Purse)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.08333333333333333
+	 f_measure: 0.14285714285714285
+solution 259: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Street_sign)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.08333333333333333
+	 f_measure: 0.14285714285714285
+solution 260: ∃ hcbdwsu:imageContains.(hcbdwsu:Housing)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.16666666666666666
+	 f_measure: 0.25
+solution 261: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Handbag)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.08333333333333333
+	 f_measure: 0.14285714285714285
+solution 262: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Jitney)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 263: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Passenger_vehicle)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 264: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pocketbook)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.08333333333333333
+	 f_measure: 0.14285714285714285
+solution 265: ∃ hcbdwsu:imageContains.(hcbdwsu:Street_sign)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.08333333333333333
+	 f_measure: 0.14285714285714285
+solution 266: ∃ hcbdwsu:imageContains.(hcbdwsu:Stand)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 267: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Motorcoach)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 268: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Plug)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 269: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bus)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 270: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Fire_escape)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.08333333333333333
+	 f_measure: 0.14285714285714285
+solution 271: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Charabanc)
+	 coverage_score: 0.9879518072289156
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 272: ∃ hcbdwsu:imageContains.(hcbdwsu:Satellite_dish)
+	 coverage_score: 0.9869477911646586
+	 precision: 0.3333333333333333
+	 recall: 0.08333333333333333
+	 f_measure: 0.13333333333333333
+solution 273: ∃ hcbdwsu:imageContains.(hcbdwsu:Umbrella)
+	 coverage_score: 0.9869477911646586
+	 precision: 0.3333333333333333
+	 recall: 0.08333333333333333
+	 f_measure: 0.13333333333333333
+solution 274: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Dish_antenna)
+	 coverage_score: 0.9869477911646586
+	 precision: 0.3333333333333333
+	 recall: 0.08333333333333333
+	 f_measure: 0.13333333333333333
+solution 275: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Dish)
+	 coverage_score: 0.9869477911646586
+	 precision: 0.3333333333333333
+	 recall: 0.08333333333333333
+	 f_measure: 0.13333333333333333
+solution 276: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Umbrella)
+	 coverage_score: 0.9869477911646586
+	 precision: 0.3333333333333333
+	 recall: 0.08333333333333333
+	 f_measure: 0.13333333333333333
+solution 277: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Saucer)
+	 coverage_score: 0.9869477911646586
+	 precision: 0.3333333333333333
+	 recall: 0.08333333333333333
+	 f_measure: 0.13333333333333333
+solution 278: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Dish_aerial)
+	 coverage_score: 0.9869477911646586
+	 precision: 0.3333333333333333
+	 recall: 0.08333333333333333
+	 f_measure: 0.13333333333333333
+solution 279: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Manhole)
+	 coverage_score: 0.9859437751004017
+	 precision: 0.375
+	 recall: 0.25
+	 f_measure: 0.3
+solution 280: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Central_reservation)
+	 coverage_score: 0.9859437751004017
+	 precision: 0.25
+	 recall: 0.08333333333333333
+	 f_measure: 0.125
+solution 281: ∃ hcbdwsu:imageContains.(hcbdwsu:Truck)
+	 coverage_score: 0.9859437751004017
+	 precision: 0.4
+	 recall: 0.3333333333333333
+	 f_measure: 0.3636363636363636
+solution 282: ∃ hcbdwsu:imageContains.(hcbdwsu:Balustrade)
+	 coverage_score: 0.9859437751004017
+	 precision: 0.25
+	 recall: 0.08333333333333333
+	 f_measure: 0.125
+solution 283: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Motortruck)
+	 coverage_score: 0.9859437751004017
+	 precision: 0.4
+	 recall: 0.3333333333333333
+	 f_measure: 0.3636363636363636
+solution 284: ∃ hcbdwsu:imageContains.(hcbdwsu:Manhole)
+	 coverage_score: 0.9859437751004017
+	 precision: 0.375
+	 recall: 0.25
+	 f_measure: 0.3
+solution 285: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Truck)
+	 coverage_score: 0.9859437751004017
+	 precision: 0.4
+	 recall: 0.3333333333333333
+	 f_measure: 0.3636363636363636
+solution 286: ∃ hcbdwsu:imageContains.(hcbdwsu:Central_reservation)
+	 coverage_score: 0.9859437751004017
+	 precision: 0.25
+	 recall: 0.08333333333333333
+	 f_measure: 0.125
+solution 287: ∃ hcbdwsu:imageContains.(hcbdwsu:Boxes)
+	 coverage_score: 0.9859437751004017
+	 precision: 0.25
+	 recall: 0.08333333333333333
+	 f_measure: 0.125
+solution 288: ∃ hcbdwsu:imageContains.(hcbdwsu:Motorbike)
+	 coverage_score: 0.9849397590361446
+	 precision: 0.3333333333333333
+	 recall: 0.25
+	 f_measure: 0.28571428571428575
+solution 289: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Minibike)
+	 coverage_score: 0.9839357429718876
+	 precision: 0.3
+	 recall: 0.25
+	 f_measure: 0.2727272727272727
+solution 290: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Motorbike)
+	 coverage_score: 0.9839357429718876
+	 precision: 0.3
+	 recall: 0.25
+	 f_measure: 0.2727272727272727
+solution 291: ∃ hcbdwsu:imageContains.(hcbdwsu:Cars)
+	 coverage_score: 0.9839357429718876
+	 precision: 0.3
+	 recall: 0.25
+	 f_measure: 0.2727272727272727
+solution 292: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Torso)
+	 coverage_score: 0.9829317269076305
+	 precision: 0.14285714285714285
+	 recall: 0.08333333333333333
+	 f_measure: 0.10526315789473685
+solution 293: ∃ hcbdwsu:imageContains.(hcbdwsu:Flag)
+	 coverage_score: 0.9829317269076305
+	 precision: 0.14285714285714285
+	 recall: 0.08333333333333333
+	 f_measure: 0.10526315789473685
+solution 294: ∃ hcbdwsu:imageContains.(hcbdwsu:Palm_tree)
+	 coverage_score: 0.9829317269076305
+	 precision: 0.14285714285714285
+	 recall: 0.08333333333333333
+	 f_measure: 0.10526315789473685
+solution 295: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Flag)
+	 coverage_score: 0.9829317269076305
+	 precision: 0.14285714285714285
+	 recall: 0.08333333333333333
+	 f_measure: 0.10526315789473685
+solution 296: ∃ hcbdwsu:imageContains.(hcbdwsu:Torso)
+	 coverage_score: 0.9829317269076305
+	 precision: 0.14285714285714285
+	 recall: 0.08333333333333333
+	 f_measure: 0.10526315789473685
+solution 297: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Palm)
+	 coverage_score: 0.9819277108433735
+	 precision: 0.125
+	 recall: 0.08333333333333333
+	 f_measure: 0.1
+solution 298: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Palm_tree)
+	 coverage_score: 0.9819277108433735
+	 precision: 0.125
+	 recall: 0.08333333333333333
+	 f_measure: 0.1
+solution 299: ∃ hcbdwsu:imageContains.(hcbdwsu:Chimney)
+	 coverage_score: 0.9819277108433735
+	 precision: 0.125
+	 recall: 0.08333333333333333
+	 f_measure: 0.1
+solution 300: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Chimney)
+	 coverage_score: 0.9819277108433735
+	 precision: 0.125
+	 recall: 0.08333333333333333
+	 f_measure: 0.1
+solution 301: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Balustrade)
+	 coverage_score: 0.9799196787148594
+	 precision: 0.1
+	 recall: 0.08333333333333333
+	 f_measure: 0.0909090909090909
+solution 302: ∃ hcbdwsu:imageContains.(hcbdwsu:Right_arm)
+	 coverage_score: 0.9799196787148594
+	 precision: 0.21428571428571427
+	 recall: 0.25
+	 f_measure: 0.23076923076923075
+solution 303: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Left_arm)
+	 coverage_score: 0.9799196787148594
+	 precision: 0.21428571428571427
+	 recall: 0.25
+	 f_measure: 0.23076923076923075
+solution 304: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Right_arm)
+	 coverage_score: 0.9799196787148594
+	 precision: 0.21428571428571427
+	 recall: 0.25
+	 f_measure: 0.23076923076923075
+solution 305: ∃ hcbdwsu:imageContains.(hcbdwsu:Left_arm)
+	 coverage_score: 0.9799196787148594
+	 precision: 0.21428571428571427
+	 recall: 0.25
+	 f_measure: 0.23076923076923075
+solution 306: ∃ hcbdwsu:imageContains.(hcbdwsu:Left_leg)
+	 coverage_score: 0.9789156626506024
+	 precision: 0.2
+	 recall: 0.25
+	 f_measure: 0.22222222222222224
+solution 307: ∃ hcbdwsu:imageContains.(hcbdwsu:Van)
+	 coverage_score: 0.9789156626506024
+	 precision: 0.2631578947368421
+	 recall: 0.4166666666666667
+	 f_measure: 0.3225806451612903
+solution 308: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ground)
+	 coverage_score: 0.9789156626506024
+	 precision: 0.09090909090909091
+	 recall: 0.08333333333333333
+	 f_measure: 0.08695652173913043
+solution 309: ∃ hcbdwsu:imageContains.(hcbdwsu:Ground)
+	 coverage_score: 0.9789156626506024
+	 precision: 0.09090909090909091
+	 recall: 0.08333333333333333
+	 f_measure: 0.08695652173913043
+solution 310: ∃ hcbdwsu:imageContains.(hcbdwsu:Right_leg)
+	 coverage_score: 0.9789156626506024
+	 precision: 0.2
+	 recall: 0.25
+	 f_measure: 0.22222222222222224
+solution 311: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Left_leg)
+	 coverage_score: 0.9789156626506024
+	 precision: 0.2
+	 recall: 0.25
+	 f_measure: 0.22222222222222224
+solution 312: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Earth)
+	 coverage_score: 0.9789156626506024
+	 precision: 0.09090909090909091
+	 recall: 0.08333333333333333
+	 f_measure: 0.08695652173913043
+solution 313: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Right_leg)
+	 coverage_score: 0.9789156626506024
+	 precision: 0.2
+	 recall: 0.25
+	 f_measure: 0.22222222222222224
+solution 314: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Van)
+	 coverage_score: 0.9789156626506024
+	 precision: 0.2631578947368421
+	 recall: 0.4166666666666667
+	 f_measure: 0.3225806451612903
+solution 315: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sunshade)
+	 coverage_score: 0.9779116465863453
+	 precision: 0.14285714285714285
+	 recall: 0.16666666666666666
+	 f_measure: 0.15384615384615383
+solution 316: ∃ hcbdwsu:imageContains.(hcbdwsu:Head)
+	 coverage_score: 0.9779116465863453
+	 precision: 0.1875
+	 recall: 0.25
+	 f_measure: 0.21428571428571427
+solution 317: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sunblind)
+	 coverage_score: 0.9779116465863453
+	 precision: 0.14285714285714285
+	 recall: 0.16666666666666666
+	 f_measure: 0.15384615384615383
+solution 318: ∃ hcbdwsu:imageContains.(hcbdwsu:Bumper)
+	 coverage_score: 0.9779116465863453
+	 precision: 0.25
+	 recall: 0.4166666666666667
+	 f_measure: 0.3125
+solution 319: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Head)
+	 coverage_score: 0.9779116465863453
+	 precision: 0.1875
+	 recall: 0.25
+	 f_measure: 0.21428571428571427
+solution 320: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Awning)
+	 coverage_score: 0.9779116465863453
+	 precision: 0.14285714285714285
+	 recall: 0.16666666666666666
+	 f_measure: 0.15384615384615383
+solution 321: ∃ hcbdwsu:imageContains.(hcbdwsu:Awning)
+	 coverage_score: 0.9779116465863453
+	 precision: 0.14285714285714285
+	 recall: 0.16666666666666666
+	 f_measure: 0.15384615384615383
+solution 322: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bumper)
+	 coverage_score: 0.9779116465863453
+	 precision: 0.25
+	 recall: 0.4166666666666667
+	 f_measure: 0.3125
+solution 323: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Headlight)
+	 coverage_score: 0.9769076305220884
+	 precision: 0.2962962962962963
+	 recall: 0.6666666666666666
+	 f_measure: 0.41025641025641024
+solution 324: ∃ hcbdwsu:imageContains.(hcbdwsu:Traffic_light)
+	 coverage_score: 0.9769076305220884
+	 precision: 0.2608695652173913
+	 recall: 0.5
+	 f_measure: 0.3428571428571428
+solution 325: ∃ hcbdwsu:imageContains.(hcbdwsu:Headlight)
+	 coverage_score: 0.9769076305220884
+	 precision: 0.2962962962962963
+	 recall: 0.6666666666666666
+	 f_measure: 0.41025641025641024
+solution 326: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Traffic_signal)
+	 coverage_score: 0.9769076305220884
+	 precision: 0.2608695652173913
+	 recall: 0.5
+	 f_measure: 0.3428571428571428
+solution 327: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Stoplight)
+	 coverage_score: 0.9769076305220884
+	 precision: 0.2608695652173913
+	 recall: 0.5
+	 f_measure: 0.3428571428571428
+solution 328: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Traffic_light)
+	 coverage_score: 0.9769076305220884
+	 precision: 0.2608695652173913
+	 recall: 0.5
+	 f_measure: 0.3428571428571428
+solution 329: ∃ hcbdwsu:imageContains.(hcbdwsu:Windshield)
+	 coverage_score: 0.9759036144578314
+	 precision: 0.2692307692307692
+	 recall: 0.5833333333333334
+	 f_measure: 0.3684210526315789
+solution 330: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Windshield)
+	 coverage_score: 0.9759036144578314
+	 precision: 0.2692307692307692
+	 recall: 0.5833333333333334
+	 f_measure: 0.3684210526315789
+solution 331: ∃ hcbdwsu:imageContains.(hcbdwsu:Shop_window)
+	 coverage_score: 0.9748995983935743
+	 precision: 0.11764705882352941
+	 recall: 0.16666666666666666
+	 f_measure: 0.13793103448275862
+solution 332: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Shop_window)
+	 coverage_score: 0.9748995983935743
+	 precision: 0.11764705882352941
+	 recall: 0.16666666666666666
+	 f_measure: 0.13793103448275862
+solution 333: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Rim)
+	 coverage_score: 0.9738955823293173
+	 precision: 0.26666666666666666
+	 recall: 0.6666666666666666
+	 f_measure: 0.3809523809523809
+solution 334: ∃ hcbdwsu:imageContains.(hcbdwsu:Taillight)
+	 coverage_score: 0.9738955823293173
+	 precision: 0.23076923076923078
+	 recall: 0.5
+	 f_measure: 0.3157894736842105
+solution 335: ∃ hcbdwsu:imageContains.(hcbdwsu:Rim)
+	 coverage_score: 0.9738955823293173
+	 precision: 0.26666666666666666
+	 recall: 0.6666666666666666
+	 f_measure: 0.3809523809523809
+solution 336: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Taillight)
+	 coverage_score: 0.9738955823293173
+	 precision: 0.23076923076923078
+	 recall: 0.5
+	 f_measure: 0.3157894736842105
+solution 337: ∃ hcbdwsu:imageContains.(hcbdwsu:Trash_can)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 338: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Brand)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.14285714285714285
+	 recall: 0.25
+	 f_measure: 0.18181818181818182
+solution 339: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ashcan)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 340: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Trash_bin)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 341: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Wastebin)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 342: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ashbin)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 343: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Trade_name)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.14285714285714285
+	 recall: 0.25
+	 f_measure: 0.18181818181818182
+solution 344: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Garbage_can)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 345: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ash_bin)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 346: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pedestal)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.14285714285714285
+	 recall: 0.25
+	 f_measure: 0.18181818181818182
+solution 347: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Shutter)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 348: ∃ hcbdwsu:imageContains.(hcbdwsu:Shutter)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 349: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Brand_name)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.14285714285714285
+	 recall: 0.25
+	 f_measure: 0.18181818181818182
+solution 350: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Dustbin)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 351: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Trash_can)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 352: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Marque)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.14285714285714285
+	 recall: 0.25
+	 f_measure: 0.18181818181818182
+solution 353: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bag)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 354: ∃ hcbdwsu:imageContains.(hcbdwsu:Brand_name)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.14285714285714285
+	 recall: 0.25
+	 f_measure: 0.18181818181818182
+solution 355: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Trash_barrel)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 356: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ash-bin)
+	 coverage_score: 0.9728915662650602
+	 precision: 0.058823529411764705
+	 recall: 0.08333333333333333
+	 f_measure: 0.06896551724137931
+solution 357: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pole)
+	 coverage_score: 0.9718875502008032
+	 precision: 0.16666666666666666
+	 recall: 0.3333333333333333
+	 f_measure: 0.2222222222222222
+solution 358: ∃ hcbdwsu:imageContains.(hcbdwsu:Pole)
+	 coverage_score: 0.9718875502008032
+	 precision: 0.16666666666666666
+	 recall: 0.3333333333333333
+	 f_measure: 0.2222222222222222
+solution 359: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Fence)
+	 coverage_score: 0.9708835341365462
+	 precision: 0.09523809523809523
+	 recall: 0.16666666666666666
+	 f_measure: 0.12121212121212123
+solution 360: ∃ hcbdwsu:imageContains.(hcbdwsu:License_plate)
+	 coverage_score: 0.9708835341365462
+	 precision: 0.24242424242424243
+	 recall: 0.6666666666666666
+	 f_measure: 0.3555555555555555
+solution 361: ∃ hcbdwsu:imageContains.(hcbdwsu:Fence)
+	 coverage_score: 0.9708835341365462
+	 precision: 0.09523809523809523
+	 recall: 0.16666666666666666
+	 f_measure: 0.12121212121212123
+solution 362: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Fencing)
+	 coverage_score: 0.9708835341365462
+	 precision: 0.09523809523809523
+	 recall: 0.16666666666666666
+	 f_measure: 0.12121212121212123
+solution 363: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_License_plate)
+	 coverage_score: 0.9708835341365462
+	 precision: 0.24242424242424243
+	 recall: 0.6666666666666666
+	 f_measure: 0.3555555555555555
+solution 364: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Balcony)
+	 coverage_score: 0.9658634538152611
+	 precision: 0.10714285714285714
+	 recall: 0.25
+	 f_measure: 0.15
+solution 365: ∃ hcbdwsu:imageContains.(hcbdwsu:Balcony)
+	 coverage_score: 0.9658634538152611
+	 precision: 0.10714285714285714
+	 recall: 0.25
+	 f_measure: 0.15
+solution 366: ∃ hcbdwsu:imageContains.(hcbdwsu:Wheel)
+	 coverage_score: 0.9628514056224899
+	 precision: 0.20930232558139536
+	 recall: 0.75
+	 f_measure: 0.32727272727272727
+solution 367: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Streetlight)
+	 coverage_score: 0.9578313253012049
+	 precision: 0.14285714285714285
+	 recall: 0.5
+	 f_measure: 0.22222222222222224
+solution 368: ∃ hcbdwsu:imageContains.(hcbdwsu:Street_light)
+	 coverage_score: 0.9578313253012049
+	 precision: 0.14285714285714285
+	 recall: 0.5
+	 f_measure: 0.22222222222222224
+solution 369: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Street_lamp)
+	 coverage_score: 0.9578313253012049
+	 precision: 0.14285714285714285
+	 recall: 0.5
+	 f_measure: 0.22222222222222224
+solution 370: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Wheel)
+	 coverage_score: 0.9568273092369478
+	 precision: 0.1836734693877551
+	 recall: 0.75
+	 f_measure: 0.2950819672131148
+solution 371: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Railing)
+	 coverage_score: 0.9538152610441767
+	 precision: 0.027777777777777776
+	 recall: 0.08333333333333333
+	 f_measure: 0.041666666666666664
+solution 372: ∃ hcbdwsu:imageContains.(hcbdwsu:Railing)
+	 coverage_score: 0.9538152610441767
+	 precision: 0.027777777777777776
+	 recall: 0.08333333333333333
+	 f_measure: 0.041666666666666664
+solution 373: ∃ hcbdwsu:imageContains.(hcbdwsu:Sign)
+	 coverage_score: 0.9357429718875502
+	 precision: 0.12857142857142856
+	 recall: 0.75
+	 f_measure: 0.2195121951219512
+solution 374: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Signboard)
+	 coverage_score: 0.9347389558232931
+	 precision: 0.1267605633802817
+	 recall: 0.75
+	 f_measure: 0.21686746987951805
+solution 375: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sign)
+	 coverage_score: 0.9347389558232931
+	 precision: 0.1267605633802817
+	 recall: 0.75
+	 f_measure: 0.21686746987951805
+solution 376: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Mortal)
+	 coverage_score: 0.9267068273092369
+	 precision: 0.12345679012345678
+	 recall: 0.8333333333333334
+	 f_measure: 0.21505376344086022
+solution 377: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Soul)
+	 coverage_score: 0.9267068273092369
+	 precision: 0.12345679012345678
+	 recall: 0.8333333333333334
+	 f_measure: 0.21505376344086022
+solution 378: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Someone)
+	 coverage_score: 0.9267068273092369
+	 precision: 0.12345679012345678
+	 recall: 0.8333333333333334
+	 f_measure: 0.21505376344086022
+solution 379: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Somebody)
+	 coverage_score: 0.9267068273092369
+	 precision: 0.12345679012345678
+	 recall: 0.8333333333333334
+	 f_measure: 0.21505376344086022
+solution 380: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Individual)
+	 coverage_score: 0.9267068273092369
+	 precision: 0.12345679012345678
+	 recall: 0.8333333333333334
+	 f_measure: 0.21505376344086022
+solution 381: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Person)
+	 coverage_score: 0.9267068273092369
+	 precision: 0.12345679012345678
+	 recall: 0.8333333333333334
+	 f_measure: 0.21505376344086022
+solution 382: ∃ hcbdwsu:imageContains.(hcbdwsu:Person)
+	 coverage_score: 0.9267068273092369
+	 precision: 0.12345679012345678
+	 recall: 0.8333333333333334
+	 f_measure: 0.21505376344086022
+solution 383: ∃ hcbdwsu:imageContains.(hcbdwsu:Tree)
+	 coverage_score: 0.9186746987951807
+	 precision: 0.11235955056179775
+	 recall: 0.8333333333333334
+	 f_measure: 0.19801980198019803
+solution 384: ∃ hcbdwsu:imageContains.(hcbdwsu:Car)
+	 coverage_score: 0.9176706827309237
+	 precision: 0.11956521739130435
+	 recall: 0.9166666666666666
+	 f_measure: 0.21153846153846156
+solution 385: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Automobile)
+	 coverage_score: 0.9166666666666666
+	 precision: 0.11827956989247312
+	 recall: 0.9166666666666666
+	 f_measure: 0.20952380952380953
+solution 386: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Car)
+	 coverage_score: 0.9166666666666666
+	 precision: 0.11827956989247312
+	 recall: 0.9166666666666666
+	 f_measure: 0.20952380952380953
+solution 387: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Motorcar)
+	 coverage_score: 0.9166666666666666
+	 precision: 0.11827956989247312
+	 recall: 0.9166666666666666
+	 f_measure: 0.20952380952380953
+solution 388: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Machine)
+	 coverage_score: 0.9166666666666666
+	 precision: 0.11827956989247312
+	 recall: 0.9166666666666666
+	 f_measure: 0.20952380952380953
+solution 389: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Auto)
+	 coverage_score: 0.9166666666666666
+	 precision: 0.11827956989247312
+	 recall: 0.9166666666666666
+	 f_measure: 0.20952380952380953
+solution 390: ∃ hcbdwsu:imageContains.(hcbdwsu:Sidewalk)
+	 coverage_score: 0.9116465863453815
+	 precision: 0.12
+	 recall: 1.0
+	 f_measure: 0.21428571428571425
+solution 391: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pavement)
+	 coverage_score: 0.9116465863453815
+	 precision: 0.12
+	 recall: 1.0
+	 f_measure: 0.21428571428571425
+solution 392: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sidewalk)
+	 coverage_score: 0.9116465863453815
+	 precision: 0.12
+	 recall: 1.0
+	 f_measure: 0.21428571428571425
+solution 393: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Box)
+	 coverage_score: 0.8895582329317269
+	 precision: 0.0196078431372549
+	 recall: 0.16666666666666666
+	 f_measure: 0.03508771929824561
+solution 394: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Road)
+	 coverage_score: 0.8885542168674698
+	 precision: 0.0975609756097561
+	 recall: 1.0
+	 f_measure: 0.17777777777777776
+solution 395: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Route)
+	 coverage_score: 0.8885542168674698
+	 precision: 0.0975609756097561
+	 recall: 1.0
+	 f_measure: 0.17777777777777776
+solution 396: ∃ hcbdwsu:imageContains.(hcbdwsu:Road)
+	 coverage_score: 0.8885542168674698
+	 precision: 0.0975609756097561
+	 recall: 1.0
+	 f_measure: 0.17777777777777776
+solution 397: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Tree)
+	 coverage_score: 0.8875502008032129
+	 precision: 0.08333333333333333
+	 recall: 0.8333333333333334
+	 f_measure: 0.15151515151515152
+solution 398: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sky)
+	 coverage_score: 0.8393574297188755
+	 precision: 0.043209876543209874
+	 recall: 0.5833333333333334
+	 f_measure: 0.08045977011494253
+solution 399: ∃ hcbdwsu:imageContains.(hcbdwsu:Sky)
+	 coverage_score: 0.8393574297188755
+	 precision: 0.043209876543209874
+	 recall: 0.5833333333333334
+	 f_measure: 0.08045977011494253
+solution 400: ∃ hcbdwsu:imageContains.(hcbdwsu:Building)
+	 coverage_score: 0.8232931726907631
+	 precision: 0.06382978723404255
+	 recall: 1.0
+	 f_measure: 0.12
+solution 401: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Edifice)
+	 coverage_score: 0.8182730923694779
+	 precision: 0.06217616580310881
+	 recall: 1.0
+	 f_measure: 0.11707317073170731
+solution 402: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Building)
+	 coverage_score: 0.8182730923694779
+	 precision: 0.06217616580310881
+	 recall: 1.0
+	 f_measure: 0.11707317073170731
+solution 403: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Base)
+	 coverage_score: 0.8052208835341366
+	 precision: 0.015957446808510637
+	 recall: 0.25
+	 f_measure: 0.03
+solution 404: ∃ hcbdwsu:imageContains.(hcbdwsu:Plant)
+	 coverage_score: 0.785140562248996
+	 precision: 0.01904761904761905
+	 recall: 0.3333333333333333
+	 f_measure: 0.036036036036036036
+solution 405: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Mirror)
+	 coverage_score: 0.7730923694779116
+	 precision: 0.034782608695652174
+	 recall: 0.6666666666666666
+	 f_measure: 0.06611570247933884
+solution 406: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Plant_life)
+	 coverage_score: 0.7730923694779116
+	 precision: 0.018018018018018018
+	 recall: 0.3333333333333333
+	 f_measure: 0.03418803418803419
+solution 407: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Plant)
+	 coverage_score: 0.7730923694779116
+	 precision: 0.018018018018018018
+	 recall: 0.3333333333333333
+	 f_measure: 0.03418803418803419
+solution 408: ∃ hcbdwsu:imageContains.(hcbdwsu:Mirror)
+	 coverage_score: 0.7730923694779116
+	 precision: 0.034782608695652174
+	 recall: 0.6666666666666666
+	 f_measure: 0.06611570247933884
+solution 409: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Flora)
+	 coverage_score: 0.7730923694779116
+	 precision: 0.018018018018018018
+	 recall: 0.3333333333333333
+	 f_measure: 0.03418803418803419
+solution 410: ∃ hcbdwsu:imageContains.(hcbdwsu:Handle)
+	 coverage_score: 0.7419678714859438
+	 precision: 0.02702702702702703
+	 recall: 0.5833333333333334
+	 f_measure: 0.05166051660516605
+solution 411: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Handle)
+	 coverage_score: 0.7419678714859438
+	 precision: 0.02702702702702703
+	 recall: 0.5833333333333334
+	 f_measure: 0.05166051660516605
+solution 412: ∃ hcbdwsu:imageContains.(hcbdwsu:Door)
+	 coverage_score: 0.5100401606425703
+	 precision: 0.018218623481781375
+	 recall: 0.75
+	 f_measure: 0.035573122529644265
+solution 413: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Door)
+	 coverage_score: 0.5080321285140562
+	 precision: 0.018145161290322582
+	 recall: 0.75
+	 f_measure: 0.03543307086614173
+solution 414: ∃ hcbdwsu:imageContains.(hcbdwsu:Window)
+	 coverage_score: 0.3965863453815261
+	 precision: 0.014827018121911038
+	 recall: 0.75
+	 f_measure: 0.02907915993537965
+solution 415: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Window)
+	 coverage_score: 0.39457831325301207
+	 precision: 0.014778325123152709
+	 recall: 0.75
+	 f_measure: 0.028985507246376812
+
+Total solutions found: 415
+
+F1 average: 0.09644936858871211
+Precision average: 0.1777735941539692
+Recall average: 0.16224899598393583
+Coverage average: 0.9691585619586741
+
+F1 max: 0.41025641025641024
+Precision max: 1.0
+Recall max: 1.0
+Coverage max: 0.9899598393574297
+
+Total solutions found: 415
+Result saved at: C:\Users\adalal\OneDrive - Kansas State University\PhD\Research\ecii\ecii\ecii/set6-initial_score_hybrid_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 06.14.2023  16.36.46 PM
+Program duration: 1278.359 sec

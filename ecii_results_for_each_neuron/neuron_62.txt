@@ -1,0 +1,3118 @@
+Program started.............
+Program starts at: 06.15.2023  23.24.18 PM
+Working with confFile: set6-initial_score_hybrid.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 1
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 20
+K7/removeCommonTypes: true
+removeCommonTypesFromOneSideOnly: true
+limitPosTypes: false
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: false
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: COVERAGE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00006906
+	ADE_train_00006850
+	ADE_train_00006851
+	ADE_train_00000705
+	ADE_train_00006887
+	ADE_train_00006886
+	ADE_train_00006889
+	ADE_train_00006921
+	ADE_train_00006847
+	ADE_train_00006846
+	ADE_train_00006857
+negIndivs from conf:
+	ADE_train_00017030
+	ADE_train_00017031
+	ADE_train_00017032
+	ADE_train_00017033
+	ADE_train_00017034
+	ADE_train_00017035
+	ADE_train_00017036
+	ADE_train_00017037
+	ADE_train_00017038
+	ADE_train_00017039
+	ADE_train_00017040
+	ADE_train_00017041
+	ADE_train_00017042
+	ADE_train_00017043
+	ADE_train_00017044
+	ADE_train_00017045
+	ADE_train_00017046
+	ADE_train_00017047
+	ADE_train_00017048
+	ADE_train_00017049
+	ADE_train_00016399
+	ADE_train_00016398
+	ADE_train_00016397
+	ADE_train_00016396
+	ADE_train_00016395
+	ADE_train_00016394
+	ADE_train_00016393
+	ADE_train_00016392
+	ADE_train_00017050
+	ADE_train_00016391
+	ADE_train_00017051
+	ADE_train_00016390
+	ADE_train_00017052
+	ADE_train_00017053
+	ADE_train_00017054
+	ADE_train_00017055
+	ADE_train_00017056
+	ADE_train_00017057
+	ADE_train_00017058
+	ADE_train_00017059
+	ADE_train_00016389
+	ADE_train_00016388
+	ADE_train_00016387
+	ADE_train_00016386
+	ADE_train_00016385
+	ADE_train_00016384
+	ADE_train_00016383
+	ADE_train_00016382
+	ADE_train_00017060
+	ADE_train_00016381
+	ADE_train_00017061
+	ADE_train_00016380
+	ADE_train_00017062
+	ADE_train_00017063
+	ADE_train_00017064
+	ADE_train_00017065
+	ADE_train_00017066
+	ADE_train_00017067
+	ADE_train_00017068
+	ADE_train_00017069
+	ADE_train_00008990
+	ADE_train_00008991
+	ADE_train_00008994
+	ADE_train_00008995
+	ADE_train_00016379
+	ADE_train_00008992
+	ADE_train_00016378
+	ADE_train_00016377
+	ADE_train_00008993
+	ADE_train_00016376
+	ADE_train_00008998
+	ADE_train_00016375
+	ADE_train_00008999
+	ADE_train_00016374
+	ADE_train_00008996
+	ADE_train_00016373
+	ADE_train_00008997
+	ADE_train_00016372
+	ADE_train_00017070
+	ADE_train_00016371
+	ADE_train_00017071
+	ADE_train_00016370
+	ADE_train_00017072
+	ADE_train_00017073
+	ADE_train_00017074
+	ADE_train_00017075
+	ADE_train_00017076
+	ADE_train_00017077
+	ADE_train_00017078
+	ADE_train_00017079
+	ADE_train_00016369
+	ADE_train_00016368
+	ADE_train_00016367
+	ADE_train_00016366
+	ADE_train_00016365
+	ADE_train_00016364
+	ADE_train_00008988
+	ADE_train_00016363
+	ADE_train_00016362
+	ADE_train_00017080
+	ADE_train_00016361
+	ADE_train_00017081
+	ADE_train_00016360
+	ADE_train_00017082
+	ADE_train_00008989
+	ADE_train_00017083
+	ADE_train_00017084
+	ADE_train_00017085
+	ADE_train_00017086
+	ADE_train_00017087
+	ADE_train_00017088
+	ADE_train_00017089
+	ADE_train_00016359
+	ADE_train_00016358
+	ADE_train_00016357
+	ADE_train_00016356
+	ADE_train_00017090
+	ADE_train_00017091
+	ADE_train_00017092
+	ADE_train_00017093
+	ADE_train_00017094
+	ADE_train_00017095
+	ADE_train_00017096
+	ADE_train_00017097
+	ADE_train_00017098
+	ADE_train_00017099
+	ADE_train_00004593
+	ADE_train_00004594
+	ADE_train_00004595
+	ADE_train_00004596
+	ADE_train_00004597
+	ADE_train_00004598
+	ADE_train_00004599
+	ADE_train_00000198
+	ADE_train_00000194
+	ADE_train_00000195
+	ADE_train_00000192
+	ADE_train_00000193
+	ADE_train_00016999
+	ADE_train_00016998
+	ADE_train_00016997
+	ADE_train_00016996
+	ADE_train_00016995
+	ADE_train_00016994
+	ADE_train_00016993
+	ADE_train_00016992
+	ADE_train_00016991
+	ADE_train_00016990
+	ADE_train_00016989
+	ADE_train_00016988
+	ADE_train_00016987
+	ADE_train_00016986
+	ADE_train_00016985
+	ADE_train_00016984
+	ADE_train_00016983
+	ADE_train_00016982
+	ADE_train_00016981
+	ADE_train_00016980
+	ADE_train_00016979
+	ADE_train_00016978
+	ADE_train_00016977
+	ADE_train_00016976
+	ADE_train_00016975
+	ADE_train_00010196
+	ADE_train_00016974
+	ADE_train_00010195
+	ADE_train_00016973
+	ADE_train_00010198
+	ADE_train_00016972
+	ADE_train_00016971
+	ADE_train_00010197
+	ADE_train_00016970
+	ADE_train_00010192
+	ADE_train_00010191
+	ADE_train_00010194
+	ADE_train_00010193
+	ADE_train_00010190
+	ADE_train_00006926
+	ADE_train_00000397
+	ADE_train_00000394
+	ADE_train_00000392
+	ADE_train_00000391
+	ADE_train_00016969
+	ADE_train_00016968
+	ADE_train_00016967
+	ADE_train_00010189
+	ADE_train_00016966
+	ADE_train_00010188
+	ADE_train_00016965
+	ADE_train_00016964
+	ADE_train_00010185
+	ADE_train_00016963
+	ADE_train_00016962
+	ADE_train_00010184
+	ADE_train_00010187
+	ADE_train_00016961
+	ADE_train_00016960
+	ADE_train_00010183
+	ADE_train_00010182
+	ADE_train_00000138
+	ADE_train_00000139
+	ADE_train_00006923
+	ADE_train_00000389
+	ADE_train_00006917
+	ADE_train_00000388
+	ADE_train_00000387
+	ADE_train_00000386
+	ADE_train_00000385
+	ADE_train_00000383
+	ADE_train_00000382
+	ADE_train_00000381
+	ADE_train_00000380
+	ADE_train_00016959
+	ADE_train_00016958
+	ADE_train_00016957
+	ADE_train_00016956
+	ADE_train_00010178
+	ADE_train_00016955
+	ADE_train_00010177
+	ADE_train_00016954
+	ADE_train_00016953
+	ADE_train_00010179
+	ADE_train_00010174
+	ADE_train_00016952
+	ADE_train_00016951
+	ADE_train_00010173
+	ADE_train_00010176
+	ADE_train_00016950
+	ADE_train_00010175
+	ADE_train_00010170
+	ADE_train_00010172
+	ADE_train_00010171
+	ADE_train_00000129
+	ADE_train_00000127
+	ADE_train_00000128
+	ADE_train_00000136
+	ADE_train_00000379
+	ADE_train_00000378
+	ADE_train_00000137
+	ADE_train_00000134
+	ADE_train_00000135
+	ADE_train_00006905
+	ADE_train_00000132
+	ADE_train_00000375
+	ADE_train_00000133
+	ADE_train_00000373
+	ADE_train_00000130
+	ADE_train_00000131
+	ADE_train_00016949
+	ADE_train_00016948
+	ADE_train_00016947
+	ADE_train_00016946
+	ADE_train_00016945
+	ADE_train_00010167
+	ADE_train_00016944
+	ADE_train_00010166
+	ADE_train_00016943
+	ADE_train_00010169
+	ADE_train_00016942
+	ADE_train_00010163
+	ADE_train_00016941
+	ADE_train_00016940
+	ADE_train_00010162
+	ADE_train_00010165
+	ADE_train_00010164
+	ADE_train_00010161
+	ADE_train_00010160
+	ADE_train_00000118
+	ADE_train_00000119
+	ADE_train_00000116
+	ADE_train_00000358
+	ADE_train_00000117
+	ADE_train_00000125
+	ADE_train_00000126
+	ADE_train_00000123
+	ADE_train_00000124
+	ADE_train_00000121
+	ADE_train_00000122
+	ADE_train_00000361
+	ADE_train_00000120
+	ADE_train_00000360
+	ADE_train_00016939
+	ADE_train_00016938
+	ADE_train_00010159
+	ADE_train_00016937
+	ADE_train_00016936
+	ADE_train_00016935
+	ADE_train_00016934
+	ADE_train_00010156
+	ADE_train_00016933
+	ADE_train_00010155
+	ADE_train_00016932
+	ADE_train_00010158
+	ADE_train_00016931
+	ADE_train_00010157
+	ADE_train_00010152
+	ADE_train_00016930
+	ADE_train_00010151
+	ADE_train_00010154
+	ADE_train_00010153
+	ADE_train_00010150
+	ADE_train_00000109
+	ADE_train_00000107
+	ADE_train_00000349
+	ADE_train_00000108
+	ADE_train_00000105
+	ADE_train_00000347
+	ADE_train_00000114
+	ADE_train_00000357
+	ADE_train_00000599
+	ADE_train_00000356
+	ADE_train_00000597
+	ADE_train_00000112
+	ADE_train_00000113
+	ADE_train_00000354
+	ADE_train_00000110
+	ADE_train_00000595
+	ADE_train_00000111
+	ADE_train_00000350
+	ADE_train_00016929
+	ADE_train_00016928
+	ADE_train_00016927
+	ADE_train_00016926
+	ADE_train_00016925
+	ADE_train_00016924
+	ADE_train_00016923
+	ADE_train_00016922
+	ADE_train_00016921
+	ADE_train_00016920
+	ADE_train_00000103
+	ADE_train_00000104
+	ADE_train_00000101
+	ADE_train_00000102
+	ADE_train_00000342
+	ADE_train_00000341
+	ADE_train_00000100
+	ADE_train_00016919
+	ADE_train_00016918
+	ADE_train_00016917
+	ADE_train_00016916
+	ADE_train_00016915
+	ADE_train_00016914
+	ADE_train_00016913
+	ADE_train_00016912
+	ADE_train_00016911
+	ADE_train_00016910
+	ADE_train_00000328
+	ADE_train_00000327
+	ADE_train_00000326
+	ADE_train_00000335
+	ADE_train_00000333
+	ADE_train_00000332
+	ADE_train_00000331
+	ADE_train_00000330
+	ADE_train_00016909
+	ADE_train_00016908
+	ADE_train_00016907
+	ADE_train_00016906
+	ADE_train_00016905
+	ADE_train_00016904
+	ADE_train_00016903
+	ADE_train_00016902
+	ADE_train_00016901
+	ADE_train_00016900
+	ADE_train_00000319
+	ADE_train_00000316
+	ADE_train_00000315
+	ADE_train_00000324
+	ADE_train_00000321
+	ADE_train_00000306
+	ADE_train_00000305
+	ADE_train_00000303
+	ADE_train_00000313
+	ADE_train_00000312
+	ADE_train_00000761
+	ADE_train_00000760
+	ADE_train_00017100
+	ADE_train_00017101
+	ADE_train_00017102
+	ADE_train_00017103
+	ADE_train_00017104
+	ADE_train_00017105
+	ADE_train_00017106
+	ADE_train_00017107
+	ADE_train_00017108
+	ADE_train_00017109
+	ADE_train_00000749
+	ADE_train_00000745
+	ADE_train_00017110
+	ADE_train_00017111
+	ADE_train_00017112
+	ADE_train_00017113
+	ADE_train_00017114
+	ADE_train_00017115
+	ADE_train_00017116
+	ADE_train_00017117
+	ADE_train_00017118
+	ADE_train_00017119
+	ADE_train_00000738
+	ADE_train_00000733
+	ADE_train_00000732
+	ADE_train_00017120
+	ADE_train_00017121
+	ADE_train_00017122
+	ADE_train_00017123
+	ADE_train_00017124
+	ADE_train_00017125
+	ADE_train_00017126
+	ADE_train_00017127
+	ADE_train_00017128
+	ADE_train_00017129
+	ADE_train_00000728
+	ADE_train_00017130
+	ADE_train_00017131
+	ADE_train_00017132
+	ADE_train_00017133
+	ADE_train_00017134
+	ADE_train_00017135
+	ADE_train_00017136
+	ADE_train_00017137
+	ADE_train_00017138
+	ADE_train_00017139
+	ADE_train_00000719
+	ADE_train_00000718
+	ADE_train_00000954
+	ADE_train_00017140
+	ADE_train_00017141
+	ADE_train_00017142
+	ADE_train_00017143
+	ADE_train_00017144
+	ADE_train_00017145
+	ADE_train_00017146
+	ADE_train_00017147
+	ADE_train_00017148
+	ADE_train_00017149
+	ADE_train_00000709
+	ADE_train_00000704
+	ADE_train_00000703
+	ADE_train_00000701
+	ADE_train_00017150
+	ADE_train_00017151
+	ADE_train_00017152
+	ADE_train_00017153
+	ADE_train_00017154
+	ADE_train_00017155
+	ADE_train_00017156
+	ADE_train_00017157
+	ADE_train_00017158
+	ADE_train_00017159
+	ADE_train_00006003
+	ADE_train_00006002
+	ADE_train_00006005
+	ADE_train_00006004
+	ADE_train_00006007
+	ADE_train_00006008
+	ADE_train_00017160
+	ADE_train_00017161
+	ADE_train_00017162
+	ADE_train_00017163
+	ADE_train_00017164
+	ADE_train_00017165
+	ADE_train_00017166
+	ADE_train_00017167
+	ADE_train_00017168
+	ADE_train_00017169
+	ADE_train_00017170
+	ADE_train_00017171
+	ADE_train_00017172
+	ADE_train_00017173
+	ADE_train_00017175
+	ADE_train_00017176
+	ADE_train_00017177
+	ADE_train_00017178
+	ADE_train_00017179
+	ADE_train_00017180
+	ADE_train_00017181
+	ADE_train_00017182
+	ADE_train_00017183
+	ADE_train_00017184
+	ADE_train_00017185
+	ADE_train_00017186
+	ADE_train_00017187
+	ADE_train_00017188
+	ADE_train_00017189
+	ADE_train_00017190
+	ADE_train_00017191
+	ADE_train_00017192
+	ADE_train_00017193
+	ADE_train_00017194
+	ADE_train_00017195
+	ADE_train_00017196
+	ADE_train_00017197
+	ADE_train_00017198
+	ADE_train_00017199
+	ADE_train_00006885
+	ADE_train_00000099
+	ADE_train_00000097
+	ADE_train_00000098
+	ADE_train_00000095
+	ADE_train_00000096
+	ADE_train_00000093
+	ADE_train_00000094
+	ADE_train_00000091
+	ADE_train_00000092
+	ADE_train_00000090
+	ADE_train_00006864
+	ADE_train_00006866
+	ADE_train_00000088
+	ADE_train_00000089
+	ADE_train_00000086
+	ADE_train_00000087
+	ADE_train_00000084
+	ADE_train_00000085
+	ADE_train_00000082
+	ADE_train_00000083
+	ADE_train_00000080
+	ADE_train_00000081
+	ADE_train_00016418
+	ADE_train_00016417
+	ADE_train_00016416
+	ADE_train_00016415
+	ADE_train_00016899
+	ADE_train_00016414
+	ADE_train_00016898
+	ADE_train_00016413
+	ADE_train_00016897
+	ADE_train_00016412
+	ADE_train_00016896
+	ADE_train_00016411
+	ADE_train_00016895
+	ADE_train_00016410
+	ADE_train_00016894
+	ADE_train_00016893
+	ADE_train_00016892
+	ADE_train_00016891
+	ADE_train_00016890
+	ADE_train_00000079
+	ADE_train_00000077
+	ADE_train_00000078
+	ADE_train_00000075
+	ADE_train_00000076
+	ADE_train_00000073
+	ADE_train_00000074
+	ADE_train_00000071
+	ADE_train_00000072
+	ADE_train_00016409
+	ADE_train_00000070
+	ADE_train_00016408
+	ADE_train_00016407
+	ADE_train_00016406
+	ADE_train_00016405
+	ADE_train_00016889
+	ADE_train_00016404
+	ADE_train_00016888
+	ADE_train_00016403
+	ADE_train_00016887
+	ADE_train_00016402
+	ADE_train_00016886
+	ADE_train_00016401
+	ADE_train_00016885
+	ADE_train_00016400
+	ADE_train_00016884
+	ADE_train_00016883
+	ADE_train_00016882
+	ADE_train_00005993
+	ADE_train_00016881
+	ADE_train_00005996
+	ADE_train_00016880
+	ADE_train_00005995
+	ADE_train_00006845
+	ADE_train_00005997
+	ADE_train_00005999
+	ADE_train_00000068
+	ADE_train_00000069
+	ADE_train_00000066
+	ADE_train_00000067
+	ADE_train_00000064
+	ADE_train_00000065
+	ADE_train_00000062
+	ADE_train_00000063
+	ADE_train_00000060
+	ADE_train_00000061
+	ADE_train_00016879
+	ADE_train_00016878
+	ADE_train_00016877
+	ADE_train_00016876
+	ADE_train_00016875
+	ADE_train_00016874
+	ADE_train_00016873
+	ADE_train_00016872
+	ADE_train_00005980
+	ADE_train_00005983
+	ADE_train_00016871
+	ADE_train_00016870
+	ADE_train_00005982
+	ADE_train_00005984
+	ADE_train_00005987
+	ADE_train_00000059
+	ADE_train_00005979
+	ADE_train_00000058
+	ADE_train_00000055
+	ADE_train_00000056
+	ADE_train_00000298
+	ADE_train_00000053
+	ADE_train_00000054
+	ADE_train_00000296
+	ADE_train_00000051
+	ADE_train_00000293
+	ADE_train_00000052
+	ADE_train_00000294
+	ADE_train_00000291
+	ADE_train_00000050
+	ADE_train_00016869
+	ADE_train_00016868
+	ADE_train_00016867
+	ADE_train_00016866
+	ADE_train_00016865
+	ADE_train_00016863
+	ADE_train_00016862
+	ADE_train_00016861
+	ADE_train_00016860
+	ADE_train_00000039
+	ADE_train_00004637
+	ADE_train_00000048
+	ADE_train_00000049
+	ADE_train_00000046
+	ADE_train_00000047
+	ADE_train_00000044
+	ADE_train_00000286
+	ADE_train_00000045
+	ADE_train_00000042
+	ADE_train_00000284
+	ADE_train_00000043
+	ADE_train_00000040
+	ADE_train_00000282
+	ADE_train_00000041
+	ADE_train_00000283
+	ADE_train_00000280
+	ADE_train_00000281
+	ADE_train_00016859
+	ADE_train_00016858
+	ADE_train_00004630
+	ADE_train_00004631
+	ADE_train_00004632
+	ADE_train_00004633
+	ADE_train_00004634
+	ADE_train_00000028
+	ADE_train_00004635
+	ADE_train_00000029
+	ADE_train_00004636
+	ADE_train_00004626
+	ADE_train_00000037
+	ADE_train_00004627
+	ADE_train_00000038
+	ADE_train_00004628
+	ADE_train_00000035
+	ADE_train_00000277
+	ADE_train_00004629
+	ADE_train_00000036
+	ADE_train_00000033
+	ADE_train_00000275
+	ADE_train_00000034
+	ADE_train_00000276
+	ADE_train_00000031
+	ADE_train_00000032
+	ADE_train_00000030
+	ADE_train_00000272
+	ADE_train_00000270
+	ADE_train_00004620
+	ADE_train_00004621
+	ADE_train_00000019
+	ADE_train_00004622
+	ADE_train_00004623
+	ADE_train_00000017
+	ADE_train_00000259
+	ADE_train_00004624
+	ADE_train_00000018
+	ADE_train_00004625
+	ADE_train_00004615
+	ADE_train_00000026
+	ADE_train_00004616
+	ADE_train_00004617
+	ADE_train_00000024
+	ADE_train_00004618
+	ADE_train_00000025
+	ADE_train_00000267
+	ADE_train_00004619
+	ADE_train_00000022
+	ADE_train_00000264
+	ADE_train_00000265
+	ADE_train_00000020
+	ADE_train_00000262
+	ADE_train_00000021
+	ADE_train_00000263
+	ADE_train_00000260
+	ADE_train_00000261
+	ADE_train_00004610
+	ADE_train_00004611
+	ADE_train_00000008
+	ADE_train_00004612
+	ADE_train_00000009
+	ADE_train_00004613
+	ADE_train_00000006
+	ADE_train_00004614
+	ADE_train_00000007
+	ADE_train_00000015
+	ADE_train_00000257
+	ADE_train_00004604
+	ADE_train_00000016
+	ADE_train_00000258
+	ADE_train_00004605
+	ADE_train_00000013
+	ADE_train_00004606
+	ADE_train_00000014
+	ADE_train_00004607
+	ADE_train_00000011
+	ADE_train_00000253
+	ADE_train_00004608
+	ADE_train_00000012
+	ADE_train_00004609
+	ADE_train_00000010
+	ADE_train_00000239
+	ADE_train_00004600
+	ADE_train_00004601
+	ADE_train_00004602
+	ADE_train_00000238
+	ADE_train_00004603
+	ADE_train_00000244
+	ADE_train_00000245
+	ADE_train_00000242
+	ADE_train_00000243
+	ADE_train_00000240
+	ADE_train_00009046
+	ADE_train_00009045
+	ADE_train_00009044
+	ADE_train_00009043
+	ADE_train_00000229
+	ADE_train_00000468
+	ADE_train_00000235
+	ADE_train_00000234
+	ADE_train_00009042
+	ADE_train_00009041
+	ADE_train_00009040
+	ADE_train_00009035
+	ADE_train_00009034
+	ADE_train_00009033
+	ADE_train_00009032
+	ADE_train_00009039
+	ADE_train_00009038
+	ADE_train_00009037
+	ADE_train_00009036
+	ADE_train_00000219
+	ADE_train_00000217
+	ADE_train_00000224
+	ADE_train_00000467
+	ADE_train_00000466
+	ADE_train_00000225
+	ADE_train_00000222
+	ADE_train_00000462
+	ADE_train_00009031
+	ADE_train_00009030
+	ADE_train_00009024
+	ADE_train_00009023
+	ADE_train_00009022
+	ADE_train_00009021
+	ADE_train_00009028
+	ADE_train_00009027
+	ADE_train_00009026
+	ADE_train_00009025
+	ADE_train_00000208
+	ADE_train_00009029
+	ADE_train_00000209
+	ADE_train_00000448
+	ADE_train_00000447
+	ADE_train_00000446
+	ADE_train_00000456
+	ADE_train_00000214
+	ADE_train_00000212
+	ADE_train_00000453
+	ADE_train_00000695
+	ADE_train_00000452
+	ADE_train_00009020
+	ADE_train_00009013
+	ADE_train_00009012
+	ADE_train_00009011
+	ADE_train_00009010
+	ADE_train_00009017
+	ADE_train_00009016
+	ADE_train_00009015
+	ADE_train_00009014
+	ADE_train_00009019
+	ADE_train_00009018
+	ADE_train_00000439
+	ADE_train_00000438
+	ADE_train_00000437
+	ADE_train_00000436
+	ADE_train_00000202
+	ADE_train_00000445
+	ADE_train_00000443
+	ADE_train_00000200
+	ADE_train_00000201
+	ADE_train_00000440
+	ADE_train_00000680
+	ADE_train_00009002
+	ADE_train_00009001
+	ADE_train_00009000
+	ADE_train_00009006
+	ADE_train_00009005
+	ADE_train_00009004
+	ADE_train_00009003
+	ADE_train_00009009
+	ADE_train_00000429
+	ADE_train_00009008
+	ADE_train_00009007
+	ADE_train_00000428
+	ADE_train_00000426
+	ADE_train_00000667
+	ADE_train_00000424
+	ADE_train_00000434
+	ADE_train_00000432
+	ADE_train_00000674
+	ADE_train_00000430
+	ADE_train_00010222
+	ADE_train_00010221
+	ADE_train_00010224
+	ADE_train_00010223
+	ADE_train_00010220
+	ADE_train_00000419
+	ADE_train_00000417
+	ADE_train_00000416
+	ADE_train_00000415
+	ADE_train_00000655
+	ADE_train_00017200
+	ADE_train_00017201
+	ADE_train_00010219
+	ADE_train_00017202
+	ADE_train_00010218
+	ADE_train_00017203
+	ADE_train_00017204
+	ADE_train_00017205
+	ADE_train_00010215
+	ADE_train_00017206
+	ADE_train_00010214
+	ADE_train_00017207
+	ADE_train_00017208
+	ADE_train_00010216
+	ADE_train_00017209
+	ADE_train_00010211
+	ADE_train_00010210
+	ADE_train_00010213
+	ADE_train_00010212
+	ADE_train_00000409
+	ADE_train_00000407
+	ADE_train_00000406
+	ADE_train_00000647
+	ADE_train_00000646
+	ADE_train_00000645
+	ADE_train_00000402
+	ADE_train_00000644
+	ADE_train_00017210
+	ADE_train_00017211
+	ADE_train_00017212
+	ADE_train_00010208
+	ADE_train_00017213
+	ADE_train_00010207
+	ADE_train_00017214
+	ADE_train_00017215
+	ADE_train_00010209
+	ADE_train_00017216
+	ADE_train_00010204
+	ADE_train_00017217
+	ADE_train_00010203
+	ADE_train_00017218
+	ADE_train_00010206
+	ADE_train_00017219
+	ADE_train_00010205
+	ADE_train_00010200
+	ADE_train_00010201
+	ADE_train_00000639
+	ADE_train_00000638
+	ADE_train_00000637
+	ADE_train_00000636
+	ADE_train_00000634
+	ADE_train_00000643
+	ADE_train_00000400
+	ADE_train_00000642
+	ADE_train_00000641
+	ADE_train_00000640
+	ADE_train_00017220
+	ADE_train_00017221
+	ADE_train_00017222
+	ADE_train_00017223
+	ADE_train_00017224
+	ADE_train_00017225
+	ADE_train_00017226
+	ADE_train_00017227
+	ADE_train_00017228
+	ADE_train_00017229
+	ADE_train_00000629
+	ADE_train_00000628
+	ADE_train_00000627
+	ADE_train_00000626
+	ADE_train_00000625
+	ADE_train_00000624
+	ADE_train_00000623
+	ADE_train_00000622
+	ADE_train_00000632
+	ADE_train_00000630
+	ADE_train_00017230
+	ADE_train_00017231
+	ADE_train_00017232
+	ADE_train_00017233
+	ADE_train_00017234
+	ADE_train_00017235
+	ADE_train_00017236
+	ADE_train_00017237
+	ADE_train_00017238
+	ADE_train_00017239
+	ADE_train_00000618
+	ADE_train_00000617
+	ADE_train_00000616
+	ADE_train_00000613
+	ADE_train_00000611
+	ADE_train_00000621
+	ADE_train_00000620
+	ADE_train_00017240
+	ADE_train_00017241
+	ADE_train_00017000
+	ADE_train_00017242
+	ADE_train_00017001
+	ADE_train_00017243
+	ADE_train_00017002
+	ADE_train_00017244
+	ADE_train_00017003
+	ADE_train_00017245
+	ADE_train_00017004
+	ADE_train_00017246
+	ADE_train_00017005
+	ADE_train_00017247
+	ADE_train_00017006
+	ADE_train_00017248
+	ADE_train_00017007
+	ADE_train_00017249
+	ADE_train_00017008
+	ADE_train_00017009
+	ADE_train_00000609
+	ADE_train_00000607
+	ADE_train_00000604
+	ADE_train_00000603
+	ADE_train_00000600
+	ADE_train_00000610
+	ADE_train_00017250
+	ADE_train_00017251
+	ADE_train_00017010
+	ADE_train_00017252
+	ADE_train_00017011
+	ADE_train_00017253
+	ADE_train_00017012
+	ADE_train_00017254
+	ADE_train_00017013
+	ADE_train_00017255
+	ADE_train_00017014
+	ADE_train_00017256
+	ADE_train_00017015
+	ADE_train_00017257
+	ADE_train_00017016
+	ADE_train_00017258
+	ADE_train_00017017
+	ADE_train_00017259
+	ADE_train_00017018
+	ADE_train_00017019
+	ADE_train_00017260
+	ADE_train_00017261
+	ADE_train_00017020
+	ADE_train_00017262
+	ADE_train_00017021
+	ADE_train_00017263
+	ADE_train_00017022
+	ADE_train_00017264
+	ADE_train_00017023
+	ADE_train_00017024
+	ADE_train_00017025
+	ADE_train_00017026
+	ADE_train_00017027
+	ADE_train_00017028
+	ADE_train_00017029
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 06.15.2023  23.24.18 PM
+Total positive types (direct+indirect) found using all objectProperty: 222
+Total negative types (direct+indirect) found using all objectProperty: 1607
+Total positive types (direct+indirect) after removing common types using all objectProperty: 203
+Total negative types (direct+indirect) after removing common types using all objectProperty: 1411
+
+Algorithm ends at: 06.15.2023  23.38.16 PM
+
+Algorithm duration: 837.996 sec
+
+####################Solutions (sorted by COVERAGE)####################:
+solution 1: ∃ hcbdwsu:imageContains.(hcbdwsu:Sideboard)
+	 coverage_score: 0.9909729187562688
+	 precision: 0.75
+	 recall: 0.2727272727272727
+	 f_measure: 0.39999999999999997
+solution 2: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sideboard)
+	 coverage_score: 0.9909729187562688
+	 precision: 0.75
+	 recall: 0.2727272727272727
+	 f_measure: 0.39999999999999997
+solution 3: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Buffet)
+	 coverage_score: 0.9909729187562688
+	 precision: 0.75
+	 recall: 0.2727272727272727
+	 f_measure: 0.39999999999999997
+solution 4: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Stretcher)
+	 coverage_score: 0.9909729187562688
+	 precision: 0.75
+	 recall: 0.2727272727272727
+	 f_measure: 0.39999999999999997
+solution 5: ∃ hcbdwsu:imageContains.(hcbdwsu:Stretcher)
+	 coverage_score: 0.9909729187562688
+	 precision: 0.75
+	 recall: 0.2727272727272727
+	 f_measure: 0.39999999999999997
+solution 6: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Stem))
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 7: ∃ hcbdwsu:imageContains.((hcbdwsu:Fork) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 8: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Stem))
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 9: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Mat))
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 10: ∃ hcbdwsu:imageContains.((hcbdwsu:Pottery) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 11: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pottery)
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 12: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Nosegay)
+	 coverage_score: 0.9899699097291875
+	 precision: 0.6666666666666666
+	 recall: 0.18181818181818182
+	 f_measure: 0.28571428571428575
+solution 13: ∃ hcbdwsu:imageContains.(hcbdwsu:Bouquet)
+	 coverage_score: 0.9899699097291875
+	 precision: 0.6666666666666666
+	 recall: 0.18181818181818182
+	 f_measure: 0.28571428571428575
+solution 14: ∃ hcbdwsu:imageContains.(hcbdwsu:Stem)
+	 coverage_score: 0.9899699097291875
+	 precision: 0.6666666666666666
+	 recall: 0.18181818181818182
+	 f_measure: 0.28571428571428575
+solution 15: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Fork)
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 16: ∃ hcbdwsu:imageContains.(hcbdwsu:Pottery)
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 17: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bouquet)
+	 coverage_score: 0.9899699097291875
+	 precision: 0.6666666666666666
+	 recall: 0.18181818181818182
+	 f_measure: 0.28571428571428575
+solution 18: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Mat)
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 19: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Clayware)
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 20: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Stem)
+	 coverage_score: 0.9899699097291875
+	 precision: 0.6666666666666666
+	 recall: 0.18181818181818182
+	 f_measure: 0.28571428571428575
+solution 21: ∃ hcbdwsu:imageContains.(hcbdwsu:Fork)
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 22: ∃ hcbdwsu:imageContains.(hcbdwsu:Mat)
+	 coverage_score: 0.9899699097291875
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 23: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Corsage)
+	 coverage_score: 0.9899699097291875
+	 precision: 0.6666666666666666
+	 recall: 0.18181818181818182
+	 f_measure: 0.28571428571428575
+solution 24: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Posy)
+	 coverage_score: 0.9899699097291875
+	 precision: 0.6666666666666666
+	 recall: 0.18181818181818182
+	 f_measure: 0.28571428571428575
+solution 25: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Pottery) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 26: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 27: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:Stem))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 28: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 29: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Corsage))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 30: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sideboard) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 31: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 32: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 33: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 34: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 35: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Buffet) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 36: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 37: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Buffet) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 38: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 39: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 40: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 41: ∃ hcbdwsu:imageContains.((hcbdwsu:Pottery) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 42: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 43: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 44: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 45: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 46: ∃ hcbdwsu:imageContains.((hcbdwsu:Teacup) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 47: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 48: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 49: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 50: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 51: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 52: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 53: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 54: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 55: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Buffet) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 56: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Posy))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 57: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Pottery) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 58: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 59: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 60: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Posy))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 61: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fork) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 62: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 63: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:WN_Posy))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 64: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 65: ∃ hcbdwsu:imageContains.((hcbdwsu:Pottery) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 66: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 67: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 68: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 69: ∃ hcbdwsu:imageContains.((hcbdwsu:Teacup) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 70: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fork) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 71: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sideboard) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 72: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 73: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 74: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:WN_Corsage))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 75: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 76: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 77: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:Stem))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 78: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Pottery) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 79: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 80: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fork) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 81: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 82: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 83: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 84: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Pottery) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 85: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 86: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:WN_Corsage))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 87: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 88: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Nosegay) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 89: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 90: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Nosegay) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 91: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 92: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 93: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 94: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 95: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 96: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 97: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 98: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Table_napkin))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 99: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:WN_Corsage))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 100: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 101: ∃ hcbdwsu:imageContains.((hcbdwsu:Teacup) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 102: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 103: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Nosegay) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 104: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Pottery) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 105: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Corsage))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 106: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 107: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 108: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 109: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:Stem))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 110: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Buffet) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 111: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Clayware))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 112: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Stem))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 113: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 114: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 115: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fork) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 116: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 117: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 118: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 119: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:WN_Table_napkin))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 120: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Buffet) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 121: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 122: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 123: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 124: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 125: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 126: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 127: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 128: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 129: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Stem))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 130: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 131: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 132: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 133: ∃ hcbdwsu:imageContains.((hcbdwsu:Pottery) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 134: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 135: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Posy))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 136: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 137: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Corsage))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 138: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 139: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Clayware))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 140: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Pottery) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 141: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Pottery) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 142: ∃ hcbdwsu:imageContains.((hcbdwsu:Mat) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 143: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Posy))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 144: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 145: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 146: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 147: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Table_napkin))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 148: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fork) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 149: ∃ hcbdwsu:imageContains.((hcbdwsu:Teacup) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 150: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 151: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 152: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 153: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 154: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 155: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sideboard) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 156: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:WN_Table_napkin))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 157: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 158: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 159: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Buffet) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 160: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 161: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 162: ∃ hcbdwsu:imageContains.((hcbdwsu:Teacup) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 163: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 164: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 165: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 166: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 167: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 168: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Pottery) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 169: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fork) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 170: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 171: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 172: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:WN_Table_napkin))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 173: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 174: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 175: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 176: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 177: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 178: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Corsage))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 179: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 180: ∃ hcbdwsu:imageContains.((hcbdwsu:Sideboard) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 181: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 182: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 183: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 184: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Corsage))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 185: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 186: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 187: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 188: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Pottery) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 189: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 190: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 191: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 192: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Posy))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 193: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:Teacup))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 194: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:WN_Table_napkin))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 195: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 196: ∃ hcbdwsu:imageContains.((hcbdwsu:Teacup) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 197: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 198: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 199: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 200: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Stem))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 201: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 202: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:WN_Corsage))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 203: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 204: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 205: ∃ hcbdwsu:imageContains.((hcbdwsu:Fork) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 206: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 207: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Buffet) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 208: ∃ hcbdwsu:imageContains.((hcbdwsu:Stretcher) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 209: ∃ hcbdwsu:imageContains.((hcbdwsu:Bouquet) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 210: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 211: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Mat) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 212: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 213: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Bouquet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 214: ∃ hcbdwsu:imageContains.((hcbdwsu:Stem) ⊓ (hcbdwsu:WN_Table_napkin))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 215: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Clayware) ⊓ (hcbdwsu:WN_Table_napkin))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 216: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 217: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:WN_Fork))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 218: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 219: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 220: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Table_napkin) ⊓ (hcbdwsu:Stretcher))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 221: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 222: ∃ hcbdwsu:imageContains.((hcbdwsu:Teacup) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 223: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stem) ⊓ (hcbdwsu:WN_Buffet))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 224: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Posy) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 225: ∃ hcbdwsu:imageContains.((hcbdwsu:Pottery) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 226: ∃ hcbdwsu:imageContains.((hcbdwsu:Teacup) ⊓ (hcbdwsu:WN_Sideboard))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 227: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Corsage) ⊓ (hcbdwsu:Pottery))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 228: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sideboard) ⊓ (hcbdwsu:Mat))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 229: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Stretcher) ⊓ (hcbdwsu:WN_Nosegay))
+	 coverage_score: 0.9889669007021064
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 230: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Table_napkin)
+	 coverage_score: 0.9889669007021064
+	 precision: 0.5
+	 recall: 0.18181818181818182
+	 f_measure: 0.26666666666666666
+solution 231: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Candelabra)
+	 coverage_score: 0.9889669007021064
+	 precision: 0.5
+	 recall: 0.09090909090909091
+	 f_measure: 0.15384615384615385
+solution 232: ∃ hcbdwsu:imageContains.(hcbdwsu:Candelabra)
+	 coverage_score: 0.9889669007021064
+	 precision: 0.5
+	 recall: 0.09090909090909091
+	 f_measure: 0.15384615384615385
+solution 233: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Napkin)
+	 coverage_score: 0.9889669007021064
+	 precision: 0.5
+	 recall: 0.18181818181818182
+	 f_measure: 0.26666666666666666
+solution 234: ∃ hcbdwsu:imageContains.(hcbdwsu:Napkin)
+	 coverage_score: 0.9889669007021064
+	 precision: 0.5
+	 recall: 0.18181818181818182
+	 f_measure: 0.26666666666666666
+solution 235: ∃ hcbdwsu:imageContains.(hcbdwsu:Teacup)
+	 coverage_score: 0.9889669007021064
+	 precision: 0.5
+	 recall: 0.09090909090909091
+	 f_measure: 0.15384615384615385
+solution 236: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Serviette)
+	 coverage_score: 0.9889669007021064
+	 precision: 0.5
+	 recall: 0.18181818181818182
+	 f_measure: 0.26666666666666666
+solution 237: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Teacup)
+	 coverage_score: 0.9889669007021064
+	 precision: 0.5
+	 recall: 0.09090909090909091
+	 f_measure: 0.15384615384615385
+solution 238: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Candelabrum)
+	 coverage_score: 0.9889669007021064
+	 precision: 0.5
+	 recall: 0.09090909090909091
+	 f_measure: 0.15384615384615385
+solution 239: ∃ hcbdwsu:imageContains.(hcbdwsu:Arm_support)
+	 coverage_score: 0.9879638916750251
+	 precision: 0.4
+	 recall: 0.18181818181818182
+	 f_measure: 0.25000000000000006
+solution 240: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Spoon)
+	 coverage_score: 0.9879638916750251
+	 precision: 0.3333333333333333
+	 recall: 0.09090909090909091
+	 f_measure: 0.14285714285714288
+solution 241: ∃ hcbdwsu:imageContains.(hcbdwsu:Fruit)
+	 coverage_score: 0.9879638916750251
+	 precision: 0.3333333333333333
+	 recall: 0.09090909090909091
+	 f_measure: 0.14285714285714288
+solution 242: ∃ hcbdwsu:imageContains.(hcbdwsu:Spoon)
+	 coverage_score: 0.9879638916750251
+	 precision: 0.3333333333333333
+	 recall: 0.09090909090909091
+	 f_measure: 0.14285714285714288
+solution 243: ∃ hcbdwsu:imageContains.(hcbdwsu:Opening)
+	 coverage_score: 0.9879638916750251
+	 precision: 0.42857142857142855
+	 recall: 0.2727272727272727
+	 f_measure: 0.33333333333333326
+solution 244: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Opening)
+	 coverage_score: 0.9879638916750251
+	 precision: 0.42857142857142855
+	 recall: 0.2727272727272727
+	 f_measure: 0.33333333333333326
+solution 245: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Arm_support)
+	 coverage_score: 0.9879638916750251
+	 precision: 0.4
+	 recall: 0.18181818181818182
+	 f_measure: 0.25000000000000006
+solution 246: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Casing)
+	 coverage_score: 0.9849548645937813
+	 precision: 0.16666666666666666
+	 recall: 0.09090909090909091
+	 f_measure: 0.11764705882352942
+solution 247: ∃ hcbdwsu:imageContains.(hcbdwsu:Casing)
+	 coverage_score: 0.9849548645937813
+	 precision: 0.16666666666666666
+	 recall: 0.09090909090909091
+	 f_measure: 0.11764705882352942
+solution 248: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Spindle)
+	 coverage_score: 0.9849548645937813
+	 precision: 0.3
+	 recall: 0.2727272727272727
+	 f_measure: 0.28571428571428564
+solution 249: ∃ hcbdwsu:imageContains.(hcbdwsu:Arm_panel)
+	 coverage_score: 0.9849548645937813
+	 precision: 0.16666666666666666
+	 recall: 0.09090909090909091
+	 f_measure: 0.11764705882352942
+solution 250: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Arm_panel)
+	 coverage_score: 0.9849548645937813
+	 precision: 0.16666666666666666
+	 recall: 0.09090909090909091
+	 f_measure: 0.11764705882352942
+solution 251: ∃ hcbdwsu:imageContains.(hcbdwsu:Spindle)
+	 coverage_score: 0.9849548645937813
+	 precision: 0.3
+	 recall: 0.2727272727272727
+	 f_measure: 0.28571428571428564
+solution 252: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Counter)
+	 coverage_score: 0.9839518555667001
+	 precision: 0.2727272727272727
+	 recall: 0.2727272727272727
+	 f_measure: 0.2727272727272727
+solution 253: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Apron)
+	 coverage_score: 0.9839518555667001
+	 precision: 0.3076923076923077
+	 recall: 0.36363636363636365
+	 f_measure: 0.33333333333333337
+solution 254: ∃ hcbdwsu:imageContains.(hcbdwsu:Apron)
+	 coverage_score: 0.9839518555667001
+	 precision: 0.3076923076923077
+	 recall: 0.36363636363636365
+	 f_measure: 0.33333333333333337
+solution 255: ∃ hcbdwsu:imageContains.(hcbdwsu:Teapot)
+	 coverage_score: 0.9829488465396189
+	 precision: 0.125
+	 recall: 0.09090909090909091
+	 f_measure: 0.10526315789473685
+solution 256: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Teapot)
+	 coverage_score: 0.9829488465396189
+	 precision: 0.125
+	 recall: 0.09090909090909091
+	 f_measure: 0.10526315789473685
+solution 257: ∃ hcbdwsu:imageContains.(hcbdwsu:Chain)
+	 coverage_score: 0.9809428284854563
+	 precision: 0.1
+	 recall: 0.09090909090909091
+	 f_measure: 0.09523809523809525
+solution 258: ∃ hcbdwsu:imageContains.(hcbdwsu:Mug)
+	 coverage_score: 0.9809428284854563
+	 precision: 0.1
+	 recall: 0.09090909090909091
+	 f_measure: 0.09523809523809525
+solution 259: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Mug)
+	 coverage_score: 0.9809428284854563
+	 precision: 0.1
+	 recall: 0.09090909090909091
+	 f_measure: 0.09523809523809525
+solution 260: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Chain)
+	 coverage_score: 0.9809428284854563
+	 precision: 0.1
+	 recall: 0.09090909090909091
+	 f_measure: 0.09523809523809525
+solution 261: ∃ hcbdwsu:imageContains.(hcbdwsu:Pedestal)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.08333333333333333
+	 recall: 0.09090909090909091
+	 f_measure: 0.08695652173913043
+solution 262: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pendent)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.3076923076923077
+	 recall: 0.7272727272727273
+	 f_measure: 0.43243243243243246
+solution 263: ∃ hcbdwsu:imageContains.(hcbdwsu:Beam)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.08333333333333333
+	 recall: 0.09090909090909091
+	 f_measure: 0.08695652173913043
+solution 264: ∃ hcbdwsu:imageContains.(hcbdwsu:Floor_lamp)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.14285714285714285
+	 recall: 0.18181818181818182
+	 f_measure: 0.16
+solution 265: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Chandelier)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.3076923076923077
+	 recall: 0.7272727272727273
+	 f_measure: 0.43243243243243246
+solution 266: ∃ hcbdwsu:imageContains.(hcbdwsu:Fruits)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.14285714285714285
+	 recall: 0.18181818181818182
+	 f_measure: 0.16
+solution 267: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Beam)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.08333333333333333
+	 recall: 0.09090909090909091
+	 f_measure: 0.08695652173913043
+solution 268: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pendant)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.3076923076923077
+	 recall: 0.7272727272727273
+	 f_measure: 0.43243243243243246
+solution 269: ∃ hcbdwsu:imageContains.(hcbdwsu:Chandelier)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.3076923076923077
+	 recall: 0.7272727272727273
+	 f_measure: 0.43243243243243246
+solution 270: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Candle)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.08333333333333333
+	 recall: 0.09090909090909091
+	 f_measure: 0.08695652173913043
+solution 271: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Wax_light)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.08333333333333333
+	 recall: 0.09090909090909091
+	 f_measure: 0.08695652173913043
+solution 272: ∃ hcbdwsu:imageContains.(hcbdwsu:Candle)
+	 coverage_score: 0.9789368104312939
+	 precision: 0.08333333333333333
+	 recall: 0.09090909090909091
+	 f_measure: 0.08695652173913043
+solution 273: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Fireplace)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.07692307692307693
+	 recall: 0.09090909090909091
+	 f_measure: 0.08333333333333334
+solution 274: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Taper)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.07692307692307693
+	 recall: 0.09090909090909091
+	 f_measure: 0.08333333333333334
+solution 275: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Outside_arm)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.07692307692307693
+	 recall: 0.09090909090909091
+	 f_measure: 0.08333333333333334
+solution 276: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Open_fireplace)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.07692307692307693
+	 recall: 0.09090909090909091
+	 f_measure: 0.08333333333333334
+solution 277: ∃ hcbdwsu:imageContains.(hcbdwsu:Fireplace)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.07692307692307693
+	 recall: 0.09090909090909091
+	 f_measure: 0.08333333333333334
+solution 278: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Stile)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.23809523809523808
+	 recall: 0.45454545454545453
+	 f_measure: 0.31249999999999994
+solution 279: ∃ hcbdwsu:imageContains.(hcbdwsu:Outside_arm)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.07692307692307693
+	 recall: 0.09090909090909091
+	 f_measure: 0.08333333333333334
+solution 280: ∃ hcbdwsu:imageContains.(hcbdwsu:Bulb)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.13333333333333333
+	 recall: 0.18181818181818182
+	 f_measure: 0.15384615384615383
+solution 281: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Hearth)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.07692307692307693
+	 recall: 0.09090909090909091
+	 f_measure: 0.08333333333333334
+solution 282: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bulb)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.13333333333333333
+	 recall: 0.18181818181818182
+	 f_measure: 0.15384615384615383
+solution 283: ∃ hcbdwsu:imageContains.(hcbdwsu:Stile)
+	 coverage_score: 0.9779338014042126
+	 precision: 0.23809523809523808
+	 recall: 0.45454545454545453
+	 f_measure: 0.31249999999999994
+solution 284: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Inside_arm)
+	 coverage_score: 0.9769307923771314
+	 precision: 0.07142857142857142
+	 recall: 0.09090909090909091
+	 f_measure: 0.08
+solution 285: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Fruit)
+	 coverage_score: 0.9769307923771314
+	 precision: 0.125
+	 recall: 0.18181818181818182
+	 f_measure: 0.14814814814814814
+solution 286: ∃ hcbdwsu:imageContains.(hcbdwsu:Inside_arm)
+	 coverage_score: 0.9769307923771314
+	 precision: 0.07142857142857142
+	 recall: 0.09090909090909091
+	 f_measure: 0.08
+solution 287: ∃ hcbdwsu:imageContains.(hcbdwsu:Step)
+	 coverage_score: 0.9759277833500501
+	 precision: 0.06666666666666667
+	 recall: 0.09090909090909091
+	 f_measure: 0.07692307692307691
+solution 288: ∃ hcbdwsu:imageContains.(hcbdwsu:Seat_base)
+	 coverage_score: 0.9759277833500501
+	 precision: 0.06666666666666667
+	 recall: 0.09090909090909091
+	 f_measure: 0.07692307692307691
+solution 289: ∃ hcbdwsu:imageContains.(hcbdwsu:Back_pillow)
+	 coverage_score: 0.9759277833500501
+	 precision: 0.06666666666666667
+	 recall: 0.09090909090909091
+	 f_measure: 0.07692307692307691
+solution 290: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Back_pillow)
+	 coverage_score: 0.9759277833500501
+	 precision: 0.06666666666666667
+	 recall: 0.09090909090909091
+	 f_measure: 0.07692307692307691
+solution 291: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Stair)
+	 coverage_score: 0.9759277833500501
+	 precision: 0.06666666666666667
+	 recall: 0.09090909090909091
+	 f_measure: 0.07692307692307691
+solution 292: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Step)
+	 coverage_score: 0.9759277833500501
+	 precision: 0.06666666666666667
+	 recall: 0.09090909090909091
+	 f_measure: 0.07692307692307691
+solution 293: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Seat_base)
+	 coverage_score: 0.9759277833500501
+	 precision: 0.06666666666666667
+	 recall: 0.09090909090909091
+	 f_measure: 0.07692307692307691
+solution 294: ∃ hcbdwsu:imageContains.(hcbdwsu:Rail)
+	 coverage_score: 0.9749247743229689
+	 precision: 0.20833333333333334
+	 recall: 0.45454545454545453
+	 f_measure: 0.28571428571428575
+solution 295: ∃ hcbdwsu:imageContains.(hcbdwsu:Seat_cushion)
+	 coverage_score: 0.9749247743229689
+	 precision: 0.0625
+	 recall: 0.09090909090909091
+	 f_measure: 0.07407407407407407
+solution 296: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Seat_cushion)
+	 coverage_score: 0.9749247743229689
+	 precision: 0.0625
+	 recall: 0.09090909090909091
+	 f_measure: 0.07407407407407407
+solution 297: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Coffee_table)
+	 coverage_score: 0.9729187562688064
+	 precision: 0.05555555555555555
+	 recall: 0.09090909090909091
+	 f_measure: 0.06896551724137931
+solution 298: ∃ hcbdwsu:imageContains.(hcbdwsu:Candle_holder)
+	 coverage_score: 0.9729187562688064
+	 precision: 0.1
+	 recall: 0.18181818181818182
+	 f_measure: 0.12903225806451613
+solution 299: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Candle_holder)
+	 coverage_score: 0.9729187562688064
+	 precision: 0.1
+	 recall: 0.18181818181818182
+	 f_measure: 0.12903225806451613
+solution 300: ∃ hcbdwsu:imageContains.(hcbdwsu:Coffee_table)
+	 coverage_score: 0.9729187562688064
+	 precision: 0.05555555555555555
+	 recall: 0.09090909090909091
+	 f_measure: 0.06896551724137931
+solution 301: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Candlestick)
+	 coverage_score: 0.9729187562688064
+	 precision: 0.1
+	 recall: 0.18181818181818182
+	 f_measure: 0.12903225806451613
+solution 302: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Cocktail_table)
+	 coverage_score: 0.9729187562688064
+	 precision: 0.05555555555555555
+	 recall: 0.09090909090909091
+	 f_measure: 0.06896551724137931
+solution 303: ∃ hcbdwsu:imageContains.(hcbdwsu:Carpet)
+	 coverage_score: 0.9719157472417251
+	 precision: 0.16
+	 recall: 0.36363636363636365
+	 f_measure: 0.2222222222222222
+solution 304: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Canopy)
+	 coverage_score: 0.9719157472417251
+	 precision: 0.05263157894736842
+	 recall: 0.09090909090909091
+	 f_measure: 0.06666666666666667
+solution 305: ∃ hcbdwsu:imageContains.(hcbdwsu:Canopy)
+	 coverage_score: 0.9719157472417251
+	 precision: 0.05263157894736842
+	 recall: 0.09090909090909091
+	 f_measure: 0.06666666666666667
+solution 306: ∃ hcbdwsu:imageContains.(hcbdwsu:Plate)
+	 coverage_score: 0.9719157472417251
+	 precision: 0.09523809523809523
+	 recall: 0.18181818181818182
+	 f_measure: 0.125
+solution 307: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Backplate)
+	 coverage_score: 0.970912738214644
+	 precision: 0.05
+	 recall: 0.09090909090909091
+	 f_measure: 0.06451612903225806
+solution 308: ∃ hcbdwsu:imageContains.(hcbdwsu:Backplate)
+	 coverage_score: 0.970912738214644
+	 precision: 0.05
+	 recall: 0.09090909090909091
+	 f_measure: 0.06451612903225806
+solution 309: ∃ hcbdwsu:imageContains.(hcbdwsu:Armchair)
+	 coverage_score: 0.9699097291875627
+	 precision: 0.14814814814814814
+	 recall: 0.36363636363636365
+	 f_measure: 0.21052631578947367
+solution 310: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pedestal)
+	 coverage_score: 0.9699097291875627
+	 precision: 0.047619047619047616
+	 recall: 0.09090909090909091
+	 f_measure: 0.0625
+solution 311: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Armchair)
+	 coverage_score: 0.9699097291875627
+	 precision: 0.14814814814814814
+	 recall: 0.36363636363636365
+	 f_measure: 0.21052631578947367
+solution 312: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Goggle_box)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 313: ∃ hcbdwsu:imageContains.(hcbdwsu:Seat)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.23684210526315788
+	 recall: 0.8181818181818182
+	 f_measure: 0.3673469387755102
+solution 314: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Television_set)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 315: ∃ hcbdwsu:imageContains.(hcbdwsu:Switch)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 316: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Telly)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 317: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Tv)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 318: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Seat)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.23684210526315788
+	 recall: 0.8181818181818182
+	 f_measure: 0.3673469387755102
+solution 319: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Idiot_box)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 320: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Boob_tube)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 321: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Tv_set)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 322: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Television_receiver)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 323: ∃ hcbdwsu:imageContains.(hcbdwsu:Television)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 324: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Television)
+	 coverage_score: 0.9689067201604814
+	 precision: 0.045454545454545456
+	 recall: 0.09090909090909091
+	 f_measure: 0.060606060606060615
+solution 325: ∃ hcbdwsu:imageContains.(hcbdwsu:Side_table)
+	 coverage_score: 0.9679037111334002
+	 precision: 0.043478260869565216
+	 recall: 0.09090909090909091
+	 f_measure: 0.0588235294117647
+solution 326: ∃ hcbdwsu:imageContains.(hcbdwsu:Shutter)
+	 coverage_score: 0.966900702106319
+	 precision: 0.041666666666666664
+	 recall: 0.09090909090909091
+	 f_measure: 0.05714285714285715
+solution 327: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Shutter)
+	 coverage_score: 0.9648946840521565
+	 precision: 0.038461538461538464
+	 recall: 0.09090909090909091
+	 f_measure: 0.05405405405405406
+solution 328: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Drinking_glass)
+	 coverage_score: 0.9638916750250752
+	 precision: 0.06896551724137931
+	 recall: 0.18181818181818182
+	 f_measure: 0.1
+solution 329: ∃ hcbdwsu:imageContains.(hcbdwsu:Glass)
+	 coverage_score: 0.9638916750250752
+	 precision: 0.06896551724137931
+	 recall: 0.18181818181818182
+	 f_measure: 0.1
+solution 330: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Plate)
+	 coverage_score: 0.9638916750250752
+	 precision: 0.06896551724137931
+	 recall: 0.18181818181818182
+	 f_measure: 0.1
+solution 331: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Glass)
+	 coverage_score: 0.9638916750250752
+	 precision: 0.06896551724137931
+	 recall: 0.18181818181818182
+	 f_measure: 0.1
+solution 332: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Lounge)
+	 coverage_score: 0.9618856569709128
+	 precision: 0.034482758620689655
+	 recall: 0.09090909090909091
+	 f_measure: 0.05
+solution 333: ∃ hcbdwsu:imageContains.(hcbdwsu:Sofa)
+	 coverage_score: 0.9618856569709128
+	 precision: 0.034482758620689655
+	 recall: 0.09090909090909091
+	 f_measure: 0.05
+solution 334: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Couch)
+	 coverage_score: 0.9618856569709128
+	 precision: 0.034482758620689655
+	 recall: 0.09090909090909091
+	 f_measure: 0.05
+solution 335: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sofa)
+	 coverage_score: 0.9618856569709128
+	 precision: 0.034482758620689655
+	 recall: 0.09090909090909091
+	 f_measure: 0.05
+solution 336: ∃ hcbdwsu:imageContains.(hcbdwsu:Arm)
+	 coverage_score: 0.9598796389167502
+	 precision: 0.16279069767441862
+	 recall: 0.6363636363636364
+	 f_measure: 0.2592592592592593
+solution 337: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Handbasket)
+	 coverage_score: 0.9598796389167502
+	 precision: 0.06060606060606061
+	 recall: 0.18181818181818182
+	 f_measure: 0.09090909090909091
+solution 338: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Arm)
+	 coverage_score: 0.9598796389167502
+	 precision: 0.16279069767441862
+	 recall: 0.6363636363636364
+	 f_measure: 0.2592592592592593
+solution 339: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Basket)
+	 coverage_score: 0.958876629889669
+	 precision: 0.058823529411764705
+	 recall: 0.18181818181818182
+	 f_measure: 0.08888888888888888
+solution 340: ∃ hcbdwsu:imageContains.(hcbdwsu:Basket)
+	 coverage_score: 0.958876629889669
+	 precision: 0.058823529411764705
+	 recall: 0.18181818181818182
+	 f_measure: 0.08888888888888888
+solution 341: ∃ hcbdwsu:imageContains.(hcbdwsu:Tray)
+	 coverage_score: 0.9578736208625878
+	 precision: 0.05714285714285714
+	 recall: 0.18181818181818182
+	 f_measure: 0.08695652173913043
+solution 342: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Tray)
+	 coverage_score: 0.9578736208625878
+	 precision: 0.05714285714285714
+	 recall: 0.18181818181818182
+	 f_measure: 0.08695652173913043
+solution 343: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Switch)
+	 coverage_score: 0.9558676028084253
+	 precision: 0.02857142857142857
+	 recall: 0.09090909090909091
+	 f_measure: 0.043478260869565216
+solution 344: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Electric_switch)
+	 coverage_score: 0.9558676028084253
+	 precision: 0.02857142857142857
+	 recall: 0.09090909090909091
+	 f_measure: 0.043478260869565216
+solution 345: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Electrical_switch)
+	 coverage_score: 0.9558676028084253
+	 precision: 0.02857142857142857
+	 recall: 0.09090909090909091
+	 f_measure: 0.043478260869565216
+solution 346: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Frame)
+	 coverage_score: 0.9528585757271816
+	 precision: 0.02631578947368421
+	 recall: 0.09090909090909091
+	 f_measure: 0.04081632653061224
+solution 347: ∃ hcbdwsu:imageContains.(hcbdwsu:Frame)
+	 coverage_score: 0.9528585757271816
+	 precision: 0.02631578947368421
+	 recall: 0.09090909090909091
+	 f_measure: 0.04081632653061224
+solution 348: ∃ hcbdwsu:imageContains.(hcbdwsu:Top)
+	 coverage_score: 0.9498495486459378
+	 precision: 0.14545454545454545
+	 recall: 0.7272727272727273
+	 f_measure: 0.2424242424242424
+solution 349: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Top)
+	 coverage_score: 0.9498495486459378
+	 precision: 0.14545454545454545
+	 recall: 0.7272727272727273
+	 f_measure: 0.2424242424242424
+solution 350: ∃ hcbdwsu:imageContains.(hcbdwsu:Pendant_lamp)
+	 coverage_score: 0.9458375125376128
+	 precision: 0.022222222222222223
+	 recall: 0.09090909090909091
+	 f_measure: 0.03571428571428571
+solution 351: ∃ hcbdwsu:imageContains.(hcbdwsu:Shelf)
+	 coverage_score: 0.9438314944834504
+	 precision: 0.02127659574468085
+	 recall: 0.09090909090909091
+	 f_measure: 0.034482758620689655
+solution 352: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Rail)
+	 coverage_score: 0.9418254764292878
+	 precision: 0.08771929824561403
+	 recall: 0.45454545454545453
+	 f_measure: 0.14705882352941174
+solution 353: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Rug)
+	 coverage_score: 0.9408224674022067
+	 precision: 0.07142857142857142
+	 recall: 0.36363636363636365
+	 f_measure: 0.11940298507462686
+solution 354: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pane)
+	 coverage_score: 0.9408224674022067
+	 precision: 0.02
+	 recall: 0.09090909090909091
+	 f_measure: 0.032786885245901634
+solution 355: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Carpeting)
+	 coverage_score: 0.9408224674022067
+	 precision: 0.07142857142857142
+	 recall: 0.36363636363636365
+	 f_measure: 0.11940298507462686
+solution 356: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Carpet)
+	 coverage_score: 0.9408224674022067
+	 precision: 0.07142857142857142
+	 recall: 0.36363636363636365
+	 f_measure: 0.11940298507462686
+solution 357: ∃ hcbdwsu:imageContains.(hcbdwsu:Pane)
+	 coverage_score: 0.9408224674022067
+	 precision: 0.02
+	 recall: 0.09090909090909091
+	 f_measure: 0.032786885245901634
+solution 358: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Shelf)
+	 coverage_score: 0.9338014042126379
+	 precision: 0.017543859649122806
+	 recall: 0.09090909090909091
+	 f_measure: 0.029411764705882353
+solution 359: ∃ hcbdwsu:imageContains.(hcbdwsu:Leg)
+	 coverage_score: 0.9338014042126379
+	 precision: 0.13333333333333333
+	 recall: 0.9090909090909091
+	 f_measure: 0.2325581395348837
+solution 360: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Leg)
+	 coverage_score: 0.9338014042126379
+	 precision: 0.13333333333333333
+	 recall: 0.9090909090909091
+	 f_measure: 0.2325581395348837
+solution 361: ∃ hcbdwsu:imageContains.(hcbdwsu:Table)
+	 coverage_score: 0.9338014042126379
+	 precision: 0.14285714285714285
+	 recall: 1.0
+	 f_measure: 0.25
+solution 362: ∃ hcbdwsu:imageContains.(hcbdwsu:Flowers)
+	 coverage_score: 0.9338014042126379
+	 precision: 0.04918032786885246
+	 recall: 0.2727272727272727
+	 f_measure: 0.08333333333333333
+solution 363: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Cushion)
+	 coverage_score: 0.9317953861584755
+	 precision: 0.03278688524590164
+	 recall: 0.18181818181818182
+	 f_measure: 0.05555555555555556
+solution 364: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Flower)
+	 coverage_score: 0.9317953861584755
+	 precision: 0.047619047619047616
+	 recall: 0.2727272727272727
+	 f_measure: 0.08108108108108109
+solution 365: ∃ hcbdwsu:imageContains.(hcbdwsu:Cushion)
+	 coverage_score: 0.9317953861584755
+	 precision: 0.03278688524590164
+	 recall: 0.18181818181818182
+	 f_measure: 0.05555555555555556
+solution 366: ∃ hcbdwsu:imageContains.(hcbdwsu:Base)
+	 coverage_score: 0.9297893681043129
+	 precision: 0.046153846153846156
+	 recall: 0.2727272727272727
+	 f_measure: 0.07894736842105263
+solution 367: ∃ hcbdwsu:imageContains.(hcbdwsu:Bowl)
+	 coverage_score: 0.9277833500501504
+	 precision: 0.04477611940298507
+	 recall: 0.2727272727272727
+	 f_measure: 0.07692307692307691
+solution 368: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Vase)
+	 coverage_score: 0.9277833500501504
+	 precision: 0.015873015873015872
+	 recall: 0.09090909090909091
+	 f_measure: 0.027027027027027025
+solution 369: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bowl)
+	 coverage_score: 0.9277833500501504
+	 precision: 0.04477611940298507
+	 recall: 0.2727272727272727
+	 f_measure: 0.07692307692307691
+solution 370: ∃ hcbdwsu:imageContains.(hcbdwsu:Vase)
+	 coverage_score: 0.9277833500501504
+	 precision: 0.015873015873015872
+	 recall: 0.09090909090909091
+	 f_measure: 0.027027027027027025
+solution 371: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sconce)
+	 coverage_score: 0.925777331995988
+	 precision: 0.015384615384615385
+	 recall: 0.09090909090909091
+	 f_measure: 0.026315789473684213
+solution 372: ∃ hcbdwsu:imageContains.(hcbdwsu:Sconce)
+	 coverage_score: 0.925777331995988
+	 precision: 0.015384615384615385
+	 recall: 0.09090909090909091
+	 f_measure: 0.026315789473684213
+solution 373: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Base)
+	 coverage_score: 0.9207622868605817
+	 precision: 0.04054054054054054
+	 recall: 0.2727272727272727
+	 f_measure: 0.07058823529411765
+solution 374: ∃ hcbdwsu:imageContains.(hcbdwsu:Ceiling_recessed_light)
+	 coverage_score: 0.9117352056168505
+	 precision: 0.024691358024691357
+	 recall: 0.18181818181818182
+	 f_measure: 0.04347826086956521
+solution 375: ∃ hcbdwsu:imageContains.(hcbdwsu:Back)
+	 coverage_score: 0.9087261785356068
+	 precision: 0.09183673469387756
+	 recall: 0.8181818181818182
+	 f_measure: 0.1651376146788991
+solution 376: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Back)
+	 coverage_score: 0.9087261785356068
+	 precision: 0.09183673469387756
+	 recall: 0.8181818181818182
+	 f_measure: 0.1651376146788991
+solution 377: ∃ hcbdwsu:imageContains.(hcbdwsu:Table_lamp)
+	 coverage_score: 0.9017051153460381
+	 precision: 0.011235955056179775
+	 recall: 0.09090909090909091
+	 f_measure: 0.02
+solution 378: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Electric_outlet)
+	 coverage_score: 0.8956870611835507
+	 precision: 0.030303030303030304
+	 recall: 0.2727272727272727
+	 f_measure: 0.05454545454545456
+solution 379: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Electric_receptacle)
+	 coverage_score: 0.8956870611835507
+	 precision: 0.030303030303030304
+	 recall: 0.2727272727272727
+	 f_measure: 0.05454545454545456
+solution 380: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Electrical_outlet)
+	 coverage_score: 0.8956870611835507
+	 precision: 0.030303030303030304
+	 recall: 0.2727272727272727
+	 f_measure: 0.05454545454545456
+solution 381: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Wall_plug)
+	 coverage_score: 0.8956870611835507
+	 precision: 0.030303030303030304
+	 recall: 0.2727272727272727
+	 f_measure: 0.05454545454545456
+solution 382: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Wall_socket)
+	 coverage_score: 0.8956870611835507
+	 precision: 0.030303030303030304
+	 recall: 0.2727272727272727
+	 f_measure: 0.05454545454545456
+solution 383: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Outlet)
+	 coverage_score: 0.8946840521564694
+	 precision: 0.03
+	 recall: 0.2727272727272727
+	 f_measure: 0.05405405405405404
+solution 384: ∃ hcbdwsu:imageContains.(hcbdwsu:Outlet)
+	 coverage_score: 0.8946840521564694
+	 precision: 0.03
+	 recall: 0.2727272727272727
+	 f_measure: 0.05405405405405404
+solution 385: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Column)
+	 coverage_score: 0.8916750250752257
+	 precision: 0.010101010101010102
+	 recall: 0.09090909090909091
+	 f_measure: 0.018181818181818184
+solution 386: ∃ hcbdwsu:imageContains.(hcbdwsu:Column)
+	 coverage_score: 0.8916750250752257
+	 precision: 0.010101010101010102
+	 recall: 0.09090909090909091
+	 f_measure: 0.018181818181818184
+solution 387: ∃ hcbdwsu:imageContains.(hcbdwsu:Chair)
+	 coverage_score: 0.8836509528585758
+	 precision: 0.08661417322834646
+	 recall: 1.0
+	 f_measure: 0.15942028985507245
+solution 388: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Light_source)
+	 coverage_score: 0.8836509528585758
+	 precision: 0.01834862385321101
+	 recall: 0.18181818181818182
+	 f_measure: 0.03333333333333333
+solution 389: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Light)
+	 coverage_score: 0.8826479438314945
+	 precision: 0.01818181818181818
+	 recall: 0.18181818181818182
+	 f_measure: 0.033057851239669415
+solution 390: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Chair)
+	 coverage_score: 0.8816449348044132
+	 precision: 0.08527131782945736
+	 recall: 1.0
+	 f_measure: 0.15714285714285714
+solution 391: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Shade)
+	 coverage_score: 0.8746238716148446
+	 precision: 0.025
+	 recall: 0.2727272727272727
+	 f_measure: 0.04580152671755725
+solution 392: ∃ hcbdwsu:imageContains.(hcbdwsu:Shade)
+	 coverage_score: 0.8746238716148446
+	 precision: 0.025
+	 recall: 0.2727272727272727
+	 f_measure: 0.04580152671755725
+solution 393: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Painting)
+	 coverage_score: 0.8736208625877633
+	 precision: 0.061068702290076333
+	 recall: 0.7272727272727273
+	 f_measure: 0.11267605633802816
+solution 394: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Picture)
+	 coverage_score: 0.8736208625877633
+	 precision: 0.061068702290076333
+	 recall: 0.7272727272727273
+	 f_measure: 0.11267605633802816
+solution 395: ∃ hcbdwsu:imageContains.(hcbdwsu:Picture)
+	 coverage_score: 0.8736208625877633
+	 precision: 0.061068702290076333
+	 recall: 0.7272727272727273
+	 f_measure: 0.11267605633802816
+solution 396: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Lamp)
+	 coverage_score: 0.8485456369107321
+	 precision: 0.013888888888888888
+	 recall: 0.18181818181818182
+	 f_measure: 0.025806451612903222
+solution 397: ∃ hcbdwsu:imageContains.(hcbdwsu:Curtain)
+	 coverage_score: 0.8425275827482447
+	 precision: 0.03205128205128205
+	 recall: 0.45454545454545453
+	 f_measure: 0.05988023952095808
+solution 398: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pall)
+	 coverage_score: 0.8425275827482447
+	 precision: 0.03205128205128205
+	 recall: 0.45454545454545453
+	 f_measure: 0.05988023952095808
+solution 399: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Curtain)
+	 coverage_score: 0.8425275827482447
+	 precision: 0.03205128205128205
+	 recall: 0.45454545454545453
+	 f_measure: 0.05988023952095808
+solution 400: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Drapery)
+	 coverage_score: 0.8425275827482447
+	 precision: 0.03205128205128205
+	 recall: 0.45454545454545453
+	 f_measure: 0.05988023952095808
+solution 401: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Mantle)
+	 coverage_score: 0.8425275827482447
+	 precision: 0.03205128205128205
+	 recall: 0.45454545454545453
+	 f_measure: 0.05988023952095808
+solution 402: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Drape)
+	 coverage_score: 0.8425275827482447
+	 precision: 0.03205128205128205
+	 recall: 0.45454545454545453
+	 f_measure: 0.05988023952095808
+solution 403: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Table)
+	 coverage_score: 0.839518555667001
+	 precision: 0.06432748538011696
+	 recall: 1.0
+	 f_measure: 0.12087912087912087
+solution 404: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Windowpane)
+	 coverage_score: 0.7632898696088265
+	 precision: 0.04081632653061224
+	 recall: 0.9090909090909091
+	 f_measure: 0.07812499999999999
+solution 405: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ceiling)
+	 coverage_score: 0.728184553660983
+	 precision: 0.028985507246376812
+	 recall: 0.7272727272727273
+	 f_measure: 0.05574912891986063
+solution 406: ∃ hcbdwsu:imageContains.(hcbdwsu:Ceiling)
+	 coverage_score: 0.728184553660983
+	 precision: 0.028985507246376812
+	 recall: 0.7272727272727273
+	 f_measure: 0.05574912891986063
+solution 407: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Mirror)
+	 coverage_score: 0.6990972918756269
+	 precision: 0.010169491525423728
+	 recall: 0.2727272727272727
+	 f_measure: 0.019607843137254898
+solution 408: ∃ hcbdwsu:imageContains.(hcbdwsu:Mirror)
+	 coverage_score: 0.6990972918756269
+	 precision: 0.010169491525423728
+	 recall: 0.2727272727272727
+	 f_measure: 0.019607843137254898
+solution 409: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Floor)
+	 coverage_score: 0.629889669007021
+	 precision: 0.02894736842105263
+	 recall: 1.0
+	 f_measure: 0.05626598465473146
+solution 410: ∃ hcbdwsu:imageContains.(hcbdwsu:Floor)
+	 coverage_score: 0.629889669007021
+	 precision: 0.02894736842105263
+	 recall: 1.0
+	 f_measure: 0.05626598465473146
+solution 411: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Flooring)
+	 coverage_score: 0.629889669007021
+	 precision: 0.02894736842105263
+	 recall: 1.0
+	 f_measure: 0.05626598465473146
+solution 412: ∃ hcbdwsu:imageContains.(hcbdwsu:Wall)
+	 coverage_score: 0.4704112337011033
+	 precision: 0.02040816326530612
+	 recall: 1.0
+	 f_measure: 0.039999999999999994
+solution 413: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Wall)
+	 coverage_score: 0.4704112337011033
+	 precision: 0.02040816326530612
+	 recall: 1.0
+	 f_measure: 0.039999999999999994
+
+Total solutions found: 413
+
+F1 average: 0.06674780199851851
+Precision average: 0.09975240919571353
+Recall average: 0.13229143737618315
+Coverage average: 0.9651618293136103
+
+F1 max: 0.43243243243243246
+Precision max: 1.0
+Recall max: 1.0
+Coverage max: 0.9909729187562688
+
+Total solutions found: 413
+Result saved at: C:\Users\adalal\OneDrive - Kansas State University\PhD\Research\ecii\ecii\ecii/set6-initial_score_hybrid_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 06.15.2023  23.38.16 PM
+Program duration: 838.105 sec

@@ -1,0 +1,2516 @@
+Program started.............
+Program starts at: 06.14.2023  21.45.24 PM
+Working with confFile: set6-initial_score_hybrid.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 1
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 20
+K7/removeCommonTypes: true
+removeCommonTypesFromOneSideOnly: true
+limitPosTypes: false
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: false
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: COVERAGE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00017197
+	ADE_train_00000275
+	ADE_train_00017218
+	ADE_train_00000338
+	ADE_train_00000303
+negIndivs from conf:
+	ADE_train_00006010
+	ADE_train_00000709
+	ADE_train_00000708
+	ADE_train_00000707
+	ADE_train_00000705
+	ADE_train_00000703
+	ADE_train_00000702
+	ADE_train_00017151
+	ADE_train_00017031
+	ADE_train_00017153
+	ADE_train_00017154
+	ADE_train_00017155
+	ADE_train_00017036
+	ADE_train_00006001
+	ADE_train_00006000
+	ADE_train_00006003
+	ADE_train_00006002
+	ADE_train_00006005
+	ADE_train_00006004
+	ADE_train_00006007
+	ADE_train_00006006
+	ADE_train_00006009
+	ADE_train_00006008
+	ADE_train_00017160
+	ADE_train_00017042
+	ADE_train_00017165
+	ADE_train_00017045
+	ADE_train_00017048
+	ADE_train_00017049
+	ADE_train_00016399
+	ADE_train_00016398
+	ADE_train_00016397
+	ADE_train_00016396
+	ADE_train_00016395
+	ADE_train_00016393
+	ADE_train_00016392
+	ADE_train_00017171
+	ADE_train_00016391
+	ADE_train_00016390
+	ADE_train_00017176
+	ADE_train_00016387
+	ADE_train_00016386
+	ADE_train_00016385
+	ADE_train_00016384
+	ADE_train_00016382
+	ADE_train_00016381
+	ADE_train_00016380
+	ADE_train_00017066
+	ADE_train_00017067
+	ADE_train_00008990
+	ADE_train_00008991
+	ADE_train_00008994
+	ADE_train_00008995
+	ADE_train_00016379
+	ADE_train_00008992
+	ADE_train_00016378
+	ADE_train_00008993
+	ADE_train_00016376
+	ADE_train_00008998
+	ADE_train_00016375
+	ADE_train_00008999
+	ADE_train_00016374
+	ADE_train_00008996
+	ADE_train_00016373
+	ADE_train_00008997
+	ADE_train_00017190
+	ADE_train_00016372
+	ADE_train_00016370
+	ADE_train_00017193
+	ADE_train_00017196
+	ADE_train_00016369
+	ADE_train_00016368
+	ADE_train_00016367
+	ADE_train_00016365
+	ADE_train_00016364
+	ADE_train_00008988
+	ADE_train_00016363
+	ADE_train_00016362
+	ADE_train_00017080
+	ADE_train_00016361
+	ADE_train_00016360
+	ADE_train_00008989
+	ADE_train_00017083
+	ADE_train_00016359
+	ADE_train_00016358
+	ADE_train_00016357
+	ADE_train_00016356
+	ADE_train_00017090
+	ADE_train_00017096
+	ADE_train_00006890
+	ADE_train_00006892
+	ADE_train_00004593
+	ADE_train_00006891
+	ADE_train_00006894
+	ADE_train_00004595
+	ADE_train_00006893
+	ADE_train_00004596
+	ADE_train_00006896
+	ADE_train_00006895
+	ADE_train_00006898
+	ADE_train_00004599
+	ADE_train_00006897
+	ADE_train_00006899
+	ADE_train_00006881
+	ADE_train_00006880
+	ADE_train_00006883
+	ADE_train_00006882
+	ADE_train_00006884
+	ADE_train_00006887
+	ADE_train_00006886
+	ADE_train_00006889
+	ADE_train_00006888
+	ADE_train_00006870
+	ADE_train_00006872
+	ADE_train_00006871
+	ADE_train_00006874
+	ADE_train_00006873
+	ADE_train_00006876
+	ADE_train_00006875
+	ADE_train_00006878
+	ADE_train_00006877
+	ADE_train_00006879
+	ADE_train_00000097
+	ADE_train_00000093
+	ADE_train_00000092
+	ADE_train_00000090
+	ADE_train_00006861
+	ADE_train_00006860
+	ADE_train_00006863
+	ADE_train_00006862
+	ADE_train_00006865
+	ADE_train_00006867
+	ADE_train_00006866
+	ADE_train_00006869
+	ADE_train_00006868
+	ADE_train_00006859
+	ADE_train_00000086
+	ADE_train_00000084
+	ADE_train_00000082
+	ADE_train_00000083
+	ADE_train_00000080
+	ADE_train_00016418
+	ADE_train_00016417
+	ADE_train_00016415
+	ADE_train_00016899
+	ADE_train_00016414
+	ADE_train_00016898
+	ADE_train_00016413
+	ADE_train_00016412
+	ADE_train_00016896
+	ADE_train_00006850
+	ADE_train_00016411
+	ADE_train_00006852
+	ADE_train_00016892
+	ADE_train_00006851
+	ADE_train_00006854
+	ADE_train_00006853
+	ADE_train_00006856
+	ADE_train_00006855
+	ADE_train_00006858
+	ADE_train_00006857
+	ADE_train_00006849
+	ADE_train_00006848
+	ADE_train_00000079
+	ADE_train_00000078
+	ADE_train_00000199
+	ADE_train_00000075
+	ADE_train_00000076
+	ADE_train_00000074
+	ADE_train_00000071
+	ADE_train_00000072
+	ADE_train_00000193
+	ADE_train_00016409
+	ADE_train_00000070
+	ADE_train_00016408
+	ADE_train_00016407
+	ADE_train_00016405
+	ADE_train_00016403
+	ADE_train_00016402
+	ADE_train_00005990
+	ADE_train_00016401
+	ADE_train_00016885
+	ADE_train_00005992
+	ADE_train_00005991
+	ADE_train_00016883
+	ADE_train_00005994
+	ADE_train_00005993
+	ADE_train_00016881
+	ADE_train_00005996
+	ADE_train_00016880
+	ADE_train_00005995
+	ADE_train_00005998
+	ADE_train_00006845
+	ADE_train_00005997
+	ADE_train_00006847
+	ADE_train_00005999
+	ADE_train_00006846
+	ADE_train_00000067
+	ADE_train_00000064
+	ADE_train_00000065
+	ADE_train_00000063
+	ADE_train_00000060
+	ADE_train_00016996
+	ADE_train_00016874
+	ADE_train_00016994
+	ADE_train_00005981
+	ADE_train_00005980
+	ADE_train_00005983
+	ADE_train_00005982
+	ADE_train_00005985
+	ADE_train_00005984
+	ADE_train_00005987
+	ADE_train_00005986
+	ADE_train_00005989
+	ADE_train_00005988
+	ADE_train_00000059
+	ADE_train_00005979
+	ADE_train_00000057
+	ADE_train_00000299
+	ADE_train_00000058
+	ADE_train_00000297
+	ADE_train_00000053
+	ADE_train_00000295
+	ADE_train_00000051
+	ADE_train_00000052
+	ADE_train_00000050
+	ADE_train_00000292
+	ADE_train_00000290
+	ADE_train_00016986
+	ADE_train_00016864
+	ADE_train_00016860
+	ADE_train_00004637
+	ADE_train_00000048
+	ADE_train_00000047
+	ADE_train_00000289
+	ADE_train_00000284
+	ADE_train_00000043
+	ADE_train_00000285
+	ADE_train_00000040
+	ADE_train_00000280
+	ADE_train_00016858
+	ADE_train_00016979
+	ADE_train_00010199
+	ADE_train_00010196
+	ADE_train_00010195
+	ADE_train_00010198
+	ADE_train_00010197
+	ADE_train_00016970
+	ADE_train_00004630
+	ADE_train_00010194
+	ADE_train_00004631
+	ADE_train_00010193
+	ADE_train_00004632
+	ADE_train_00004633
+	ADE_train_00004634
+	ADE_train_00010190
+	ADE_train_00004635
+	ADE_train_00004626
+	ADE_train_00006926
+	ADE_train_00000279
+	ADE_train_00006925
+	ADE_train_00004627
+	ADE_train_00004628
+	ADE_train_00000277
+	ADE_train_00004629
+	ADE_train_00000398
+	ADE_train_00000397
+	ADE_train_00000031
+	ADE_train_00000032
+	ADE_train_00016968
+	ADE_train_00010189
+	ADE_train_00010188
+	ADE_train_00010185
+	ADE_train_00010184
+	ADE_train_00010187
+	ADE_train_00010186
+	ADE_train_00010181
+	ADE_train_00010180
+	ADE_train_00006920
+	ADE_train_00004620
+	ADE_train_00010183
+	ADE_train_00010182
+	ADE_train_00006922
+	ADE_train_00004623
+	ADE_train_00006921
+	ADE_train_00000259
+	ADE_train_00006924
+	ADE_train_00000018
+	ADE_train_00006923
+	ADE_train_00004615
+	ADE_train_00006915
+	ADE_train_00000026
+	ADE_train_00000268
+	ADE_train_00006914
+	ADE_train_00000027
+	ADE_train_00000269
+	ADE_train_00006917
+	ADE_train_00004617
+	ADE_train_00000266
+	ADE_train_00006916
+	ADE_train_00006919
+	ADE_train_00004619
+	ADE_train_00006918
+	ADE_train_00000262
+	ADE_train_00000384
+	ADE_train_00000260
+	ADE_train_00016958
+	ADE_train_00010177
+	ADE_train_00016954
+	ADE_train_00010179
+	ADE_train_00010174
+	ADE_train_00016952
+	ADE_train_00010173
+	ADE_train_00010175
+	ADE_train_00010170
+	ADE_train_00010172
+	ADE_train_00010171
+	ADE_train_00006911
+	ADE_train_00000008
+	ADE_train_00004612
+	ADE_train_00006910
+	ADE_train_00006913
+	ADE_train_00000248
+	ADE_train_00006912
+	ADE_train_00000128
+	ADE_train_00000015
+	ADE_train_00004604
+	ADE_train_00006904
+	ADE_train_00000258
+	ADE_train_00006903
+	ADE_train_00000377
+	ADE_train_00000134
+	ADE_train_00000255
+	ADE_train_00006906
+	ADE_train_00000256
+	ADE_train_00006905
+	ADE_train_00000011
+	ADE_train_00000253
+	ADE_train_00006908
+	ADE_train_00004608
+	ADE_train_00000254
+	ADE_train_00006907
+	ADE_train_00000251
+	ADE_train_00006909
+	ADE_train_00000371
+	ADE_train_00000370
+	ADE_train_00016949
+	ADE_train_00016947
+	ADE_train_00010167
+	ADE_train_00010166
+	ADE_train_00010169
+	ADE_train_00010168
+	ADE_train_00010163
+	ADE_train_00010162
+	ADE_train_00010165
+	ADE_train_00010164
+	ADE_train_00010161
+	ADE_train_00010160
+	ADE_train_00006900
+	ADE_train_00004600
+	ADE_train_00000119
+	ADE_train_00000116
+	ADE_train_00000237
+	ADE_train_00006902
+	ADE_train_00000238
+	ADE_train_00004603
+	ADE_train_00006901
+	ADE_train_00000125
+	ADE_train_00000246
+	ADE_train_00000245
+	ADE_train_00000121
+	ADE_train_00000242
+	ADE_train_00000122
+	ADE_train_00000120
+	ADE_train_00000241
+	ADE_train_00000360
+	ADE_train_00010159
+	ADE_train_00009046
+	ADE_train_00010156
+	ADE_train_00009045
+	ADE_train_00010155
+	ADE_train_00010158
+	ADE_train_00009043
+	ADE_train_00010157
+	ADE_train_00010152
+	ADE_train_00010154
+	ADE_train_00010153
+	ADE_train_00000107
+	ADE_train_00000228
+	ADE_train_00000229
+	ADE_train_00000226
+	ADE_train_00000348
+	ADE_train_00000347
+	ADE_train_00000106
+	ADE_train_00000599
+	ADE_train_00000356
+	ADE_train_00000598
+	ADE_train_00000115
+	ADE_train_00000236
+	ADE_train_00000597
+	ADE_train_00000112
+	ADE_train_00000596
+	ADE_train_00000110
+	ADE_train_00000231
+	ADE_train_00000595
+	ADE_train_00000594
+	ADE_train_00000232
+	ADE_train_00000350
+	ADE_train_00000230
+	ADE_train_00010149
+	ADE_train_00009042
+	ADE_train_00016926
+	ADE_train_00009041
+	ADE_train_00009040
+	ADE_train_00009035
+	ADE_train_00016923
+	ADE_train_00016922
+	ADE_train_00009034
+	ADE_train_00009033
+	ADE_train_00009032
+	ADE_train_00009039
+	ADE_train_00009038
+	ADE_train_00009037
+	ADE_train_00009036
+	ADE_train_00000219
+	ADE_train_00000217
+	ADE_train_00000218
+	ADE_train_00000215
+	ADE_train_00000337
+	ADE_train_00000699
+	ADE_train_00000102
+	ADE_train_00000464
+	ADE_train_00000341
+	ADE_train_00000340
+	ADE_train_00016917
+	ADE_train_00009031
+	ADE_train_00009030
+	ADE_train_00016915
+	ADE_train_00009024
+	ADE_train_00009023
+	ADE_train_00009022
+	ADE_train_00016910
+	ADE_train_00009021
+	ADE_train_00009028
+	ADE_train_00009026
+	ADE_train_00009025
+	ADE_train_00009029
+	ADE_train_00000329
+	ADE_train_00000204
+	ADE_train_00000447
+	ADE_train_00000689
+	ADE_train_00000446
+	ADE_train_00000688
+	ADE_train_00000698
+	ADE_train_00000334
+	ADE_train_00000455
+	ADE_train_00000697
+	ADE_train_00000454
+	ADE_train_00000696
+	ADE_train_00000211
+	ADE_train_00000695
+	ADE_train_00000331
+	ADE_train_00000693
+	ADE_train_00000210
+	ADE_train_00000692
+	ADE_train_00000570
+	ADE_train_00000691
+	ADE_train_00000690
+	ADE_train_00016907
+	ADE_train_00009020
+	ADE_train_00016903
+	ADE_train_00009013
+	ADE_train_00009012
+	ADE_train_00009011
+	ADE_train_00009010
+	ADE_train_00009017
+	ADE_train_00009016
+	ADE_train_00009015
+	ADE_train_00009014
+	ADE_train_00009019
+	ADE_train_00009018
+	ADE_train_00000437
+	ADE_train_00000679
+	ADE_train_00000678
+	ADE_train_00000687
+	ADE_train_00000686
+	ADE_train_00000443
+	ADE_train_00000685
+	ADE_train_00000200
+	ADE_train_00000442
+	ADE_train_00000684
+	ADE_train_00000683
+	ADE_train_00000682
+	ADE_train_00000681
+	ADE_train_00009002
+	ADE_train_00009001
+	ADE_train_00009000
+	ADE_train_00009006
+	ADE_train_00009005
+	ADE_train_00009004
+	ADE_train_00009003
+	ADE_train_00009009
+	ADE_train_00000429
+	ADE_train_00009008
+	ADE_train_00009007
+	ADE_train_00000307
+	ADE_train_00000428
+	ADE_train_00000306
+	ADE_train_00000669
+	ADE_train_00000426
+	ADE_train_00000668
+	ADE_train_00000789
+	ADE_train_00000788
+	ADE_train_00000787
+	ADE_train_00000434
+	ADE_train_00000676
+	ADE_train_00000675
+	ADE_train_00000674
+	ADE_train_00000673
+	ADE_train_00000672
+	ADE_train_00000671
+	ADE_train_00000670
+	ADE_train_00010222
+	ADE_train_00010221
+	ADE_train_00010224
+	ADE_train_00010223
+	ADE_train_00010220
+	ADE_train_00000418
+	ADE_train_00000659
+	ADE_train_00000658
+	ADE_train_00000779
+	ADE_train_00000778
+	ADE_train_00000656
+	ADE_train_00000777
+	ADE_train_00000776
+	ADE_train_00000665
+	ADE_train_00000786
+	ADE_train_00000664
+	ADE_train_00000785
+	ADE_train_00000663
+	ADE_train_00000784
+	ADE_train_00000662
+	ADE_train_00000783
+	ADE_train_00000661
+	ADE_train_00000782
+	ADE_train_00000781
+	ADE_train_00000780
+	ADE_train_00010219
+	ADE_train_00010215
+	ADE_train_00010214
+	ADE_train_00017207
+	ADE_train_00010217
+	ADE_train_00010216
+	ADE_train_00010211
+	ADE_train_00010210
+	ADE_train_00010213
+	ADE_train_00010212
+	ADE_train_00000769
+	ADE_train_00000647
+	ADE_train_00000768
+	ADE_train_00000404
+	ADE_train_00000646
+	ADE_train_00000767
+	ADE_train_00000403
+	ADE_train_00000645
+	ADE_train_00000766
+	ADE_train_00000402
+	ADE_train_00000644
+	ADE_train_00000654
+	ADE_train_00000775
+	ADE_train_00000653
+	ADE_train_00000774
+	ADE_train_00000652
+	ADE_train_00000651
+	ADE_train_00000772
+	ADE_train_00000771
+	ADE_train_00000770
+	ADE_train_00017211
+	ADE_train_00017212
+	ADE_train_00010208
+	ADE_train_00010207
+	ADE_train_00017215
+	ADE_train_00010209
+	ADE_train_00010204
+	ADE_train_00010203
+	ADE_train_00010206
+	ADE_train_00010205
+	ADE_train_00010200
+	ADE_train_00010202
+	ADE_train_00010201
+	ADE_train_00000639
+	ADE_train_00000638
+	ADE_train_00000637
+	ADE_train_00000758
+	ADE_train_00000636
+	ADE_train_00000635
+	ADE_train_00000756
+	ADE_train_00000634
+	ADE_train_00000755
+	ADE_train_00000633
+	ADE_train_00000754
+	ADE_train_00000401
+	ADE_train_00000643
+	ADE_train_00000764
+	ADE_train_00000642
+	ADE_train_00000763
+	ADE_train_00000641
+	ADE_train_00000762
+	ADE_train_00000640
+	ADE_train_00000761
+	ADE_train_00017220
+	ADE_train_00017100
+	ADE_train_00017102
+	ADE_train_00017105
+	ADE_train_00000629
+	ADE_train_00000628
+	ADE_train_00000749
+	ADE_train_00000627
+	ADE_train_00000626
+	ADE_train_00000747
+	ADE_train_00000625
+	ADE_train_00000624
+	ADE_train_00000745
+	ADE_train_00000623
+	ADE_train_00000744
+	ADE_train_00000622
+	ADE_train_00000743
+	ADE_train_00000632
+	ADE_train_00000753
+	ADE_train_00000631
+	ADE_train_00000752
+	ADE_train_00000630
+	ADE_train_00000751
+	ADE_train_00000750
+	ADE_train_00017230
+	ADE_train_00017233
+	ADE_train_00017115
+	ADE_train_00017116
+	ADE_train_00017238
+	ADE_train_00000619
+	ADE_train_00000618
+	ADE_train_00000739
+	ADE_train_00000617
+	ADE_train_00000738
+	ADE_train_00000616
+	ADE_train_00000737
+	ADE_train_00000615
+	ADE_train_00000736
+	ADE_train_00000614
+	ADE_train_00000612
+	ADE_train_00000733
+	ADE_train_00000611
+	ADE_train_00000732
+	ADE_train_00000621
+	ADE_train_00000742
+	ADE_train_00000620
+	ADE_train_00000741
+	ADE_train_00000740
+	ADE_train_00017241
+	ADE_train_00017000
+	ADE_train_00017243
+	ADE_train_00017244
+	ADE_train_00017245
+	ADE_train_00017126
+	ADE_train_00017006
+	ADE_train_00017008
+	ADE_train_00017009
+	ADE_train_00000608
+	ADE_train_00000729
+	ADE_train_00000607
+	ADE_train_00000728
+	ADE_train_00000606
+	ADE_train_00000727
+	ADE_train_00000605
+	ADE_train_00000726
+	ADE_train_00000604
+	ADE_train_00000725
+	ADE_train_00000603
+	ADE_train_00000724
+	ADE_train_00000602
+	ADE_train_00000723
+	ADE_train_00000601
+	ADE_train_00000722
+	ADE_train_00000600
+	ADE_train_00000721
+	ADE_train_00000610
+	ADE_train_00000731
+	ADE_train_00000730
+	ADE_train_00017130
+	ADE_train_00017012
+	ADE_train_00017013
+	ADE_train_00017258
+	ADE_train_00017019
+	ADE_train_00000719
+	ADE_train_00000718
+	ADE_train_00000717
+	ADE_train_00000716
+	ADE_train_00000715
+	ADE_train_00000714
+	ADE_train_00000713
+	ADE_train_00000712
+	ADE_train_00000954
+	ADE_train_00000711
+	ADE_train_00000710
+	ADE_train_00017260
+	ADE_train_00000720
+	ADE_train_00017140
+	ADE_train_00017020
+	ADE_train_00017147
+	ADE_train_00017148
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 06.14.2023  21.45.24 PM
+Total positive types (direct+indirect) found using all objectProperty: 184
+Total negative types (direct+indirect) found using all objectProperty: 1493
+Total positive types (direct+indirect) after removing common types using all objectProperty: 139
+Total negative types (direct+indirect) after removing common types using all objectProperty: 1360
+
+Algorithm ends at: 06.14.2023  22.03.19 PM
+
+Algorithm duration: 1074.642 sec
+
+####################Solutions (sorted by COVERAGE)####################:
+solution 1: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_foot) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 2: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:WN_Crane))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 3: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:WN_Right_foot))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 4: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:WN_Crane))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 5: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_escape) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 6: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:WN_Left_hand))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 7: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:WN_Right_foot))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 8: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_escape) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 9: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:WN_Right_foot))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 10: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:Right_foot))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 11: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_foot) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 12: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:Right_foot))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 13: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_foot) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 14: ∃ hcbdwsu:imageContains.((hcbdwsu:Eyeglasses) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 15: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:WN_Right_foot))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 16: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:WN_Crane))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 17: ∃ hcbdwsu:imageContains.((hcbdwsu:Eyeglasses) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 18: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:Right_foot))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 19: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:Right_foot))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 20: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_escape) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 21: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_escape) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 22: ∃ hcbdwsu:imageContains.((hcbdwsu:Eyeglasses) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 23: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:WN_Fire_escape))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 24: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_foot) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 25: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:WN_Left_hand))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 26: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_foot) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 27: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:WN_Eyeglasses))
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 28: ∃ hcbdwsu:imageContains.(hcbdwsu:Sheets)
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 29: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sheets)
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 30: ∃ hcbdwsu:imageContains.(hcbdwsu:Fire_escape)
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 31: ∃ hcbdwsu:imageContains.(hcbdwsu:Eyeglasses)
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 32: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Eyeglasses)
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 33: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Fire_escape)
+	 coverage_score: 0.9944055944055944
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 34: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Right_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 35: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 36: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 37: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 38: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 39: ∃ hcbdwsu:imageContains.((hcbdwsu:Eyeglasses) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 40: ∃ hcbdwsu:imageContains.((hcbdwsu:Sheets) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 41: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:WN_Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 42: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Wall_spotlight))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 43: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 44: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:WN_Crane))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 45: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 46: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 47: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 48: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 49: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 50: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 51: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 52: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 53: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 54: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 55: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:Wall_spotlight))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 56: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 57: ∃ hcbdwsu:imageContains.((hcbdwsu:Eye) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 58: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 59: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 60: ∃ hcbdwsu:imageContains.((hcbdwsu:Eyeglasses) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 61: ∃ hcbdwsu:imageContains.((hcbdwsu:Sheets) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 62: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 63: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 64: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 65: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 66: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 67: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 68: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:Wall_spotlight))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 69: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 70: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 71: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 72: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 73: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 74: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 75: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 76: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 77: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Wall_spotlight))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 78: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 79: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 80: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Right_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 81: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 82: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_escape) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 83: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 84: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 85: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 86: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eye) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 87: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 88: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 89: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 90: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 91: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 92: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 93: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Desk_lamp))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 94: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_foot) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 95: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Crane))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 96: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 97: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 98: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 99: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_escape) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 100: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 101: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 102: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 103: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 104: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 105: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 106: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_escape) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 107: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:Wall_spotlight))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 108: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 109: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 110: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:WN_Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 111: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_foot) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 112: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 113: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 114: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 115: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:WN_Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 116: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 117: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_foot) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 118: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 119: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 120: ∃ hcbdwsu:imageContains.((hcbdwsu:Eye) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 121: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 122: ∃ hcbdwsu:imageContains.((hcbdwsu:Mouth) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 123: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 124: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 125: ∃ hcbdwsu:imageContains.((hcbdwsu:Mouth) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 126: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Crane))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 127: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 128: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 129: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 130: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 131: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 132: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 133: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 134: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 135: ∃ hcbdwsu:imageContains.((hcbdwsu:Mouth) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 136: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 137: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 138: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 139: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 140: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 141: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eye) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 142: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 143: ∃ hcbdwsu:imageContains.((hcbdwsu:Eye) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 144: ∃ hcbdwsu:imageContains.((hcbdwsu:Eye) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 145: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:WN_Crane))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 146: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 147: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 148: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 149: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:WN_Crane))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 150: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 151: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 152: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 153: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:WN_Right_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 154: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:WN_Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 155: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 156: ∃ hcbdwsu:imageContains.((hcbdwsu:Wall_spotlight) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 157: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 158: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 159: ∃ hcbdwsu:imageContains.((hcbdwsu:Eyeglasses) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 160: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:Wall_spotlight))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 161: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Fire_escape) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 162: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Sheets) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 163: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 164: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Wall_spotlight))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 165: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_hand) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 166: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 167: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 168: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 169: ∃ hcbdwsu:imageContains.((hcbdwsu:Eyeglasses) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 170: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 171: ∃ hcbdwsu:imageContains.((hcbdwsu:Mouth) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 172: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:Wall_spotlight))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 173: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 174: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 175: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 176: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 177: ∃ hcbdwsu:imageContains.((hcbdwsu:Sheets) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 178: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 179: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 180: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 181: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 182: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eye) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 183: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:WN_Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 184: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:WN_Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 185: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:WN_Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 186: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:WN_Right_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 187: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:Left_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 188: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:WN_Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 189: ∃ hcbdwsu:imageContains.((hcbdwsu:Fire_escape) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 190: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 191: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 192: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 193: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 194: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 195: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:WN_Left_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 196: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Desk_lamp))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 197: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 198: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_foot) ⊓ (hcbdwsu:Crane))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 199: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 200: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Left_foot) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 201: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Right_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 202: ∃ hcbdwsu:imageContains.((hcbdwsu:Desk_lamp) ⊓ (hcbdwsu:WN_Right_foot))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 203: ∃ hcbdwsu:imageContains.((hcbdwsu:Crane) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 204: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:Eyeglasses))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 205: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Crane) ⊓ (hcbdwsu:Wall_spotlight))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 206: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:Fire_escape))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 207: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Right_foot) ⊓ (hcbdwsu:Sheets))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 208: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eyeglasses) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 209: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eye) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.993006993006993
+	 precision: 0.0
+	 recall: 0.0
+	 f_measure: 0.0
+solution 210: ∃ hcbdwsu:imageContains.(hcbdwsu:Crane)
+	 coverage_score: 0.9902097902097902
+	 precision: 0.25
+	 recall: 0.2
+	 f_measure: 0.22222222222222224
+solution 211: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Crane)
+	 coverage_score: 0.9902097902097902
+	 precision: 0.25
+	 recall: 0.2
+	 f_measure: 0.22222222222222224
+solution 212: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_hand) ⊓ (hcbdwsu:Right_hand))
+	 coverage_score: 0.9874125874125874
+	 precision: 0.16666666666666666
+	 recall: 0.2
+	 f_measure: 0.1818181818181818
+solution 213: ∃ hcbdwsu:imageContains.((hcbdwsu:Left_hand) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.9874125874125874
+	 precision: 0.16666666666666666
+	 recall: 0.2
+	 f_measure: 0.1818181818181818
+solution 214: ∃ hcbdwsu:imageContains.(hcbdwsu:Desk_lamp)
+	 coverage_score: 0.9874125874125874
+	 precision: 0.16666666666666666
+	 recall: 0.2
+	 f_measure: 0.1818181818181818
+solution 215: ∃ hcbdwsu:imageContains.(hcbdwsu:Wall_spotlight)
+	 coverage_score: 0.9874125874125874
+	 precision: 0.16666666666666666
+	 recall: 0.2
+	 f_measure: 0.1818181818181818
+solution 216: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eye) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.986013986013986
+	 precision: 0.2222222222222222
+	 recall: 0.4
+	 f_measure: 0.2857142857142857
+solution 217: ∃ hcbdwsu:imageContains.((hcbdwsu:Mouth) ⊓ (hcbdwsu:Eye))
+	 coverage_score: 0.986013986013986
+	 precision: 0.2222222222222222
+	 recall: 0.4
+	 f_measure: 0.2857142857142857
+solution 218: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_hand) ⊓ (hcbdwsu:WN_Right_hand))
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 219: ∃ hcbdwsu:imageContains.((hcbdwsu:Right_foot) ⊓ (hcbdwsu:WN_Right_foot))
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 220: ∃ hcbdwsu:imageContains.((hcbdwsu:WN_Eye) ⊓ (hcbdwsu:Mouth))
+	 coverage_score: 0.986013986013986
+	 precision: 0.2222222222222222
+	 recall: 0.4
+	 f_measure: 0.2857142857142857
+solution 221: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Eye)
+	 coverage_score: 0.986013986013986
+	 precision: 0.2222222222222222
+	 recall: 0.4
+	 f_measure: 0.2857142857142857
+solution 222: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Mouth)
+	 coverage_score: 0.986013986013986
+	 precision: 0.2222222222222222
+	 recall: 0.4
+	 f_measure: 0.2857142857142857
+solution 223: ∃ hcbdwsu:imageContains.(hcbdwsu:Eye)
+	 coverage_score: 0.986013986013986
+	 precision: 0.2222222222222222
+	 recall: 0.4
+	 f_measure: 0.2857142857142857
+solution 224: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Left_hand)
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 225: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Right_hand)
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 226: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Left_foot)
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 227: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Right_foot)
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 228: ∃ hcbdwsu:imageContains.(hcbdwsu:Right_hand)
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 229: ∃ hcbdwsu:imageContains.(hcbdwsu:Right_foot)
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 230: ∃ hcbdwsu:imageContains.(hcbdwsu:Left_hand)
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 231: ∃ hcbdwsu:imageContains.(hcbdwsu:Left_foot)
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 232: ∃ hcbdwsu:imageContains.(hcbdwsu:Mouth)
+	 coverage_score: 0.986013986013986
+	 precision: 0.2222222222222222
+	 recall: 0.4
+	 f_measure: 0.2857142857142857
+solution 233: ∃ hcbdwsu:imageContains.(hcbdwsu:Dresser)
+	 coverage_score: 0.986013986013986
+	 precision: 0.14285714285714285
+	 recall: 0.2
+	 f_measure: 0.16666666666666666
+solution 234: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bicycle)
+	 coverage_score: 0.9832167832167832
+	 precision: 0.1111111111111111
+	 recall: 0.2
+	 f_measure: 0.14285714285714285
+solution 235: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Cycle)
+	 coverage_score: 0.9832167832167832
+	 precision: 0.1111111111111111
+	 recall: 0.2
+	 f_measure: 0.14285714285714285
+solution 236: ∃ hcbdwsu:imageContains.(hcbdwsu:Bicycle)
+	 coverage_score: 0.9832167832167832
+	 precision: 0.1111111111111111
+	 recall: 0.2
+	 f_measure: 0.14285714285714285
+solution 237: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bike)
+	 coverage_score: 0.9832167832167832
+	 precision: 0.1111111111111111
+	 recall: 0.2
+	 f_measure: 0.14285714285714285
+solution 238: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Torso)
+	 coverage_score: 0.9790209790209791
+	 precision: 0.14285714285714285
+	 recall: 0.4
+	 f_measure: 0.21052631578947364
+solution 239: ∃ hcbdwsu:imageContains.(hcbdwsu:Torso)
+	 coverage_score: 0.9790209790209791
+	 precision: 0.14285714285714285
+	 recall: 0.4
+	 f_measure: 0.21052631578947364
+solution 240: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Card)
+	 coverage_score: 0.9776223776223776
+	 precision: 0.07692307692307693
+	 recall: 0.2
+	 f_measure: 0.1111111111111111
+solution 241: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bill)
+	 coverage_score: 0.9776223776223776
+	 precision: 0.07692307692307693
+	 recall: 0.2
+	 f_measure: 0.1111111111111111
+solution 242: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Notice)
+	 coverage_score: 0.9776223776223776
+	 precision: 0.07692307692307693
+	 recall: 0.2
+	 f_measure: 0.1111111111111111
+solution 243: ∃ hcbdwsu:imageContains.(hcbdwsu:Bulb)
+	 coverage_score: 0.9776223776223776
+	 precision: 0.07692307692307693
+	 recall: 0.2
+	 f_measure: 0.1111111111111111
+solution 244: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bulb)
+	 coverage_score: 0.9776223776223776
+	 precision: 0.07692307692307693
+	 recall: 0.2
+	 f_measure: 0.1111111111111111
+solution 245: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Poster)
+	 coverage_score: 0.9776223776223776
+	 precision: 0.07692307692307693
+	 recall: 0.2
+	 f_measure: 0.1111111111111111
+solution 246: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Placard)
+	 coverage_score: 0.9776223776223776
+	 precision: 0.07692307692307693
+	 recall: 0.2
+	 f_measure: 0.1111111111111111
+solution 247: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Posting)
+	 coverage_score: 0.9776223776223776
+	 precision: 0.07692307692307693
+	 recall: 0.2
+	 f_measure: 0.1111111111111111
+solution 248: ∃ hcbdwsu:imageContains.(hcbdwsu:Poster)
+	 coverage_score: 0.9776223776223776
+	 precision: 0.07692307692307693
+	 recall: 0.2
+	 f_measure: 0.1111111111111111
+solution 249: ∃ hcbdwsu:imageContains.(hcbdwsu:Beam)
+	 coverage_score: 0.9762237762237762
+	 precision: 0.07142857142857142
+	 recall: 0.2
+	 f_measure: 0.10526315789473682
+solution 250: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Beam)
+	 coverage_score: 0.9762237762237762
+	 precision: 0.07142857142857142
+	 recall: 0.2
+	 f_measure: 0.10526315789473682
+solution 251: ∃ hcbdwsu:imageContains.(hcbdwsu:Steps)
+	 coverage_score: 0.9748251748251748
+	 precision: 0.06666666666666667
+	 recall: 0.2
+	 f_measure: 0.1
+solution 252: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Stairs)
+	 coverage_score: 0.9734265734265735
+	 precision: 0.0625
+	 recall: 0.2
+	 f_measure: 0.09523809523809523
+solution 253: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Steps)
+	 coverage_score: 0.972027972027972
+	 precision: 0.058823529411764705
+	 recall: 0.2
+	 f_measure: 0.0909090909090909
+solution 254: ∃ hcbdwsu:imageContains.(hcbdwsu:Bag)
+	 coverage_score: 0.9706293706293706
+	 precision: 0.1
+	 recall: 0.4
+	 f_measure: 0.16000000000000003
+solution 255: ∃ hcbdwsu:imageContains.(hcbdwsu:Trash_can)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 256: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Balcony)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 257: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ashcan)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 258: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Trash_bin)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 259: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Wastebin)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 260: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Dustbin)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 261: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Trash_can)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 262: ∃ hcbdwsu:imageContains.(hcbdwsu:Balcony)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 263: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ashbin)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 264: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Garbage_can)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 265: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ash_bin)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 266: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Trash_barrel)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 267: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Ash-bin)
+	 coverage_score: 0.9692307692307692
+	 precision: 0.05263157894736842
+	 recall: 0.2
+	 f_measure: 0.08333333333333333
+solution 268: ∃ hcbdwsu:imageContains.(hcbdwsu:Right_arm)
+	 coverage_score: 0.965034965034965
+	 precision: 0.08333333333333333
+	 recall: 0.4
+	 f_measure: 0.13793103448275862
+solution 269: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Right_arm)
+	 coverage_score: 0.965034965034965
+	 precision: 0.08333333333333333
+	 recall: 0.4
+	 f_measure: 0.13793103448275862
+solution 270: ∃ hcbdwsu:imageContains.(hcbdwsu:Right_leg)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.08
+	 recall: 0.4
+	 f_measure: 0.13333333333333333
+solution 271: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Left_leg)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.08
+	 recall: 0.4
+	 f_measure: 0.13333333333333333
+solution 272: ∃ hcbdwsu:imageContains.(hcbdwsu:Left_leg)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.08
+	 recall: 0.4
+	 f_measure: 0.13333333333333333
+solution 273: ∃ hcbdwsu:imageContains.(hcbdwsu:Left_arm)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.08
+	 recall: 0.4
+	 f_measure: 0.13333333333333333
+solution 274: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bag)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.08
+	 recall: 0.4
+	 f_measure: 0.13333333333333333
+solution 275: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Right_leg)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.08
+	 recall: 0.4
+	 f_measure: 0.13333333333333333
+solution 276: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Left_arm)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.08
+	 recall: 0.4
+	 f_measure: 0.13333333333333333
+solution 277: ∃ hcbdwsu:imageContains.(hcbdwsu:Head)
+	 coverage_score: 0.9608391608391609
+	 precision: 0.07407407407407407
+	 recall: 0.4
+	 f_measure: 0.125
+solution 278: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Head)
+	 coverage_score: 0.9608391608391609
+	 precision: 0.07407407407407407
+	 recall: 0.4
+	 f_measure: 0.125
+solution 279: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Traffic_signal)
+	 coverage_score: 0.9594405594405594
+	 precision: 0.038461538461538464
+	 recall: 0.2
+	 f_measure: 0.06451612903225806
+solution 280: ∃ hcbdwsu:imageContains.(hcbdwsu:Van)
+	 coverage_score: 0.9594405594405594
+	 precision: 0.038461538461538464
+	 recall: 0.2
+	 f_measure: 0.06451612903225806
+solution 281: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Stoplight)
+	 coverage_score: 0.9594405594405594
+	 precision: 0.038461538461538464
+	 recall: 0.2
+	 f_measure: 0.06451612903225806
+solution 282: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Traffic_light)
+	 coverage_score: 0.9594405594405594
+	 precision: 0.038461538461538464
+	 recall: 0.2
+	 f_measure: 0.06451612903225806
+solution 283: ∃ hcbdwsu:imageContains.(hcbdwsu:Traffic_light)
+	 coverage_score: 0.9594405594405594
+	 precision: 0.038461538461538464
+	 recall: 0.2
+	 f_measure: 0.06451612903225806
+solution 284: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Spotlight)
+	 coverage_score: 0.9594405594405594
+	 precision: 0.038461538461538464
+	 recall: 0.2
+	 f_measure: 0.06451612903225806
+solution 285: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Spot)
+	 coverage_score: 0.9594405594405594
+	 precision: 0.038461538461538464
+	 recall: 0.2
+	 f_measure: 0.06451612903225806
+solution 286: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Van)
+	 coverage_score: 0.9594405594405594
+	 precision: 0.038461538461538464
+	 recall: 0.2
+	 f_measure: 0.06451612903225806
+solution 287: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Motortruck)
+	 coverage_score: 0.9566433566433566
+	 precision: 0.03571428571428571
+	 recall: 0.2
+	 f_measure: 0.06060606060606061
+solution 288: ∃ hcbdwsu:imageContains.(hcbdwsu:Truck)
+	 coverage_score: 0.9566433566433566
+	 precision: 0.03571428571428571
+	 recall: 0.2
+	 f_measure: 0.06060606060606061
+solution 289: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Truck)
+	 coverage_score: 0.9566433566433566
+	 precision: 0.03571428571428571
+	 recall: 0.2
+	 f_measure: 0.06060606060606061
+solution 290: ∃ hcbdwsu:imageContains.(hcbdwsu:Light_switch)
+	 coverage_score: 0.9552447552447553
+	 precision: 0.034482758620689655
+	 recall: 0.2
+	 f_measure: 0.0588235294117647
+solution 291: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pillow)
+	 coverage_score: 0.9440559440559441
+	 precision: 0.05128205128205128
+	 recall: 0.4
+	 f_measure: 0.09090909090909091
+solution 292: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Headboard)
+	 coverage_score: 0.9440559440559441
+	 precision: 0.07317073170731707
+	 recall: 0.6
+	 f_measure: 0.13043478260869565
+solution 293: ∃ hcbdwsu:imageContains.(hcbdwsu:Headboard)
+	 coverage_score: 0.9440559440559441
+	 precision: 0.07317073170731707
+	 recall: 0.6
+	 f_measure: 0.13043478260869565
+solution 294: ∃ hcbdwsu:imageContains.(hcbdwsu:Pillow)
+	 coverage_score: 0.9440559440559441
+	 precision: 0.05128205128205128
+	 recall: 0.4
+	 f_measure: 0.09090909090909091
+solution 295: ∃ hcbdwsu:imageContains.(hcbdwsu:Books)
+	 coverage_score: 0.9314685314685315
+	 precision: 0.021739130434782608
+	 recall: 0.2
+	 f_measure: 0.0392156862745098
+solution 296: ∃ hcbdwsu:imageContains.(hcbdwsu:Plate)
+	 coverage_score: 0.9272727272727272
+	 precision: 0.02040816326530612
+	 recall: 0.2
+	 f_measure: 0.03703703703703703
+solution 297: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Switch)
+	 coverage_score: 0.9230769230769231
+	 precision: 0.019230769230769232
+	 recall: 0.2
+	 f_measure: 0.03508771929824562
+solution 298: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Electric_switch)
+	 coverage_score: 0.9230769230769231
+	 precision: 0.019230769230769232
+	 recall: 0.2
+	 f_measure: 0.03508771929824562
+solution 299: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Electrical_switch)
+	 coverage_score: 0.9230769230769231
+	 precision: 0.019230769230769232
+	 recall: 0.2
+	 f_measure: 0.03508771929824562
+solution 300: ∃ hcbdwsu:imageContains.(hcbdwsu:Night_table)
+	 coverage_score: 0.9202797202797203
+	 precision: 0.05172413793103448
+	 recall: 0.6
+	 f_measure: 0.09523809523809525
+solution 301: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Chest_of_drawers)
+	 coverage_score: 0.9146853146853147
+	 precision: 0.017241379310344827
+	 recall: 0.2
+	 f_measure: 0.031746031746031744
+solution 302: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bureau)
+	 coverage_score: 0.9146853146853147
+	 precision: 0.017241379310344827
+	 recall: 0.2
+	 f_measure: 0.031746031746031744
+solution 303: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Frame)
+	 coverage_score: 0.9146853146853147
+	 precision: 0.017241379310344827
+	 recall: 0.2
+	 f_measure: 0.031746031746031744
+solution 304: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Door_frame)
+	 coverage_score: 0.9146853146853147
+	 precision: 0.017241379310344827
+	 recall: 0.2
+	 f_measure: 0.031746031746031744
+solution 305: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Dresser)
+	 coverage_score: 0.9146853146853147
+	 precision: 0.017241379310344827
+	 recall: 0.2
+	 f_measure: 0.031746031746031744
+solution 306: ∃ hcbdwsu:imageContains.(hcbdwsu:Frame)
+	 coverage_score: 0.9146853146853147
+	 precision: 0.017241379310344827
+	 recall: 0.2
+	 f_measure: 0.031746031746031744
+solution 307: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Plate)
+	 coverage_score: 0.9118881118881119
+	 precision: 0.016666666666666666
+	 recall: 0.2
+	 f_measure: 0.03076923076923077
+solution 308: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Chest)
+	 coverage_score: 0.9048951048951049
+	 precision: 0.015384615384615385
+	 recall: 0.2
+	 f_measure: 0.028571428571428574
+solution 309: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Streetlight)
+	 coverage_score: 0.8951048951048951
+	 precision: 0.02702702702702703
+	 recall: 0.4
+	 f_measure: 0.05063291139240506
+solution 310: ∃ hcbdwsu:imageContains.(hcbdwsu:Street_light)
+	 coverage_score: 0.8951048951048951
+	 precision: 0.02702702702702703
+	 recall: 0.4
+	 f_measure: 0.05063291139240506
+solution 311: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Street_lamp)
+	 coverage_score: 0.8951048951048951
+	 precision: 0.02702702702702703
+	 recall: 0.4
+	 f_measure: 0.05063291139240506
+solution 312: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Somebody)
+	 coverage_score: 0.8895104895104895
+	 precision: 0.02564102564102564
+	 recall: 0.4
+	 f_measure: 0.048192771084337345
+solution 313: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Individual)
+	 coverage_score: 0.8895104895104895
+	 precision: 0.02564102564102564
+	 recall: 0.4
+	 f_measure: 0.048192771084337345
+solution 314: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Mortal)
+	 coverage_score: 0.8895104895104895
+	 precision: 0.02564102564102564
+	 recall: 0.4
+	 f_measure: 0.048192771084337345
+solution 315: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Soul)
+	 coverage_score: 0.8895104895104895
+	 precision: 0.02564102564102564
+	 recall: 0.4
+	 f_measure: 0.048192771084337345
+solution 316: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Someone)
+	 coverage_score: 0.8895104895104895
+	 precision: 0.02564102564102564
+	 recall: 0.4
+	 f_measure: 0.048192771084337345
+solution 317: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Person)
+	 coverage_score: 0.8895104895104895
+	 precision: 0.02564102564102564
+	 recall: 0.4
+	 f_measure: 0.048192771084337345
+solution 318: ∃ hcbdwsu:imageContains.(hcbdwsu:Person)
+	 coverage_score: 0.8895104895104895
+	 precision: 0.02564102564102564
+	 recall: 0.4
+	 f_measure: 0.048192771084337345
+solution 319: ∃ hcbdwsu:imageContains.(hcbdwsu:Door_frame)
+	 coverage_score: 0.8853146853146853
+	 precision: 0.012658227848101266
+	 recall: 0.2
+	 f_measure: 0.023809523809523808
+solution 320: ∃ hcbdwsu:imageContains.(hcbdwsu:Bed)
+	 coverage_score: 0.8825174825174825
+	 precision: 0.03529411764705882
+	 recall: 0.6
+	 f_measure: 0.06666666666666667
+solution 321: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Bed)
+	 coverage_score: 0.8825174825174825
+	 precision: 0.03529411764705882
+	 recall: 0.6
+	 f_measure: 0.06666666666666667
+solution 322: ∃ hcbdwsu:imageContains.(hcbdwsu:Base)
+	 coverage_score: 0.8755244755244755
+	 precision: 0.022727272727272728
+	 recall: 0.4
+	 f_measure: 0.043010752688172046
+solution 323: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Base)
+	 coverage_score: 0.8685314685314686
+	 precision: 0.021505376344086023
+	 recall: 0.4
+	 f_measure: 0.040816326530612256
+solution 324: ∃ hcbdwsu:imageContains.(hcbdwsu:Sign)
+	 coverage_score: 0.8587412587412587
+	 precision: 0.01020408163265306
+	 recall: 0.2
+	 f_measure: 0.019417475728155335
+solution 325: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sign)
+	 coverage_score: 0.8573426573426574
+	 precision: 0.010101010101010102
+	 recall: 0.2
+	 f_measure: 0.019230769230769232
+solution 326: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Signboard)
+	 coverage_score: 0.8573426573426574
+	 precision: 0.010101010101010102
+	 recall: 0.2
+	 f_measure: 0.019230769230769232
+solution 327: ∃ hcbdwsu:imageContains.(hcbdwsu:Sidewalk)
+	 coverage_score: 0.855944055944056
+	 precision: 0.0196078431372549
+	 recall: 0.4
+	 f_measure: 0.037383177570093455
+solution 328: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Pavement)
+	 coverage_score: 0.855944055944056
+	 precision: 0.0196078431372549
+	 recall: 0.4
+	 f_measure: 0.037383177570093455
+solution 329: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sidewalk)
+	 coverage_score: 0.855944055944056
+	 precision: 0.0196078431372549
+	 recall: 0.4
+	 f_measure: 0.037383177570093455
+solution 330: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Column)
+	 coverage_score: 0.8349650349650349
+	 precision: 0.017094017094017096
+	 recall: 0.4
+	 f_measure: 0.03278688524590164
+solution 331: ∃ hcbdwsu:imageContains.(hcbdwsu:Column)
+	 coverage_score: 0.8349650349650349
+	 precision: 0.017094017094017096
+	 recall: 0.4
+	 f_measure: 0.03278688524590164
+solution 332: ∃ hcbdwsu:imageContains.(hcbdwsu:Car)
+	 coverage_score: 0.8097902097902098
+	 precision: 0.014814814814814815
+	 recall: 0.4
+	 f_measure: 0.02857142857142857
+solution 333: ∃ hcbdwsu:imageContains.(hcbdwsu:Table_lamp)
+	 coverage_score: 0.8097902097902098
+	 precision: 0.014814814814814815
+	 recall: 0.4
+	 f_measure: 0.02857142857142857
+solution 334: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Automobile)
+	 coverage_score: 0.8083916083916084
+	 precision: 0.014705882352941176
+	 recall: 0.4
+	 f_measure: 0.028368794326241134
+solution 335: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Motorcar)
+	 coverage_score: 0.8083916083916084
+	 precision: 0.014705882352941176
+	 recall: 0.4
+	 f_measure: 0.028368794326241134
+solution 336: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Machine)
+	 coverage_score: 0.8083916083916084
+	 precision: 0.014705882352941176
+	 recall: 0.4
+	 f_measure: 0.028368794326241134
+solution 337: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Car)
+	 coverage_score: 0.8083916083916084
+	 precision: 0.014705882352941176
+	 recall: 0.4
+	 f_measure: 0.028368794326241134
+solution 338: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Auto)
+	 coverage_score: 0.8083916083916084
+	 precision: 0.014705882352941176
+	 recall: 0.4
+	 f_measure: 0.028368794326241134
+solution 339: ∃ hcbdwsu:imageContains.(hcbdwsu:Shade)
+	 coverage_score: 0.7832167832167832
+	 precision: 0.019230769230769232
+	 recall: 0.6
+	 f_measure: 0.037267080745341616
+solution 340: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Shade)
+	 coverage_score: 0.7832167832167832
+	 precision: 0.019230769230769232
+	 recall: 0.6
+	 f_measure: 0.037267080745341616
+solution 341: ∃ hcbdwsu:imageContains.(hcbdwsu:Drawer)
+	 coverage_score: 0.765034965034965
+	 precision: 0.011976047904191617
+	 recall: 0.4
+	 f_measure: 0.023255813953488375
+solution 342: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Drawer)
+	 coverage_score: 0.765034965034965
+	 precision: 0.011976047904191617
+	 recall: 0.4
+	 f_measure: 0.023255813953488375
+solution 343: ∃ hcbdwsu:imageContains.(hcbdwsu:Sky)
+	 coverage_score: 0.7454545454545455
+	 precision: 0.011049723756906077
+	 recall: 0.4
+	 f_measure: 0.021505376344086023
+solution 344: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Sky)
+	 coverage_score: 0.7454545454545455
+	 precision: 0.011049723756906077
+	 recall: 0.4
+	 f_measure: 0.021505376344086023
+solution 345: ∃ hcbdwsu:imageContains.(hcbdwsu:Building)
+	 coverage_score: 0.7426573426573426
+	 precision: 0.01092896174863388
+	 recall: 0.4
+	 f_measure: 0.02127659574468085
+solution 346: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Edifice)
+	 coverage_score: 0.7342657342657343
+	 precision: 0.010582010582010581
+	 recall: 0.4
+	 f_measure: 0.020618556701030927
+solution 347: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Building)
+	 coverage_score: 0.7342657342657343
+	 precision: 0.010582010582010581
+	 recall: 0.4
+	 f_measure: 0.020618556701030927
+solution 348: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Lamp)
+	 coverage_score: 0.6895104895104895
+	 precision: 0.013452914798206279
+	 recall: 0.6
+	 f_measure: 0.026315789473684213
+solution 349: ∃ hcbdwsu:imageContains.(hcbdwsu:WN_Table)
+	 coverage_score: 0.579020979020979
+	 precision: 0.009933774834437087
+	 recall: 0.6
+	 f_measure: 0.01954397394136808
+
+Total solutions found: 349
+
+F1 average: 0.06979942834198956
+Precision average: 0.12162147139482676
+Recall average: 0.14040114613180493
+Coverage average: 0.9655278818602563
+
+F1 max: 0.33333333333333337
+Precision max: 1.0
+Recall max: 0.6
+Coverage max: 0.9944055944055944
+
+Total solutions found: 349
+Result saved at: C:\Users\adalal\OneDrive - Kansas State University\PhD\Research\ecii\ecii\ecii/set6-initial_score_hybrid_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 06.14.2023  22.03.19 PM
+Program duration: 1074.808 sec
