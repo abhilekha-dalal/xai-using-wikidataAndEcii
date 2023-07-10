@@ -37,7 +37,7 @@ This directory contains the codes, reproducible scripts, and experimental data.
 5) Run ECII for each neuron with positive, negative set and knowledge base.
 6) ECII returns a hypothesis concept associated with each neuron.
 7) Collect the Google Image dataset for hypothesis concept by running the third-party app [Imageye](https://chrome.google.com/webstore/detail/image-downloader-imageye/agionbommeaifngbhincahgmoflcikhm).
-   - Add the goolge chrome extention from this link [Imageye](https://chrome.google.com/webstore/detail/image-downloader-imageye/agionbommeaifngbhincahgmoflcikhm),
+   - Add the google chrome extention from this link [Imageye](https://chrome.google.com/webstore/detail/image-downloader-imageye/agionbommeaifngbhincahgmoflcikhm).
    - Type the keywords in Chorome and search the google images. Go to Imageye from extentions and set the size to medium and type to .jpg to collect the google images.
 9) Retrieve activations from the Dense Layer for the Google Image dataset to confirm the hypothesis.
 10) Collect a new set for Google Image dataset; to validate the above step.
