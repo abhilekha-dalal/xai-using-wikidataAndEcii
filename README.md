@@ -29,7 +29,7 @@ This directory contains the codes, reproducible scripts, and experimental data.
    - top20vsbelow20_top1_ecii_eval.xlsx file contains the summary for all the neurons and their activations from dense layer for Google Images,
    - top20vsbelow20_top1_ecii_verification.xlsx contains the summary for the confirmed neurons and their activations from dense layer for new set of Google Images.
   
-## Steps to follow
+## Steps to reproduce the results
 1) Train Resnet50V2 model with ADE20K Dataset
 2) Test the model with ADE20K Dataset and get activations from the Dense Layer.
 3) For each neuron, classify images into positive and negative sets based on threshold values.
