@@ -9,7 +9,7 @@ This directory contains the codes, reproducible scripts, and experimental data.
 
 2) **ecii_pre-requisite_files contains** -
    - .xlsx file, which has positive sets and negative sets for each neuron (Derived from the activations from the dense layer for the ADE20K dataset),
-   -  knowledge base wiki data which is mapped with ADE20K Dataset,
+   -  knowledge base wiki data which is mapped with ADE20K Dataset - [Wikidata mapped with ADE20K](https://doi.org/10.17605/OSF.IO/N76B2).
    -  example of a configuration file that is needed to run ECII; the following fields are user-defined parameters and need to be changed:-
 ```
       // knowledge source definition/owl_file_name
