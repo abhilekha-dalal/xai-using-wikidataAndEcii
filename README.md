@@ -20,7 +20,7 @@ This directory contains the codes, reproducible scripts, and experimental data.
         lp.negativeExamples : array, required
 ```
 3) **setting up ECII** -
-   - steps on how to setup and run ECII can be found at - [ECII]([https://doi.org/10.17605/OSF.IO/N76B2](https://github.com/md-k-sarker/ecii)).
+   - steps on how to setup and run ECII can be found at - [ECII](https://github.com/md-k-sarker/ecii).
      
 4) **ecii_results_for_each_neuron contains** -
    - .txt file returned by ECII for each neuron in correspondence to the positive set of Images and negative set of Images for each neuron; .txt file contains the concepts that best describe the positive set of Images for each neuron.
