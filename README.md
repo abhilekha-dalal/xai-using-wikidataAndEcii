@@ -28,8 +28,8 @@ This directory contains the codes, reproducible scripts, and experimental data.
 5) **analyzing_dense_layer_activations_googleImages contains** -
    - evaluation - activations for Google Images for each neuron,
    - verification - activations for new set of Google Images for the confirmed neurons,
-   - top20vsbelow20_top1_ecii_eval.xlsx file contains the summary for all the neurons and their activations from dense layer for Google Images,
-   - top20vsbelow20_top1_ecii_verification.xlsx contains the summary for the confirmed neurons and their activations from dense layer for new set of Google Images.
+   - evaluation_summarytop1_ecii.xlsx file contains the summary for all the neurons and their activations from dense layer for Google Images,
+   - verification_summary_top1ecii.xlsx contains the summary for the confirmed neurons and their activations from dense layer for new set of Google Images.
   
 ## Steps to reproduce the results
 1) Train Resnet50V2 model with ADE20K Dataset
