@@ -19,11 +19,13 @@ This directory contains the codes, reproducible scripts, and experimental data.
      // negative examples
         lp.negativeExamples : array, required
 ```
-
-3) **ecii_results_for_each_neuron contains** -
+3) **setting up ECII** -
+   - steps on how to setup and run ECII can be found at - [ECII]([https://doi.org/10.17605/OSF.IO/N76B2](https://github.com/md-k-sarker/ecii)).
+     
+4) **ecii_results_for_each_neuron contains** -
    - .txt file returned by ECII for each neuron in correspondence to the positive set of Images and negative set of Images for each neuron; .txt file contains the concepts that best describe the positive set of Images for each neuron.
 
-4) **analyzing_dense_layer_activations_googleImages contains** -
+5) **analyzing_dense_layer_activations_googleImages contains** -
    - evaluation - activations for Google Images for each neuron,
    - verification - activations for new set of Google Images for the confirmed neurons,
    - top20vsbelow20_top1_ecii_eval.xlsx file contains the summary for all the neurons and their activations from dense layer for Google Images,
