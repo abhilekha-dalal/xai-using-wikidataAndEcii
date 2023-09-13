@@ -1,4 +1,4 @@
-# Study for AAAI-2023 paper: "Understanding CNN Hidden Neuron Activations using Structured Background Knowledge and Deductive Reasoning."
+# Evaluation Study: "Understanding CNN Hidden Neuron Activations using Structured Background Knowledge and Deductive Reasoning."
 This directory contains the codes, reproducible scripts, and experimental data.
 1) **Code folder contains the script for** -
    - training and testing a Resnet50V2 model with ADE20K Dataset,
