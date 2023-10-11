@@ -1,5 +1,10 @@
 # Evaluation Study: "Understanding CNN Hidden Neuron Activations using Structured Background Knowledge and Deductive Reasoning."
-This directory contains the codes, reproducible scripts, and experimental data.
+This directory contains the codes, reproducible scripts, and experimental data. All the experiments were conducted using the supercomputer Beocat, with the following specifications:
+Python 3.9.6-TensorFlow-2.7.1 
+Number of cores: 2
+Amount of memory (in GB): 4 
+Amount of GPUs: 1
+
 1) **Code folder contains the script for** -
    - training and testing a Resnet50V2 model with ADE20K Dataset,
    - loading the model,
